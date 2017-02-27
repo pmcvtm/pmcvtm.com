@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xamaerin Realm Query Disposal Gotcha"
+title:  "Xamarin Realm Query Disposal Gotcha"
 date:   2016-09-16 11:24:00 -0600
 category: nerds
 tags: development mobile xamarin
