@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  color: #302F2F;
+}
+
+a { color: #1f7df0; text-decoration: none;}
+a:hover { color: #1f7df0; text-decoration: underline;}
+
+/*****************************************************************************/
+/* Header
+/*****************************************************************************/
+.site-head {
+    padding: 2em 0 0 0;
+    border-bottom: 0.5em solid black;
+    font-family: 'Lato', sans-serif;
+}
+
+.blog-title { margin-bottom: 1em; text-align: center; font-size: 4rem;}
+.blog-title h1 { font-weight: bold; }
+.blog-title small { color: #A0A0A0; }
+.blog-title a { text-decoration:none; color:#000;}
+.blog-description { text-align: center; font-size:2rem;}
+
+.nav, .navbar-nav, .nav-container { background-color: #eee; }
+
+@media (min-width: 768px) {
+    .navbar-centered .navbar-nav { float: none; text-align: center; }
+    .navbar-centered .navbar-nav > li { float: none; }
+    .navbar-centered .nav > li { display: inline; }
+    .navbar-centered .nav > li > a { display: inline-block; }
+    .hide-small { display: none;}
+}
+
+.nav-link { color: #666; font-size: 1.2em;}
+
+/*****************************************************************************/
+/* Main
+/*****************************************************************************/
+
+.site-content-container {
+  background-color: #960000;
+  padding-top: 2em;
+  font-family: 'Lato', 'Open Sans', sans-serif;
+  min-height: 75%;
+  margin-bottom: -3em;
+  overflow:hidden;
+}
+
+.site-content-container:after {
+  content: "";
+  display: block;
+}
+
+.site-content-container p { font-size: 1.1em; }
+
+.site-content {
+  background-color: #ffffff;
+  margin:auto;
+  padding: 2em 3em;
+  max-width: 980px;
+}
+
+
+/*****************************************************************************/
+/* Footer
+/*****************************************************************************/
+
+.site-footer, .site-content-container:after { height: 3em; }
+
+.site-foot {
+  height:3em;
+  padding: 0.5rem 15px;
+  border-top: #000 0.25em solid;
+  font-family: 'lato', sans-serif;
+  line-height: 1.7em;
+  color: #666;
+  background-color: #eee;
+  margin: auto;
+  text-align: center;
+}
+
+.site-foot .icons   {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.site-foot .icons a{
+    padding: 0 0.5rem;
+}
+
+.ghost-link a:hover{
+    color: #fff;
+}
+
+.site-foot a { color: #666; text-decoration: none; }
+
+/*****************************************************************************/
+/* Posts
+/*****************************************************************************/
+/* Post List */
+.post-title { font-weight: bold; margin-bottom: 0; }
+
+.post-title a { color: inherit; text-decoration: none; }
+.post-title a:hover { text-decoration: none; }
+
+.post-meta { color: #666; padding-left: 1em; }
+
+.post-excerpt { padding: .5em 0 .5em 0; }
+.read-more { padding-top: .2em; display: block; }
+
+/* Individual Posts */
+.share .fa { padding: .5em; display: inline-block; }
+.share a { color: inherit; text-decoration: none; }
+.share a:hover { color: #1f7df0; text-decoration: none; }
+
+/* Art Posts */
+.art-post { text-align: center; margin: auto; margin-top: 1em; }
+.no-image-box { border: #ddd solid 2px; border-radius: .5em; padding-bottom: 1em; margin: auto; text-align: center; }
+
+/* Project Cards */
+.project-card {
+  border: #ccc solid 1px;
+  border-radius: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.project-card h3 { margin-top: 0; }
+
+/*****************************************************************************/
+/* Theme Colors
+/*****************************************************************************/
+.main-link:hover { color: #960000 !important; }
+.projects-link:hover { color:  #008F0B !important; }
+.arts-link:hover { color: #6C009E !important; }
+.nerds-link:hover { color: #FF7FBA !important; }
+.business-link:hover { color: #0094FF !important; }
+.subscribe-link:hover { color: #FFA600 !important; }
+
+.mainColor { color: #960000; }
+.projectsColor { color: #008F0B; }
+.artsColor { color: #6C009E; }
+.nerdsColor { color: #FF7FBA; }
+.businessColor { color: #0094FF; }
+.subscribeColor { color: #FFA600; }
+
+.mainBackground { background-color: #960000; }
+.projectsBackground { background-color: #008F0B; }
+.artsBackground { background-color: #6C009E; }
+.nerdsBackground { background-color: #FF7FBA; }
+.businessBackground { background-color: #0094FF; }
+.subscribeBackground { background-color: #FFA600; }
