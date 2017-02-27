@@ -2,24 +2,33 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="col-sm-10 col-sm-push-2">
+    <h3>Hello,</h3>
+    <p>
+      And welcome to my little square of the internet. My name is Patrick McVeety-Mill and I make things. <br/>
+      Please help yourself yourself to a drink and join me for an adventure in art, technology, and the future.
+    </p>
+  </div>
+  <div class="col-sm-2 col-sm-pull-10">
+    <img class="img-responsive" src="https://www.gravatar.com/avatar/3c8c882e989d6a1fb5893a0e0297aafd?s=300" alt="An illustrated portrait of site's author" />
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-sm-12">
+    {{ content }}
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

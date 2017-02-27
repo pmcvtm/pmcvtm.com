@@ -1,0 +1,52 @@
+<div class="nav-container">
+  <nav class="nav navbar-default navbar-centered">
+    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-collapse">
+      <span>Navigation</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="nav-link main-link" href="{{ "/" | relative_url}}">
+            <i class="fa fa-bullhorn"></i>
+            Home
+            <i class="fa fa-glass"></i>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link projects-link" href="{{ "/projects" | relative_url}}">
+            <i class="fa fa-code-fork"></i>
+            Projects
+            <i class="fa fa-gamepad"></i>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link arts-link" href="{{ "/arts" | relative_url}}">
+            <i class="fa fa-pencil"></i>
+            Arts
+            <i class="fa fa-paper-plane-o"></i>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link nerds-link" href="{{ "/nerds" | relative_url}}">
+            <i class="fa fa-rocket"></i>
+            Nerds
+            <i class="fa fa-flask"></i>
+          </a>
+        </li>
+        <li><a class="nav-link business-link" href="{{ "/business" | relative_url}}">
+          <i class="fa fa-briefcase"></i>
+            Business
+            <i class="fa fa-coffee"></i>
+          </a>
+        </li>
+        <li>
+            <a class="nav-link subscribe-link" href="{{ "/feed.xml" | relative_url}}" target="_blank">
+            <i class="fa fa-rss"></i>
+            Subscribe
+            <i class="fa fa-book"></i>
+            </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
