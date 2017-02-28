@@ -15,16 +15,17 @@ a:hover { color: #1f7df0; text-decoration: underline;}
 /* Header
 /*****************************************************************************/
 .site-head {
-    padding: 2em 0 0 0;
+    padding: 1em 0 0 0;
     border-bottom: 0.5em solid black;
     font-family: 'Lato', sans-serif;
 }
 
-.blog-title { margin-bottom: 1em; text-align: center; font-size: 4rem;}
+.blog-title { margin-bottom: 0.2em; text-align: center; font-size: 4rem;}
 .blog-title h1 { font-weight: bold; }
 .blog-title small { color: #A0A0A0; }
 .blog-title a { text-decoration:none; color:#000;}
 .blog-description { text-align: center; font-size:2rem;}
+.header-dude { margin-top: 1.5em; }
 
 .nav, .navbar-nav, .nav-container { background-color: #eee; }
 
