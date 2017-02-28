@@ -17,9 +17,27 @@ layout: default
   </section>
 
   <hr/>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-
 </article>
+
+<aside class="clearfix">
+  <div class="pull-left">
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}">
+        <i class="fa fa-backward"></i>
+        &nbsp; last time, on L &amp; A: <br/> "{{page.previous.title}}"
+      </a>
+    {% endif %}
+  </div>
+  <div class="pull-right">
+    {% if page.next.url %}
+    
+      <a href="{{page.next.url}}">
+        next time, on L &amp; A: &nbsp;<i class="fa fa-forward"></i> <br/> "{{page.next.title}}"
+      </a>
+    {% endif %}
+  </div>
+</aside>
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
