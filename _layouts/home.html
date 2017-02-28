@@ -21,13 +21,26 @@ layout: default
 
     <ul class="post-list">
       {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
+        <article class="post row">
+          <div class="col-sm-12">
+            <header class="post-header">
+                <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            </header>
+          </div>
+            <div class="col-sm-12">
+              <section class="post-meta">
+                <time class="post-date" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                {% for tag in post.tags %}
+                | {{tag}}
+                {% endfor %}
+              </section>
+              <section class="post-excerpt">
+                {{ post.excerpt }}
+                <a class="read-more" href="{{ post.url | relative_url }}"> Read on &raquo;</a>
+              </section>
+            </div>
+        </article>
+        <hr />
       {% endfor %}
     </ul>
   </div>
