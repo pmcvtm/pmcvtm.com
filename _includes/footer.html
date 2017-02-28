@@ -2,11 +2,8 @@
   <section>
     <a href="{{ "/" | relative_url}}">Loud &amp; Abrasive &amp; Co.</a>
     &copy; {{ site.time | date: "%Y" }}
-    <span class="icons">
-      <a href="http://twitter.com/loudandatwork" class="arts-link"><i class="fa fa-twitter"></i></a>
-      <a href="https://github.com/pmcvtm" class="projects-link"><i class="fa fa-github"></i></a>
-      <a href="https://linkedin.com/in/pmcvtm" class="business-link"><i class="fa fa-linkedin"></i></a>
-      <a href="{{ "/feed.xml" | relative_url}}" class="subscribe-link"><i class="fa fa-rss"></i></a>
-    </span>
+    
+    {% include social-icons.html %}
+
   </section>
 </footer>

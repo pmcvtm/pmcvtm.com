@@ -94,10 +94,6 @@ a:hover { color: #1f7df0; text-decoration: underline;}
     padding: 0 0.5rem;
 }
 
-.ghost-link a:hover{
-    color: #fff;
-}
-
 .site-foot a { color: #666; text-decoration: none; }
 
 /*****************************************************************************/
@@ -132,6 +128,17 @@ a:hover { color: #1f7df0; text-decoration: underline;}
 }
 
 .project-card h3 { margin-top: 0; }
+
+/*****************************************************************************/
+/* Misc.
+/*****************************************************************************/
+.home-social-links .icons { padding-left: 1em; }
+.home-social-links a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0 0.6rem;
+}
 
 /*****************************************************************************/
 /* Theme Colors
