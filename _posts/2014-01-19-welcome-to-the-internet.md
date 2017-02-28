@@ -9,7 +9,9 @@ date:   2013-01-19 20:38:00 -0600
 
 Hello,
 
-I'm doing one of those lame obligatory first post on this blog. I've had many websites and portfolios over the years and even just recently began, ditched, and have now returned to a blog on Github Pages. I prefer the CMS style, so I'm giving [the Ghost](https://ghost.org/) a go. You can see my fork of [the Azure-Ghost on Github](https://github.com/pmcvtm/Ghost-Azure).
+I'm doing one of those lame obligatory first post on this blog. I've had many websites and portfolios over the years and even just recently began, ditched, and have now returned to a blog on Github Pages. 
+<!--more-->
+A while back I prefered the CMS style, so I gave [the Ghost](https://ghost.org/) a go. You can see my fork of [the Azure-Ghost on Github](https://github.com/pmcvtm/Ghost-Azure).
 
 **Update Feb. 2017: I'm back to Github pages.**
 

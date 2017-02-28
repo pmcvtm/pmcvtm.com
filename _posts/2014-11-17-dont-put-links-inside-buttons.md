@@ -9,6 +9,7 @@ tags: development html
 ## And Vice Versa
 
 This assertion may be old news to you, and if it is feel free to breeze by, but I just made this mistake and surely I'm not the only or the last one to come upon it.
+<!--more-->
 
 ### Links and buttons
 

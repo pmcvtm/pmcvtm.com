@@ -21,6 +21,7 @@ url: ""
 twitter_username: loudandabrasive
 github_username:  pmcvtm
 permalink: /:title
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

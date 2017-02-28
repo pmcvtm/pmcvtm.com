@@ -10,6 +10,8 @@ tags: development mobile xamarin
 
 Recently I've been getting my feet wet with mobile app development using [Xamarin](https://www.xamarin.com/). It's been a change of pace from the usual web fare, but it's also familiar enough to not be afraid of.
 
+<!--more-->
+
 One notable difference from the concerns on the web is the importance of your app's size on a phone, as well as how much processing and memory it uses. You don't want to be the battery drainer! To both alleviate our in-memory load and more easily manage our app's data stores, we are using [Realm](https://realm.io/). Setting up Realm is straightforward, in part thanks to their [nice set-up guide](https://realm.io/docs/xamarin/latest/#installation). Working with it, however, led to something unexpected.
 
 ### Laziness

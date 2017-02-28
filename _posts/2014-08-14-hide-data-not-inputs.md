@@ -7,6 +7,7 @@ tags: development html
 ---
 
 Today's data-rich, dynamic internet can mean shoving context and metadata wherever you can to support content styling, drive data usage, or otherwise spruce up your UI. Recently I was tasked with sorting and grouping items in a list by date, with display headers over each group. The list item sort-by dates initially came from the server, so I was able to leverage Razor helpers to generate the headers. Things got complicated, however, when I needed to dynamically show or hide each header based on whether its contents matched the current filter settings. Luckily we were using [Knockout](http://knockoutjs.com/), so a framework for fancy front-end logic was in place.
+<!--more-->
 
 My first inclination was to nest hidden inputs inside the header element. An element with a built-in "value" that isn't shown by nature seemed like a good choice. I then captured those values when I created my Knockout viewmodels for the list headers:
 

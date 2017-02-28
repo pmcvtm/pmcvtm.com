@@ -9,6 +9,7 @@ tags: satire
 ### Colour By Numbers
 
 I'm sure I'm not alone in the ocassional musings of what running a company would be like. Not doing any work, sitting around while the money stacks up... That would be the life. But company culture can be even more important than whatever you're doing (I mean, who really cares about that?) I was recently inspired by [this interesting post](http://blog.42floors.com/interviewing-at-a-startup/) to consider what interviewing for my future dream-startup-cash-machine might be like. Enjoy.
+<!--more-->
 
 #### Dress Appropriately
 You need a beard. We'll pay for plugs if needed once you start, but paint one or wear some horse hair for the interview. Suits are recommended, but don't wear a dress shirt if you do. On that note, wearing the jersey of a team we don't like _instead_ of a dress shirt is worse than a dress shirt. Partial or full nudity is not just accepted, but encouraged, regardless of body type. We're forward-thinking like that.
