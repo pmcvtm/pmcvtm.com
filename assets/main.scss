@@ -1,0 +1,71 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+/* Coolors Exported Palette - coolors.co/293434-148261-05445e-f9faf9-d17f77 */
+$darkGray: #293434;
+$green: #148261;
+$blue: #05445E;
+$white: #f9faf9;
+$salmon: #d17f77;
+
+$text: $darkGray;
+
+$desktopMinimum: 992px;
+
+body {
+    background: $white;
+    color: $darkGray;
+    font-family: 'Rubik', sans-serif;
+}
+
+// === LAYOUT === === === === ===
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+.site-header, .site-content, .site-footer {
+    @extend .centered;
+}
+
+// === HEADER === === === === ===
+
+.site-title {
+    text-decoration: none;
+    color: $text;
+    font: 2rem 'Bungee Shade', cursive;
+    .site-subtitle {
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 1.5rem;
+    }
+}
+
+.menu-icon {
+    display: block;
+    @media (min-width: $desktopMinimum) { display: none; }
+}
+
+.page-list {
+    list-style: none;
+}
+
+.page-link {
+    display: block;
+    padding: .5rem 1rem;
+    @media (min-width: $desktopMinimum) { display: inline-block; }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        font-size: 1.25rem;
+
+        i { font-size: 1rem; padding-left: .25rem;  }
+    }
+}
+
+
+
+
+
