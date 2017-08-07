@@ -12,12 +12,23 @@ $salmon: #d17f77;
 $text: $darkGray;
 
 $desktopMinimum: 992px;
+$veryTinyMax: 576px;
+
+@mixin transition ($transition){
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}
 
 body {
     background: $white;
     color: $darkGray;
     font-family: 'Rubik', sans-serif;
 }
+
+a { color: $blue; }
 
 // === LAYOUT === === === === ===
 
@@ -36,19 +47,51 @@ body {
     text-decoration: none;
     color: $text;
     font: 2rem 'Bungee Shade', cursive;
+    @media (max-width: $veryTinyMax) { font-size: 1.5rem; }
+
     .site-subtitle {
         font-family: 'Rubik Mono One', sans-serif;
         font-size: 1.5rem;
+        @media (max-width: $veryTinyMax) { font-size: 1rem; }
     }
 }
 
-.menu-icon {
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
     display: block;
+    font-size: 1.5rem;
+    @include transition(transform .5s ease);
     @media (min-width: $desktopMinimum) { display: none; }
+}
+
+#nav-toggle:checked ~ .nav-toggle-label{
+    transform: rotate(90deg);
+    @include transition(transform .5s ease);
+}
+
+#nav-toggle { display: none; }
+
+#nav-toggle ~ .page-list {
+    @media (max-width: $desktopMinimum) {
+        @include transition(all .5s ease);
+        visibility:hidden;
+        opacity:0;
+        max-height: 0;
+    }
+}
+
+#nav-toggle:checked ~ .page-list {
+    visibility:visible;
+    opacity:1;
+    max-height: 500px;
 }
 
 .page-list {
     list-style: none;
+    padding-left: 0;
 }
 
 .page-link {

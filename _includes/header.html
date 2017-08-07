@@ -11,10 +11,9 @@
   {% assign page_paths = site.header_pages | default: default_paths %}
   {% if page_paths %}
   <nav class="site-nav">
-    <label for="nav-trigger">
-      <span class="menu-icon">
-        Menu
-      </span>
+    <input id="nav-toggle" name="nav-toggle" type="checkbox" />
+    <label class="nav-toggle-label" for="nav-toggle">
+      <i class="menu-icon fa fa-bars"></i>
     </label>
     <ul class="page-list">
       <li class="page-link" style="background: #293434">
