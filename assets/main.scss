@@ -41,6 +41,11 @@ a { color: $blue; }
     @extend .centered;
 }
 
+.site-content {
+    max-width: 900px;
+    text-align: left;
+}
+
 // === HEADER === === === === ===
 
 .site-title {
@@ -108,7 +113,28 @@ a { color: $blue; }
     }
 }
 
+// === POST LIST === === === === ===
 
+.post-list {
+    list-style: none;
+
+    .post-title {
+        a { color: $text; text-decoration: none; }
+    }
+
+    .read-more {
+        display: inline-block;
+        padding: .5rem 1rem;
+        background: $blue;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.post-list-entry {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
 
 
 
