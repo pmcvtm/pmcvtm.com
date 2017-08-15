@@ -15,14 +15,20 @@
 # in the templates via {{ site.myvariable }}.
 title: "Loud & Abrasive: Patrick McVeety-Mill"
 email: p.mcvtm@gmail.com
+organization: "Loud & Abrasive & Co."
 description: > # this means to ignore newlines until "baseurl:"
   Patrick McVeety-Mill's blog and portfolio: Loud & Abrasive.
   Featuring guides, thoughts, and commentary on development, .NET, and more,
   as well as dope art and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: loudandabrasive
-github_username:  pmcvtm
+
+#social links
+twitter: loudandabrasive
+github: pmcvtm
+linkedin: pmcvtm
+instagram: loudandabrasive
+etsy: corrugatedcardbuds
 
 # Build settings
 markdown: kramdown

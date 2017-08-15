@@ -44,6 +44,9 @@ a { color: $blue; }
 .site-content {
     max-width: 900px;
     text-align: left;
+
+    padding-bottom: 1rem;
+    border-bottom: solid 1px $darkGray;
 }
 
 // === HEADER === === === === ===
@@ -136,5 +139,17 @@ a { color: $blue; }
     padding: 1rem 0;
 }
 
+// === FOOTER === === === === ===
 
+.social-links {
+    list-style: none;
+    display: inline-block;
 
+    a { color: $text; }
+    a:hover { color: $salmon; }
+
+    li { 
+        display: inline-block;
+        padding: 0 1rem;
+    }
+}
