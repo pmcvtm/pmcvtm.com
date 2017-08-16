@@ -43,6 +43,8 @@ a { color: $blue; }
     }
 }
 
+.highlight-button:hover { filter: brightness(120%) saturate(75%); }
+
 // === LAYOUT === === === === ===
 
 .centered {
