@@ -30,6 +30,19 @@ body {
 
 a { color: $blue; }
 
+.highlight-button {
+    display: inline-block;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    color: $white;
+    text-decoration: none;
+
+    a { 
+        color: $white;
+        text-decoration: none;
+    }
+}
+
 // === LAYOUT === === === === ===
 
 .centered {
@@ -103,15 +116,11 @@ a { color: $blue; }
 }
 
 .page-link {
-    display: block;
-    padding: .5rem 1rem;
-    @media (min-width: $desktopMinimum) { display: inline-block; }
+    @extend .highlight-button;
+    @media (max-width: $desktopMinimum) { display: block; }
 
     a {
-        color: $white;
-        text-decoration: none;
         font-size: 1.25rem;
-
         i { font-size: 1rem; padding-left: .25rem;  }
     }
 }
@@ -126,11 +135,8 @@ a { color: $blue; }
     }
 
     .read-more {
-        display: inline-block;
-        padding: .5rem 1rem;
+        @extend .highlight-button;
         background: $blue;
-        color: white;
-        text-decoration: none;
     }
 }
 
