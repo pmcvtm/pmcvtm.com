@@ -4,6 +4,7 @@
 
 /* Coolors Exported Palette - coolors.co/293434-148261-05445e-f9faf9-d17f77 */
 $darkGray: #293434;
+$lightGray: #D6D6D6;
 $green: #148261;
 $blue: #05445E;
 $white: #f9faf9;
@@ -60,8 +61,13 @@ a { color: $blue; }
     max-width: 900px;
     text-align: left;
 
+    margin-top: 1rem;
+    border-top: solid 1px $darkGray;
+
     padding-bottom: 1rem;
     border-bottom: solid 1px $darkGray;
+
+    @media (max-width: $desktopMinimum) { padding: 0 1rem 1rem 1rem; }
 }
 
 // === HEADER === === === === ===
@@ -131,20 +137,28 @@ a { color: $blue; }
 
 .post-list {
     list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
 
     .post-title {
         a { color: $text; text-decoration: none; }
+        margin-top: 0;
     }
 
     .read-more {
         @extend .highlight-button;
         background: $blue;
     }
+
+    .post-list-entry:last-child {
+        border-bottom: none;
+        padding-bottom: 1rem;
+    }
 }
 
 .post-list-entry {
-    margin: 1rem 0;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    border-bottom: 1px solid $lightGray;
 }
 
 // === FOOTER === === === === ===
