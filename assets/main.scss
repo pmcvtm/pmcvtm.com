@@ -183,3 +183,30 @@ a { color: $blue; }
     font-weight: lighter;
 }
 
+// === Projects === === === === ===
+
+.project-content { display: none; }
+#selected-project { display: inherit; }
+
+#selected-project {
+    padding-left: 2rem;
+    min-height: 20rem;
+}
+
+.projects-list {
+    list-style: none;
+    padding-left: 0;
+
+    .selector {
+        cursor: pointer;
+    }
+
+    a { color: $text; text-decoration: none; }
+
+    .selector:hover { 
+        background: $green;
+        font-weight: bold;
+        color: $white;
+    }
+}
+
