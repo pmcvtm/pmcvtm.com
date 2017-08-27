@@ -41,7 +41,7 @@ icon: fa-code-fork
             success: function(data) {
                 $.each(data, function(i, repo){
                     $('#repos').append(
-                        `<li><a href="${repo.html_url}" class="selector" target="blank">${repo.name}</li>`
+                        `<li class="selector"><a href="${repo.html_url}" target="blank">${repo.name}</li>`
                     )
                 });
             }

@@ -201,16 +201,16 @@ a { color: $blue; }
     list-style: none;
     padding-left: 0;
 
-    .selector {
-        cursor: pointer;
-    }
+    .project-name { text-decoration: underline; }
 
-    a { color: $text; text-decoration: none; }
+    .selector { cursor: pointer; }
+    a { color: $text; }
 
     .selector:hover { 
         background: $green;
         font-weight: bold;
         color: $white;
+        a { color: $white; }
     }
 }
 
