@@ -1,0 +1,28 @@
+---
+layout: page
+title: Arts
+permalink: /arts
+color: "#d17f77"
+icon: fa-paint-brush
+---
+
+<p>
+    Art is a longtime hobby, from dedicated doodles to stress-relieving crafts.
+    Check out <a href="http://www.etsy.com/shop/{{ site.etsy }}" target="blank">my Etsy</a> if you're that into it.
+</p>
+<p><em>Click an image to view it full size in a new window.</em></p>
+
+<div class="pure-g arts-list">
+{% for art in site.data.arts %}
+    <div class="art-entry pure-u-1-2 pure-u-md-1-4">
+        <a href="{{art.fullSrc}}" target="blank">
+            <img src="{{art.thumbSrc}}" />
+            <span class="art-title">{{art.title}}</span><br />
+            <span class="art-meta">
+                {{art.media}} <br />
+                {{art.date}}
+            </span>
+        </a>
+    </div>
+{% endfor %}
+</div>
