@@ -17,7 +17,7 @@ One notable difference from the concerns on the web is the importance of your ap
 ### Laziness
 Most robust ORM-type libraries I've worked with have had some notion of lazily loading objects from the data store (that is, only nabbing the parts you need as you need them). It's handy. Usually, though, the tool also is smart about when to "solidify" or otherwise eager-fill the entirety of the object, such as before a connection is closed: 
 
-````
+````dotnet
 var turbo = new Pupper();
 using(var gonnegtion = PetStore.Open())
 {

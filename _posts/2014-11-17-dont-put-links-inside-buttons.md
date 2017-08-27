@@ -19,7 +19,7 @@ In the post-fancy-css-framework world (read: **THE FUTURE**), the line becomes h
 
 But this can be harder for older applications. I recently ran into a situation where I wanted to convey that button-type intent, but backed with a link under the hood. The links acted in a way that seemed more like a form submission than a page-change, and I wanted to reflect that. This UI "look" also existed on other pages, using a hidden input and actual buttons, but that seemed uglier and like more work than using pre-parameterized links. I ended up with this markup:
 
-```
+```html
 <button type="button" class="button-link">
 	<a href="/Task/Create/someparams" title="This link feels more like a button">Create Task</a>
 </button>
@@ -27,7 +27,7 @@ But this can be harder for older applications. I recently ran into a situation w
 
 Or one might end up with the reverse of that, because why not?
 
-```
+```html
 <a href="/Task/Create/someparams" title="This link feels more like a button">
 	<button type="button" class="button-link">Create Task</button>
 </a>
@@ -47,15 +47,15 @@ You can make your links look like buttons with CSS borders, backgrounds, and hov
 
 #### Use javascript
 The path of least-fuss once you've decided you really need button-links is to use javascript to force a location change. This could be as simple as an onclick in the button element:
-```
+```html
 <button type="button" onclick="window.location = '/Task/Create/someparams'">Create Task</button>
 ```
 But personally I think it's cooler (and more reusable) to wire it up using a data attribute:
-```
+```html
 <button type="button" class="buttonLink" data-url="/Task/Create/someparams">Create Task</button>
 ```
 
-```
+```js
 $('.buttonLink').on('click', function(event){
 	event.preventDefault();
     window.location = $(this).data('url');

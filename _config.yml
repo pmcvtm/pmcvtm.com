@@ -33,6 +33,7 @@ etsy: corrugatedcardbuds
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins_dir:
   - jekyll-feed
 
