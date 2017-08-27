@@ -187,6 +187,11 @@ a { color: $blue; }
     i { font-size: smaller; vertical-align: middle; }
 }
 
+pre { padding: 1rem; font-size: smaller; }
+figure.highlight { margin: 0; }
+
+code.highlighter-rouge { background: $lightGray; }
+
 // === Projects === === === === ===
 
 .project-content { display: none; }
