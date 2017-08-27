@@ -17,7 +17,7 @@ One notable difference from the concerns on the web is the importance of your ap
 ### Laziness
 Most robust ORM-type libraries I've worked with have had some notion of lazily loading objects from the data store (that is, only nabbing the parts you need as you need them). It's handy. Usually, though, the tool also is smart about when to "solidify" or otherwise eager-fill the entirety of the object, such as before a connection is closed: 
 
-````
+```c#
 var turbo = new Pupper();
 using(var gonnegtion = PetStore.Open())
 {
@@ -34,7 +34,7 @@ We find an indication of this semi-buried in the ["Queries"](https://realm.io/do
 
 Reading back, in their [main example codeblock](https://realm.io/docs/xamarin/latest/#getting-started), they don't wrap their Realm instance in a `using` at all:
 
-```
+```c#
 var realm = Realm.GetInstance();
 
 //... example contents

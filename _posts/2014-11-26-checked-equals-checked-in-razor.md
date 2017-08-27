@@ -9,28 +9,28 @@ tags: development razor html
 I often see the following [Razor-enhanced](http://www.asp.net/mvc/overview/views) form markup for writing out input checkboxes, particularly in loops where a given checkbox may be checked or unchecked based on some state in the Model. In the completely real scenario below, I have a form on a webpage where I select fruits for a smoothie:
 <!--more-->
 
-```
+```c#
 @foreach(var fruit in Model.AllFruits)
 {
-	var id = "SelectedFruits_" + fruit.Id;
+    var id = "SelectedFruits_" + fruit.Id;
     if (Model.SelectedFruits.Contains(fruit.Id))
     {
-    	<input id="@id" name="SelectedFruits" type="checkbox" value="@fruit.Id" checked="checked" />
-	}
+        <input id="@id" name="SelectedFruits" type="checkbox" value="@fruit.Id" checked="checked" />
+    }
     else
     {
-		<input id="@id" name="SelectedFruits" type="checkbox" value="@fruit.Id" />
+        <input id="@id" name="SelectedFruits" type="checkbox" value="@fruit.Id" />
     }
 }
 ```
 Alternatively, I can simplify that verbose if/else-ing by creating a variable that represents the presence or absence of the `checked="checked"` attribute, using a ternary statement:
 
-```
+```c#
 @foreach(var fruit in Model.AllFruits)
 {
-	var id = "SelectedFruits_" + fruit.Id;
+    var id = "SelectedFruits_" + fruit.Id;
     var isChecked = Model.SelectedFruits.Contains(fruit.Id) ? "checked=\"checked\"" : "";
-    
+
     <input id="@id" name="SelectedFruits" type="checkbox" value="@fruit.Id" @isChecked/>
 }
 ```
