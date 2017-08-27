@@ -183,6 +183,8 @@ a { color: $blue; }
 .post-title, .page-title {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: lighter;
+
+    i { font-size: smaller; vertical-align: middle; }
 }
 
 // === Projects === === === === ===

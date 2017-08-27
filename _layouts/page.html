@@ -4,7 +4,12 @@ layout: default
 <article>
 
   <header class="page-header">
-    <h1 class="page-title">{{ page.title | escape }}</h1>
+    <h1 class="page-title">
+      {{ page.title | escape }}
+      {% if page.icon %}
+        <i class="fa {{page.icon}}"></i>
+      {%endif%}
+    </h1>
   </header>
 
   <div class="page-content">
