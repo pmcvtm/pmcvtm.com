@@ -2,12 +2,11 @@
   <div>
     &copy; {{ site.time | date: "%Y" }} {{ site.organization }}
     <ul class="social-links">
-      {% if site.twitter %} <li><a class="twitter" href="http://www.twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li> {% endif %}
-      {% if site.github %} <li><a class="github" href="http://www.github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li> {% endif %}
-      {% if site.linkedin %} <li><a class="linkedin" href="http://www.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li> {% endif %}
-      {% if site.instagram %} <li><a class="instagram" href="http://www.instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a></li> {% endif %}
-      {% if site.etsy %} <li><a class="etsy" href="http://www.etsy.com/shop/{{ site.etsy }}"><i class="fa fa-etsy"></i></a></li> {% endif %}
-      <li><a class="rss" href="{{ "/feed.xml" | relative_url }}"><i class="fa fa-rss"></i></a></li>
+      {% for link in site.social.links %}
+      {% assign social = site.data.social_links | where_exp:"social", "link contains social.urlPart" | first %}
+      <li><a href="{{link}}" title="{{social.name}}"><i class="fa {{social.icon}}"></i></a></li>
+      {% endfor %}
+      <li><a class="rss" title="Subscribe" href="{{ "/feed.xml" | relative_url }}"><i class="fa fa-rss"></i></a></li>
     </ul>
   </div>
 </footer>

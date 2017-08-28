@@ -1,0 +1,27 @@
+- name: Twitter
+  urlPart: twitter.com
+  icon: fa-twitter
+
+- name: LinkedIn
+  urlPart: linkedin.com
+  icon: fa-linkedin
+
+- name: Github
+  urlPart: github.com
+  icon: fa-github
+
+- name: Facebook
+  urlPart: facebook.com
+  icon: fa-facebook
+
+- name: Google Plus
+  urlPart: plus.google.com
+  icon: fa-google-plus
+
+- name: Instagram
+  urlPart: instagram.com
+  icon: fa-instagram
+
+- name: Etsy
+  urlPart: etsy.com
+  icon: fa-etsy
