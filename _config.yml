@@ -27,8 +27,6 @@ excerpt_separator: <!--more-->
 paginate: 5
 paginate_path: "/page/:num/"
 
-author: Patrick McVeety-Mill
-
 #nav
 header_pages:
   - "/projects"
@@ -41,6 +39,24 @@ github: pmcvtm
 linkedin: pmcvtm
 instagram: loudandabrasive
 etsy: corrugatedcardbuds
+
+#seo
+logo: /assets/loudandalogo.png
+author:
+  name: Patrick McVeety-Mill
+  twitter: loudandabrasive
+social:
+  name: Patrick McVeety-Mill
+  links:
+    - https://twitter.com/loudandabrasive
+    - https://www.linkedin.com/in/pmcvtm
+    - https://github.com/pmcvtm
+    - https://www.facebook.com/patrick.mcveetymill
+    - https://plus.google.com/+PatrickMcVeety-Mill
+    - https://www.instagram.com/loudandabrasive
+    - http://www.etsy.com/shop/corrugatedcardbuds
+twitter:
+  username: loudandabrasive
 
 sitemap:
   filename: "/sitemap.xml"
@@ -60,6 +76,7 @@ plugins_dir:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
