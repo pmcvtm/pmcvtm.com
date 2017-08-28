@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Featuring guides, thoughts, and commentary on development, .NET, and more,
   as well as art and project highlights.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://loudandabrasive.com"
 permalink: ":title"
 excerpt_separator: <!--more-->
 paginate: 5
