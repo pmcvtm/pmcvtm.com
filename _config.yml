@@ -19,7 +19,7 @@ organization: "Loud & Abrasive & Co."
 description: > # this means to ignore newlines until "baseurl:"
   Patrick McVeety-Mill's blog and portfolio: Loud & Abrasive.
   Featuring guides, thoughts, and commentary on development, .NET, and more,
-  as well as dope art and projects.
+  as well as art and project highlights.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ":title"
