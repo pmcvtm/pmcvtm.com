@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 color: "#05445E"
 icon: fa-glass
 ---

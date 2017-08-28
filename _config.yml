@@ -29,9 +29,9 @@ paginate_path: "/page/:num/"
 
 #nav
 header_pages:
-  - "/projects"
-  - "/arts"
-  - "/about"
+  - "/projects/"
+  - "/arts/"
+  - "/about/"
 
 #seo
 logo: /assets/loudandalogo.png

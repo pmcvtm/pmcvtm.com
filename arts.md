@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Arts
-permalink: /arts
+permalink: /arts/
 color: "#d17f77"
 icon: fa-paint-brush
 ---
