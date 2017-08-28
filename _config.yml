@@ -27,6 +27,8 @@ excerpt_separator: <!--more-->
 paginate: 5
 paginate_path: "/page/:num/"
 
+author: Patrick McVeety-Mill
+
 #nav
 header_pages:
   - "/projects"
