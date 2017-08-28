@@ -163,6 +163,18 @@ a { color: $blue; }
     border-bottom: 1px solid $lightGray;
 }
 
+.pagination {
+    margin: auto;
+    text-align: center;
+    margin: 1rem 0;
+
+    .previous { float: left; }
+    .next { float: right; }
+    .break { clear: both; }
+
+    .center { display: inline-block; }
+}
+
 // === FOOTER === === === === ===
 
 .social-links {
