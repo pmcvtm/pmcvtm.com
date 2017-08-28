@@ -6,9 +6,7 @@ color: "#148261"
 icon: fa-code-fork
 ---
 
-<p>
-    My modest portfolio of recent side projects and prideworthy leftovers from my college daze.
-</p>
+My modest portfolio of recent side projects and prideworthy leftovers from my college daze.
 
 <div class="pure-g">
 <div class="pure-u-1 pure-u-md-1-3">
@@ -37,7 +35,7 @@ icon: fa-code-fork
 
 <script>
     $('document').ready(function(){
-        var repos = $.ajax("https://api.github.com/users/{{site.github}}/repos?sort=updated", {
+        var repos = $.ajax("https://api.github.com/users/{{site.author.github}}/repos?sort=updated", {
             success: function(data) {
                 $.each(data, function(i, repo){
                     $('#repos').append(

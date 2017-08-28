@@ -6,11 +6,10 @@ color: "#d17f77"
 icon: fa-paint-brush
 ---
 
-<p>
-    Art is a longtime hobby, from dedicated doodles to stress-relieving crafts.
-    Check out <a href="http://www.etsy.com/shop/{{ site.etsy }}" target="blank">my Etsy</a> if you're that into it.
-</p>
-<p><em>Click an image to view it full size in a new window.</em></p>
+Art is a longtime hobby, from dedicated doodles to stress-relieving crafts.
+Check out [my Etsy](http://www.etsy.com/shop/{{ site.author.etsy }}) if you're that into it.
+
+_Click an image to view it full size in a new window._
 
 <div class="pure-g arts-list">
 {% for art in site.data.arts %}
