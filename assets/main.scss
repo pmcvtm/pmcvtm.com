@@ -104,7 +104,7 @@ a { color: $blue; }
 }
 
 .nav-toggle-label {
-    display: block;
+    display: inline-block;
     font-size: 1.5rem;
     @include transition(transform .5s ease);
     @media (min-width: $desktopMinimum) { display: none; }
