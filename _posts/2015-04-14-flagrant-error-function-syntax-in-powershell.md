@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flagrant Error: Function Syntax In PowerShell"
-date:   2014-11-17 09:15:00 -0600
+date:   2015-04-14 09:15:00 -0600
 category: nerds
 tags: development powershell troubleshooting
 ---

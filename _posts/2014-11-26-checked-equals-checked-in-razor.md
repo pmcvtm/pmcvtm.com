@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Checked=\"checked\" in Razor"
-date:   2014-11-17 08:03:00 -0600
+date:   2014-11-26 08:03:00 -0600
 category: nerds
 tags: development razor html
 ---
