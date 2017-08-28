@@ -1,27 +1,34 @@
 - name: Twitter
   urlPart: twitter.com
   icon: fa-twitter
+  show: true
 
 - name: LinkedIn
   urlPart: linkedin.com
   icon: fa-linkedin
+  show: true
 
 - name: Github
   urlPart: github.com
   icon: fa-github
+  show: true
 
 - name: Facebook
   urlPart: facebook.com
   icon: fa-facebook
+  show: false
 
 - name: Google Plus
   urlPart: plus.google.com
   icon: fa-google-plus
+  show: false
 
 - name: Instagram
   urlPart: instagram.com
   icon: fa-instagram
+  show: true
 
 - name: Etsy
   urlPart: etsy.com
   icon: fa-etsy
+  show: true

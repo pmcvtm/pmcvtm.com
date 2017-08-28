@@ -3,8 +3,10 @@
     &copy; {{ site.time | date: "%Y" }} {{ site.organization }}
     <ul class="social-links">
       {% for link in site.social.links %}
-      {% assign social = site.data.social_links | where_exp:"social", "link contains social.urlPart" | first %}
-      <li><a href="{{link}}" title="{{social.name}}"><i class="fa {{social.icon}}"></i></a></li>
+        {% assign social = site.data.social_links | where_exp:"social", "link contains social.urlPart" | first %}
+        {% if social.show == true %}
+        <li><a href="{{link}}" title="{{social.name}}"><i class="fa {{social.icon}}"></i></a></li>
+        {% endif %}
       {% endfor %}
       <li><a class="rss" title="Subscribe" href="{{ "/feed.xml" | relative_url }}"><i class="fa fa-rss"></i></a></li>
     </ul>
