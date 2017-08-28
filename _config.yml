@@ -67,7 +67,7 @@ sitemap:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-plugins_dir:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
