@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://loudandabrasive.com"
 permalink: ":title"
 excerpt_separator: <!--more-->
-paginate: 5
+paginate: 4
 paginate_path: "/page/:num/"
 
 #nav
