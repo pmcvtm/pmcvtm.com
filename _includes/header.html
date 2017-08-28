@@ -7,9 +7,6 @@
     </h1>
   </a>
 
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.header_pages | default: default_paths %}
-  {% if page_paths %}
   <nav class="site-nav">
     <input id="nav-toggle" name="nav-toggle" type="checkbox" />
     <label class="nav-toggle-label" for="nav-toggle">
@@ -21,8 +18,8 @@
           </i> Home <i class="fa fa-bullhorn"></i>
         </a>
       </li>
-      {% for path in page_paths reversed %}
-        {% assign page = site.pages | where: "path", path | first %}
+      {% for path in site.header_pages %}
+        {% assign page = site.pages | where: "permalink", path | first %}
         {% if page.title %}
           <li class="page-link" style="background: {{ page.color | default:'#293434' }}">
             <a href="{{ page.url | relative_url }}">
@@ -39,5 +36,4 @@
     </ul>
 
   </nav>
-  {% endif %}
 </header>

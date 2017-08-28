@@ -26,6 +26,12 @@ excerpt_separator: <!--more-->
 paginate: 5
 paginate_path: "/page/:num/"
 
+#nav
+header_pages:
+  - "/projects"
+  - "/arts"
+  - "/about"
+
 #social links
 twitter: loudandabrasive
 github: pmcvtm
