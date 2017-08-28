@@ -32,7 +32,8 @@ layout: default
     {% endif %}
     </div>
     <div class="center">
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span><br/>
+        <a href="/archive">Archive </a>
     </div>
     <div class="next">
     {% if paginator.next_page %}

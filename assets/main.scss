@@ -168,6 +168,8 @@ a { color: $blue; }
     text-align: center;
     margin: 1rem 0;
 
+    .previous, .next { padding-top: .5rem; }
+
     .previous { float: left; }
     .next { float: right; }
     .break { clear: both; }
