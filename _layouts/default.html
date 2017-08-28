@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {% include head.html %}
-
+<head>
+{% include head.html %}
+{% feed_meta %}
+</head>
   <body>
 
     <div class="top">
