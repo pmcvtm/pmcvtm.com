@@ -7,10 +7,11 @@ tags: development powershell troubleshooting
 ---
 
 The modarn developer can easily find themselves knee-deep in several programming languages. Between javascript and the server language of your choice for the web, the various options for mobile platforming, or the many hats of the academic, chances are if you're making for computers you're some degree of a [polyglot](http://en.wikipedia.org/wiki/Polyglotism).
-<!--more-->
 
 Despite the challenges of context-changing between languages, most of them (particularly of the object-oriented variety) are similar enough in appearance and general methodologies. And yet sometimes this familiarity betrays us. Below is a simplified scenario roughly akin to the pickle I recently found myself in, wherein I was calling a PowerShell function from an external module:
 **Disclaimer**: I don't know PowerShell
+
+<!--more-->
 
 ```powershell
 # from the module

@@ -7,9 +7,10 @@ tags: development html bootstrap
 ---
 
 [Twitter Bootstrap](http://getbootstrap.com/) sure is fancy. With it or cousin framework [Foundation](http://foundation.zurb.com/), you can whip up a pretty nice, modern-looking website with minimal effort. (Though personally, I often prefer the less-opinionated [Pure](http://purecss.io/) framework.) These libraries and tools provide the groundwork and components to style your way into the future, but also leave out some of the nuances to enhance your user experience to primo usability and slickness.
-<!--more-->
 
 Bootstrap's [Collapse](http://getbootstrap.com/javascript/#collapse) component is pretty handy. It looks like this:
+
+<!--more-->
 
 <div class="panel panel-default">
   <div class="panel-heading">

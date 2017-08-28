@@ -7,7 +7,6 @@ tags: development razor html
 ---
 
 I often see the following [Razor-enhanced](http://www.asp.net/mvc/overview/views) form markup for writing out input checkboxes, particularly in loops where a given checkbox may be checked or unchecked based on some state in the Model. In the completely real scenario below, I have a form on a webpage where I select fruits for a smoothie:
-<!--more-->
 
 ```c#
 @foreach(var fruit in Model.AllFruits)
@@ -23,6 +22,8 @@ I often see the following [Razor-enhanced](http://www.asp.net/mvc/overview/views
     }
 }
 ```
+<!--more-->
+
 Alternatively, I can simplify that verbose if/else-ing by creating a variable that represents the presence or absence of the `checked="checked"` attribute, using a ternary statement:
 
 ```c#

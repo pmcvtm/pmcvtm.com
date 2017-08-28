@@ -6,14 +6,15 @@ category: nerds
 tags: development html
 ---
 
-## And Vice Versa
+_And Vice Versa_
 
 This assertion may be old news to you, and if it is feel free to breeze by, but I just made this mistake and surely I'm not the only or the last one to come upon it.
-<!--more-->
 
 ### Links and buttons
 
 The anchor (`<a>`) and button (`<button>`) html tags are designed for different purposes. Buttons act in forms, anchors (links) are practically anywhere and go to other pages. Thinking people like [Chris Coyier](https://twitter.com/chriscoyier) have posted [some thoughts](http://css-tricks.com/use-button-element/) about that before, and I'm sure there are many opinions about it, as living things like html are wont to lead to.
+
+<!--more-->
 
 In the post-fancy-css-framework world (read: **THE FUTURE**), the line becomes hazier, where a button-like _appearance_ lends itself more to intent than surrounding markup. [Most](http://getbootstrap.com/css/#buttons-tags) [major](http://foundation.zurb.com/docs/components/buttons.html) [css](http://purecss.io/buttons/) [frameworks](http://jqueryui.com/button/) allow you to 'button-ify' any link as you see fit, accordingly.
 
