@@ -19,7 +19,7 @@ so can develop and re-build with the app still running, and debug only when you 
 
 Or maybe you **use the mouse**; I won't give you a hard time.
 
-I will, however, tell all of you that if you have Visual Studio 2017, **you're doing working more slowly than you could be.**
+I will, however, tell all of you that if you have Visual Studio 2017, **you're working more slowly than you could be.**
 
 <!--more-->
 
