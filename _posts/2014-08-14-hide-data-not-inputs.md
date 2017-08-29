@@ -2,7 +2,6 @@
 layout: post
 title:  "Hide Data, Not Inputs"
 date:   2014-08-14 09:05:00 -0600
-category: nerds
 tags: development html
 ---
 

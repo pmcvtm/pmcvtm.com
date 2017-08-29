@@ -2,7 +2,6 @@
 layout: post
 title:  "Don't Put Links Inside Buttons"
 date:   2014-11-17 07:52:00 -0600
-category: nerds
 tags: development html
 ---
 

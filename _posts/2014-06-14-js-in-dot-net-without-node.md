@@ -2,7 +2,6 @@
 layout: post
 title:  "JS in .NET Without Node"
 date:   2014-06-14 06:00:00 -0600
-category: nerds
 tags: development .net nodejs
 ---
 
