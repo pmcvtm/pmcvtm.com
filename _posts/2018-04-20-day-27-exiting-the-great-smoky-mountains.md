@@ -9,6 +9,8 @@ Hello!
 
 Many of you know this already, but the Smoky mountains are a major part of my inspiration to take on the Appalachian Trail. My family and I visited in the summer of 2009, a transitive time for me (the year of the hole dig, for those in the know), and the first I heard of the AT. Beyond amazing views, crisp waterfalls that broke summer heat, and my first bear encounter, I could feel a magic in the place which I've found has not disappeared in the passing years.
 
+<!--more-->
+
 We knew as we headed North we'd be walking into Spring, and sure enough the birds were chirping and trees were sprouting their sprigs. In the Smokies, though, it's two seasons forward, one season back. It was our hottest day so far on the walk into the park, followed by a splendid day of mountain springtime. Then this past weekend we hiked in our first snow.
 
 All of it has been beautiful. At lower elevations, grass has grown to outnumber last fall's dead leaves, dotted with enough white flowers (Spring Beauties, I'm told) to turn the ground a lighter shade of green from a distance. Higher up, moss covers the ridges like a blanket, wrapping around the bases of trunks and enveloping stumps and fallen trees. Some days we follow the ridgeline and looking out across the valley it feels like we're crawling across the edge of the known world. On others we're deep in the woods fragrant from strong winds tunneling through the pines (firs?) towering above us. Here, like no where else on the trail so far, I've felt in my element.

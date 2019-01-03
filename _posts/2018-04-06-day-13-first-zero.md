@@ -9,6 +9,8 @@ Hey all,
 
 Hope y'all're well, I know I am! If you have been reading Jason's blog you have heard a new thing hurts every day, but I say too each day is easier and better than the last.
 
+<!--more-->
+
 We've had lots of small accomplishments in the past almost 2 weeks: mile 100, first state completed, first >15 mile day, and trail names got: I am "Boogerbear," for the snore sounds my cold gave me that frightened my campsite neighbors early on. (My cold has even more mostly gone away now.) Jason, meanwhile, is trying on "Ya-ah\[-ah\]," for the sound he used to alarm me that my crocodrillo shoe was on fire from my stove (we all count on each other out here, heh). These may change- we've heard of people renaming as late as Vermont, and I'm naturally still open to those cute girls calling us "Chops" and "Chile."
 
 Most mornings are cold, but the walking warms us up quickly, and like Silas Stingy the dirt keeps us hot. We've passed through drippy, misty mountain clouds where the big lichen-covered boulders could be mistook for grassy hills, and on sunnier days looked out on miles of sleeping trees and dead needle-less pines spread on the mountains like unmoving waves.

@@ -7,6 +7,8 @@ tags: announcement appalachian-trail
 
 It's been a hot minute since I've posted on my blog. I have lots of (mostly poor) excuses, but the one I'll highlight is exciting new: Next week, I will be embarking on a full thru-hike of the Appalachian Trail. I'll be gone for about 6 months, if everything goes well, on the 2200 mile journey from Georgia or Maine.
 
+<!--more-->
+
 Hiking the AT is a more recent dream of mine, after learning about it in a college writing course. Before that, I didn't know anything about long-distance hiking, and to be honest, I still don't. But I've talked to a few folks who have hiked before, read most of Bill Bryson's _A Walk in the Woods_, and bought a guidebook, which has prepared me as much I feel I need to be. I have my weeks of backpacking trips to lean on, and the company of a coworker and good friend.
 
 The next few-to-many posts will be about my experience on the trail, so you're welcome to pull your a chair, or to tune out till after October, when I'll be resuming "normal" life, and blogging occasionally about tech.
