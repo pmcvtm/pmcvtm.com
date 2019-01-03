@@ -7,6 +7,8 @@ tags: appalachian-trail thru-hiking
 
 The past few weeks have been "fluid," to put it kindly, but more fairly have been the most by-the-seat-of-my-pants yet. I write this from mile 740, just past the 1/3 mark of the length of the trail, in Daleville, VA. While it may seem like good progress, in the grand scheme I've slowed down a bit, but all for good reason.
 
+<!--more-->
+
 Since my last update, the **MOTHRA SQUAD** upped our mileage in preparation for Trail Days, the weekend-long hiker festival back in Damascus, VA. The long days were a strain on the legs and feet, and hiking through the rain took a toll on morale, but even at its worst it's been a thrill to be out here. Along the way I was also was treated to the best Trail Magic of my hike so far: thanks to a ride into town from a kind stranger, I went from disheartenedly missing being a part of my sister's engagement to a beaming face via satellite outside of a Chinese buffet in Marion, VA. Thanks to future brother-in-law AJ for including me! It's said often, but is so true that "The Trail provides."
 
 Trail Days was an amazing time, but less of an unbridled bacchanalia than I expected. The hiker "tent city" was situated in baseball fields just outside of town and in the neighboring woods. Old and lasting trail families provided food and drink for current and past hikers alike, beneath great canopies that protected us from the rain. A massive bonfire persisted against the rain, home to a muddy circle of drums, dancing, whoops and hollers deep in the woods. In town, vendors came by the boatload to raffle away new expensive gear, hand out sitckers, and repair broken hiker gear. I didn't win anything, but got my boots cleaned, shined, and "aged" -- let's just say it's a good thing I switched to my hiking sandals.
@@ -17,14 +19,14 @@ Wizard and Spinelli continued on while I took time to visit my folks, and Uncle 
 
 On trend with my spot of spontaneity, we've decided to take a week-long canoeing trip on the Shenandoah River starting tomorrow. I'll have to come back and up my mileage to make up for the lost time, but it's an opportunity I know I'd regret passing up.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**
 
 - [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
 - [Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})
-- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})
+- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-04-20-day-27-exiting-the-great-smoky-mountains %})
 - [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
 - **[Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})**
 - [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})

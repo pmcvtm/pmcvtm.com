@@ -16,10 +16,10 @@ layout: default
           {% endfor %}
           <span>
         </div>
-        <div class="post-excerpt">
+        <p class="post-excerpt">
           {{post.excerpt}}
-          <a class="read-more" href="{{ post.url | relative_url }}"> Read on &raquo;</a>
-        </div>
+        </p>
+        <a class="read-more" href="{{ post.url | relative_url }}"> Read on &raquo;</a>
       </li>
     {% endfor %}
   </ul>

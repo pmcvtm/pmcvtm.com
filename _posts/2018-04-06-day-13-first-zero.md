@@ -9,6 +9,8 @@ Hey all,
 
 Hope y'all're well, I know I am! If you have been reading Jason's blog you have heard a new thing hurts every day, but I say too each day is easier and better than the last.
 
+<!--more-->
+
 We've had lots of small accomplishments in the past almost 2 weeks: mile 100, first state completed, first >15 mile day, and trail names got: I am "Boogerbear," for the snore sounds my cold gave me that frightened my campsite neighbors early on. (My cold has even more mostly gone away now.) Jason, meanwhile, is trying on "Ya-ah\[-ah\]," for the sound he used to alarm me that my crocodrillo shoe was on fire from my stove (we all count on each other out here, heh). These may change- we've heard of people renaming as late as Vermont, and I'm naturally still open to those cute girls calling us "Chops" and "Chile."
 
 Most mornings are cold, but the walking warms us up quickly, and like Silas Stingy the dirt keeps us hot. We've passed through drippy, misty mountain clouds where the big lichen-covered boulders could be mistook for grassy hills, and on sunnier days looked out on miles of sleeping trees and dead needle-less pines spread on the mountains like unmoving waves.
@@ -36,14 +38,14 @@ In less than a week we'll be heading into the Smoky Mountains for some of our hi
 
 The trail is and will continue to be a magical experience but I do think of all you friends and family and of course miss y'all.
 
-See you soon,
+See you soon,  
 Patrick
 
 **Read the Rest!**
 
 - [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
 - **[Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})**
-- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})
+- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-04-20-day-27-exiting-the-great-smoky-mountains %})
 - [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
 - [Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})
 - [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})

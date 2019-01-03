@@ -9,6 +9,8 @@ Hello!
 
 Many of you know this already, but the Smoky mountains are a major part of my inspiration to take on the Appalachian Trail. My family and I visited in the summer of 2009, a transitive time for me (the year of the hole dig, for those in the know), and the first I heard of the AT. Beyond amazing views, crisp waterfalls that broke summer heat, and my first bear encounter, I could feel a magic in the place which I've found has not disappeared in the passing years.
 
+<!--more-->
+
 We knew as we headed North we'd be walking into Spring, and sure enough the birds were chirping and trees were sprouting their sprigs. In the Smokies, though, it's two seasons forward, one season back. It was our hottest day so far on the walk into the park, followed by a splendid day of mountain springtime. Then this past weekend we hiked in our first snow.
 
 All of it has been beautiful. At lower elevations, grass has grown to outnumber last fall's dead leaves, dotted with enough white flowers (Spring Beauties, I'm told) to turn the ground a lighter shade of green from a distance. Higher up, moss covers the ridges like a blanket, wrapping around the bases of trunks and enveloping stumps and fallen trees. Some days we follow the ridgeline and looking out across the valley it feels like we're crawling across the edge of the known world. On others we're deep in the woods fragrant from strong winds tunneling through the pines (firs?) towering above us. Here, like no where else on the trail so far, I've felt in my element.
@@ -44,14 +46,14 @@ I still haven't broken out the mp3 player (we did listen to Pasta & Sunglasses w
 
 We have another weeks and some to crawl the TN/NC border, and past the last suspected very cold point. Then we'll be in Virginia, and summer will follow close on the miles' heels.
 
-See you soon,
+See you soon,  
 Patrick (AKA Boogerbear)
 
 **Read the Rest!**
 
 - [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
 - [Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})
-- **[Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})**
+- **[Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-04-20-day-27-exiting-the-great-smoky-mountains %})**
 - [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
 - [Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})
 - [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})

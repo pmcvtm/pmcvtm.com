@@ -7,6 +7,8 @@ tags: appalachian-trail thru-hiking
 
 The days out of Front Royal passed more quickly than any others thus far. As expected, the handful of familiar folks I had seen through Shenandoah were now ahead of me, or surprisingly behind. Armed with my rover's resolve and clear landmarks ahead, going came easily, but it took time for me to let go and let the trail take me as its wont, over my own.
 
+<!--more-->
+
 Uncle Ya had returned from his trip home around the same time I got back on trail from Richmond, putting us in close proximity. Knowing he was only a day or two ahead of me made good incentive to push miles, and the terrain was forgiving, outside of the so-called "roller coaster" series of hills at the northern end of Virginia. The chase was on!
 
 The passage through West Virginia is brief, taking hikers near the Appalachian Trail Conservancy headquarters and one of three roads in Harper's Ferry. This marks the unmoving "spiritual" halfway point on the trail, though it is South of the "nerd's" halfway point that splits the trail exactly. Hikers stop at the conservancy to take a polaroid in front of its sign, which is then catalogued with all others from this year. The rest of Harper's Ferry was overwhelming; I passed through on a Saturday and the place was abustle with tourists, historical site park rangers, reenactors, and a couple dozen hikers, as passersbys like myself collided with those zeroing in town. Thankfully West Virginia's chaos passed into Maryland woods quickly, and then into Pennsylvania woods nearly as fast, with just a day or two between. Some attempt to complete this 42-mile stretch in 24 hours or less, dubbed the "four state" challenge: VA to WV to MD to PA. Still, I saw more day hikers in my short time in Maryland than the entirety of Shenandoah.
@@ -23,14 +25,14 @@ The injury slowed me down, and the rain was a knock to morale, a risk of blister
 
 Beagle, Par 3, and I have crossed into New Jersey, another short and flat state, so New York is just ahead, then on to New England. It's wild to me how short this journey all feels now, even though there are hundreds of miles to go.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**
 
 - [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
 - [Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})
-- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})
+- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-04-20-day-27-exiting-the-great-smoky-mountains %})
 - [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
 - [Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})
 - [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})

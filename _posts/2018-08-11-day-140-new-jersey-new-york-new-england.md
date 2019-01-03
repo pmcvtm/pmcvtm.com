@@ -7,6 +7,8 @@ tags: appalachian-trail thru-hiking
 
 Leaving Pennsylvania felt like closing a long chapter of the hike, and crossing into New Jersey turned out to be the start of a series of pleasant surprises.
 
+<!--more-->
+
 Pennsylvania was overall pretty low, elevation-wise, and flat compared to the rest of the trail, and New Jersey was little different with its vaguely phallic, tiny-windowed "High Point" tower built on a hill of only 1800 feet. Outside of elevation, though, New Jersey was unique. The unending rock hops and foot-breakers through state hunting grounds gave way to boardwalks over wetlands, and the first wildlife preserve on the trail. The bugs were bad, and the rain continued off and on as a new norm, but the path was pretty, and easy to hike. The swamps were teaming with new plants, dragonflies, frogs, and flowers, and when we _were_ up high, the views showed surprisingly untouched woods, for such a populous place.
 
 That's not to say there was no evidence of civilization. The New Jersey and New York trail is known as the "deli-to-deli" hike; almost all road crossings were home to a hot dog stand, ice creamery, deli, or tavern, and trail towns were often less than half a mile down the road. Beagle, Par 3, and I frequently stopped for lunch, happy hour, or dinner in towns or on the road, and truth be told the deli trail was far more a pub crawl for us. We were also joined by Sparrow, a member of the canoeing "Snooze Crew" who'd gotten back on trail after a couple weeks off. It was good to see a more familiar face, though I didn't recognize him at first; he'd chopped off his curly mane and beard, frustrated by the heat. Beagle and I took the towns-are-trail further and camped at a drive-in theater, where hikers set up for free with a view of all three screens and a radio. The movies were terrible, but between features some locals magic'd us beers, chips, and snacks, and waking up to an empty drive-in field was a unique experience.
@@ -23,14 +25,14 @@ After a lengthy night-hike and what felt like an unending day, I finally arrived
 
 The pace of the Snooze Crew that allowed me to catch up with them is a double-edged sword and has kept me ahead of most of them since our zero day at the pond. One of them, a young lady named Giggles, is hiking with me, and Sparrow has bounced around us in the way he does. Uncle Ya is close by, too, which is exciting given how close we are to the finish. Vermont is just around the corner, then the Whites of New Hampshire, and Maine!
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**
 
 - [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
 - [Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})
-- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})
+- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-04-20-day-27-exiting-the-great-smoky-mountains %})
 - [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
 - [Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})
 - [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})
