@@ -35,3 +35,17 @@ I haven't busted out my mp3 player yet but I often think of music. I'll list the
 In less than a week we'll be heading into the Smoky Mountains for some of our highest peaks and likely chilliest nights. We'll might push pace a little, we're currently hitting 8-12 miles a day depending on elevation extremity, but more important is that our legs and feet are well.
 
 The trail is and will continue to be a magical experience but I do think of all you friends and family and of course miss y'all. See you soon!
+
+**Read the Rest!**
+
+- [Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})
+- **[Day 13: First "Zero" in Franklin, NC]({{ site.baseurl }}{% post_url 2018-04-06-day-13-first-zero %})**
+- [Day 27: Exiting The Great Smoky Mountains]({{ site.baseurl }}{% post_url 2018-40-20-day-27-exiting-the-great-smoky-mountains %})
+- [Day 49: Welcome to Virginia]({{ site.baseurl }}{% post_url 2018-05-12-day-49-welcome-to-virginia %})
+- [Day 77: More Virginia But Not The Same]({{ site.baseurl }}{% post_url 2018-06-08-day-77--more-virginia-but-not-the-same %})
+- [Day 102: Definitely The Last Update From Virginia ]({{ site.baseurl }}{% post_url 2018-07-04-day-102-definitely-the-last-update-from-virginia %})
+- [Day 122: And The States Won't Stop (But I Might Here And There) ]({{ site.baseurl }}{% post_url 2018-07-22-day-122-and-the-states-won't-stop %})
+- [Day 140: New Jersey - New York - New England ]({{ site.baseurl }}{% post_url 2018-08-11-day-140-new-jersey-new-york-new-england %})
+- [Day 159: Return of the Climb ]({{ site.baseurl }}{% post_url 2018-08-30-day-159-return-of-the-climb %})
+- [Day 177: Difficult Trail and More Difficult Decisions]({{ site.baseurl }}{% post_url 2018-09-17-day-177-difficult-trail-and-more-difficult-decisions %})
+- [Day 185: One Hundred Miles to Summit]({{ site.baseurl }}{% post_url 2018-09-25-day-185-one-hundred-miles-to-summit %})
