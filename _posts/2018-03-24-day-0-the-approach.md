@@ -14,6 +14,8 @@ Soon Jason and I will begin the 8 mile uphill trek to the summit of Springer Mou
 
 Big thanks to all you friends and family who have supported, advised, helped prepare, or simply wished well and happy trails. I'd still be in Austin without you.
 
+Patrick
+
 **Read the Rest!**
 
 - **[Day 0: The Approach]({{ site.baseurl }}{% post_url 2018-03-24-day-0-the-approach %})**

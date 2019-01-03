@@ -34,7 +34,10 @@ I haven't busted out my mp3 player yet but I often think of music. I'll list the
 
 In less than a week we'll be heading into the Smoky Mountains for some of our highest peaks and likely chilliest nights. We'll might push pace a little, we're currently hitting 8-12 miles a day depending on elevation extremity, but more important is that our legs and feet are well.
 
-The trail is and will continue to be a magical experience but I do think of all you friends and family and of course miss y'all. See you soon!
+The trail is and will continue to be a magical experience but I do think of all you friends and family and of course miss y'all.
+
+See you soon,
+Patrick
 
 **Read the Rest!**
 
