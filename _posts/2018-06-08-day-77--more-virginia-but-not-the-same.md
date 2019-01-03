@@ -17,7 +17,7 @@ Wizard and Spinelli continued on while I took time to visit my folks, and Uncle 
 
 On trend with my spot of spontaneity, we've decided to take a week-long canoeing trip on the Shenandoah River starting tomorrow. I'll have to come back and up my mileage to make up for the lost time, but it's an opportunity I know I'd regret passing up.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

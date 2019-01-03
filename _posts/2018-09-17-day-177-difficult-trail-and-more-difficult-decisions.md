@@ -23,7 +23,7 @@ Time was marching on, even when we weren't. My fears for making the miles on tim
 
 Not treating the decision to skip as a failure or defeat may be my greatest challenge on trail. It helps me to consider what I'm "losing" to, though: a respect for the commitments I've made and a desire to truly enjoy these last few moments in the woods.
 
-See you very soon,
+See you very soon,  
 Boogerbear
 
 **Read the Rest!**

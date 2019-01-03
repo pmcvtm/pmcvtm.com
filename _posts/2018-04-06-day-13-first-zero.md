@@ -36,7 +36,7 @@ In less than a week we'll be heading into the Smoky Mountains for some of our hi
 
 The trail is and will continue to be a magical experience but I do think of all you friends and family and of course miss y'all.
 
-See you soon,
+See you soon,  
 Patrick
 
 **Read the Rest!**

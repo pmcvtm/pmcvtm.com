@@ -25,7 +25,7 @@ My sister Holly and her fiance AJ met me in Front Royal (the second time I was t
 
 Soon _I_ will be powering through Pennsylvania, and crossing the unmoving spiritual halfway of the trail in Harper's Ferry. As well as the literal "nerd's" halfway mileage, and the **truest** halfway point, wherein a hiker must eat an entire half gallon of ice cream in one sitting. I can't wait.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

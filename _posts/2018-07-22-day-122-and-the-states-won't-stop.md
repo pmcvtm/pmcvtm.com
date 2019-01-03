@@ -23,7 +23,7 @@ The injury slowed me down, and the rain was a knock to morale, a risk of blister
 
 Beagle, Par 3, and I have crossed into New Jersey, another short and flat state, so New York is just ahead, then on to New England. It's wild to me how short this journey all feels now, even though there are hundreds of miles to go.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

@@ -17,7 +17,7 @@ There are so many reasons people came to the trail. For many hikers, this is the
 
 I found myself regretting that I did not have the foresight to skip some other section. Maine was so beautiful; maybe the Snooze Crew was right to skip back in Shenandoah. The feeling passed, as I realized I would not be the person I am here experiencing this end, had it not been for those days alone, or those days with others: The one-on-one time with Uncle Ya, the slow unspoken joining of **MOTHRA SQUAD**, or the instant friendships with Snooze and Koozie Crews. Had I not skipped, I would have missed Penis Wings; I might have even had the misfortune of good weather on Katahdin. All these moments and every in-between shaped my hike. It was experience unlike any other; so wholely indescribable, so incredible, and so subtly influential. Or maybe not so subtly.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

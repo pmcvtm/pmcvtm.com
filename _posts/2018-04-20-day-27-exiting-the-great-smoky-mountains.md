@@ -44,7 +44,7 @@ I still haven't broken out the mp3 player (we did listen to Pasta & Sunglasses w
 
 We have another weeks and some to crawl the TN/NC border, and past the last suspected very cold point. Then we'll be in Virginia, and summer will follow close on the miles' heels.
 
-See you soon,
+See you soon,  
 Patrick (AKA Boogerbear)
 
 **Read the Rest!**

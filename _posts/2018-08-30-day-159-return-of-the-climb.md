@@ -19,7 +19,7 @@ This stretch has also marked the intersection with the bubble of Southbound hike
 
 So far the White Mountains have been a challenge, but nothing unachievable. The mountains are more steep, the trail more technical, and the stakes higher. I've known my pace would slow through them, and bad weather already forced me to stop shy of my target once to avoid being above treeline in a thunderstorm. I'm currently in Lincoln, NH for the second time, as the trail passes roads to it twice. I've remet with Giggles and some of the "Caboose Crew" Uncle Ya hiked with (though he has shot ahead), and tomorrow an old friend and camping companion from high school is meeting me to hike a section over Labor Dabor weekend. We'll hopefully make it over Mt. Washington with him, if the weather holds out.
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

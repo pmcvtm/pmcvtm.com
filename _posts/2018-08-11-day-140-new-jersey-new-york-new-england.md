@@ -23,7 +23,7 @@ After a lengthy night-hike and what felt like an unending day, I finally arrived
 
 The pace of the Snooze Crew that allowed me to catch up with them is a double-edged sword and has kept me ahead of most of them since our zero day at the pond. One of them, a young lady named Giggles, is hiking with me, and Sparrow has bounced around us in the way he does. Uncle Ya is close by, too, which is exciting given how close we are to the finish. Vermont is just around the corner, then the Whites of New Hampshire, and Maine!
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**

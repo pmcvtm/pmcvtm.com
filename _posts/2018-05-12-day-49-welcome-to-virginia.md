@@ -27,7 +27,7 @@ Virginia has over 500 miles of trail in it, more than we've hiked entirely so fa
 
 May will be a fun month, we will hike through Damascus, like a normal town, but return by shuttle or hitch next weekend for the Trail Days festival, to walk in the Hiker Parade and dance at the Hiker Prom. Later this month my folks are visiting me for a stay in the woods, and Theresa will be visiting Uncle Ya. I am excited to see all of them! The weather is getting good if you've thought about joining me, or the trail runs driving distance past a lot of cities if that's more your speed. Give me a shout and we can work it out!
 
-See you soon,
+See you soon,  
 Boogerbear
 
 **Read the Rest!**
