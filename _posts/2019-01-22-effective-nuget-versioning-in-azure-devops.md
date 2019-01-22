@@ -55,7 +55,7 @@ The meat of our automated build is typical for a sexy modern .NET core project. 
 - script: dotnet pack ./src/MyLibrary/MyLibrary.csproj -c Release --no-build -o '$(build.artifactStagingDirectory)'
 ```
 
-This option during compilation is noteworthy: `/p:Version='$(GitVersion.NuGetVersion)'`. The `/p:` flag is for MSBuild parameters (woof); here we;re setting built assemblies to use our automatically defined version. By using the `--no-build` flag on subsequent steps, we lock in the results of this initial compilation. We output our packaged library to the built-in staging location on the agent with `$(build.artifactStagingDirectory)`.
+This option during compilation is noteworthy: `/p:Version='$(GitVersion.NuGetVersion)'`. The `/p:` flag is for MSBuild parameters (woof); here we're setting built assemblies to use our automatically defined version. By using the `--no-build` flag on subsequent steps, we lock in the results of this initial compilation. We output our packaged library to the built-in staging location on the agent with `$(build.artifactStagingDirectory)`.
 
 There are _lots_ of variations on this. For instance, we could set the project to automatically publish when it compiles, with the version set to the environment variable in the .csproj, or instead of `script:` steps we could leverage [Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=vsts) helpers. The `pack` command task even includes an option to set the package version by environment variable, like we're doing here already.
 
