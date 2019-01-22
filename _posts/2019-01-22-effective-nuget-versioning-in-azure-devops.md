@@ -76,11 +76,13 @@ steps:
 
 Unlike previous steps, this one is _conditional_. We don't want to push a new package every time new code is pushed to the repository, especially for in-flight work. First, our `condition:` checks that previous steps succeeded. Then, we check if we're on the master branch, which we trust is production-ready, or if a special flag to 'force' a new release has been set. To do this, we create a variable called `FORCE_PUSH_NUGET` in the pipeline settings that is `false` by default, and settable at queue-time (below, top). This variable will then appear when a new build is being queued (below, bottom).
 
-![A screenshot showing a variable named FORCE_PUSH_NUGET in a build pipeline's settings, and the Queue Build dialog showing where the variable can be set](/assets/post-resources/2019-01-22-auto-nuget-packages-in-azure-ad-pipeline-variable.jpg)
+![A screenshot showing setting up a variable named FORCE_PUSH_NUGET in a build pipeline's settings](/assets/post-resources/2019-01-22-effective-nuget-versioning-in-azure-devops-1-variable-setup.jpg)
+
+![A screenshot showing the queue build dialog with the FORCE_PUSH_NUGET variable set to 'true'](/assets/post-resources/2019-01-22-effective-nuget-versioning-in-azure-devops-2-queue-build.jpg)
 
 When a package is pushed in this way, the automatically generated version will reflect that this is from a feature branch by appending a _-tag_ (1.0.1 -> 1.0.1-my-feature-branch) to the version, and Nuget will flag it as prerelease. This way, users can deliberately use this version, but we minimize accidental pulls from upgrading or installing the package new.
 
-![A screenshot of the Azure Artifact feed, showing the list of packages and their corresponding versions](/assets/post-resources/2019-01-22-auto-nuget-packages-in-azure-ad-artifact-feed.jpg)
+![A screenshot of the Azure Artifact feed, showing the list of packages and their corresponding versions](/assets/post-resources/2019-01-22-effective-nuget-versioning-in-azure-devops-3-package-list.jpg)
 
 ## Tag the Repo
 
@@ -97,7 +99,7 @@ Now that the Nuget package is live, we want our consumers to be able to look up 
 
 Here again we have the `condition:` from the push step, since we only want to tag when we publish a new package. We also see our `GitVersion.NuGetVersion` variable in action again, prepended with 'v' to be clear what the number means. It may seem excessive to tag every release, when we release on every merge into `master`. Tags guarantee users will be able to pair a package's behavior to source code, however, especially when we're lazy about release notes. As a bonus, GitVersion works faster, since counting commits takes time. The latest tag serves as the starting point for calculating the next version, so it never has to count very high. Tags can be viewed from the command line with `git tag -l`, where they can also be checked out (in a detached HEAD), but they'll also be visible in GitHub:
 
-![A screenshot of a GitHub repository with the "tags" dropdown open, showing a list of version tags](/assets/post-resources/2019-01-22-auto-nuget-packages-in-azure-github-tags.jpg)
+![A screenshot of a GitHub repository with the "tags" dropdown open, showing a list of version tags](/assets/post-resources/2019-01-22-effective-nuget-versioning-in-azure-devops-4-github-tags.jpg)
 
 ## Now You
 
