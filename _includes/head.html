@@ -1,3 +1,6 @@
+{% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include google-analytics.html %}
+{% endif %}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +15,6 @@
 
 <script src="https://use.fontawesome.com/f8f9216af2.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-{% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include google-analytics.html %}
-{% endif %}
 
 <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/syntax.css" | relative_url }}">
