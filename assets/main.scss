@@ -80,6 +80,13 @@ a { color: $blue; }
     font: 2rem 'Bungee Shade', cursive;
     @media (max-width: $veryTinyMax) { font-size: 1.5rem; }
 
+    padding-top: 1em;
+
+    .title {
+        margin: 0 0 0.5em 0;
+        line-height: 1em;
+    }
+
     img.top-logo { 
         display: none;
         width: 3rem;
