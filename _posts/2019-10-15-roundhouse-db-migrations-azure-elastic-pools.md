@@ -33,7 +33,7 @@ END
 SELECT @Created
 ```
 
-At runtime, RoundhousE will connect as normal, but will run the above before any migration scripts. The `{{DatabaseName}}` token will be filled in automatically, but `#REPLACE_ELASTIC_POOL_NAME#` will need to be hard-coded, or better yet plugged by some other process.
+At runtime, RoundhousE will connect as normal, but will run the above before any migration scripts. The `{% raw  %} {{DatabaseName}} {% endraw  %}` token will be filled in automatically, but `#REPLACE_ELASTIC_POOL_NAME#` will need to be hard-coded, or better yet plugged by some other process.
 
 ## Using in a CI/CD Pipeline
 
