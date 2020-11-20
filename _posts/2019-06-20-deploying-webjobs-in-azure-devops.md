@@ -63,7 +63,7 @@ ConfigureWebjob-Queue "my-webjob-1" "queue1"
 ConfigureWebjob-Queue "my-webjob-2" "queue2"
 ```
 
-Here, we assume the only difference between the jobs is which queue they monitor. This method gets complex with more settings, or increased variability between jobs. Thankfully, app settings consistent across WebJobs can be set on the App Service like normal. Using a prefix-based naming convention with pipeline variables and WebJob names can also ease pain and reduce the amount of hard-code in the deploy step. See my [post on .env files with pipelines variables]({{ site.baseurl }}{% post_url 2019-03-26-configuring-docker-with-env-files-written-from-azdo-variables %})) for such an approach for varying docker containers. With the right conventions it's possible to even dynamically create all WebJobs from an array of names configured in the pipeline.
+Here, we assume the only difference between the jobs is which queue they monitor. This method gets complex with more settings, or increased variability between jobs. Thankfully, app settings consistent across WebJobs can be set on the App Service like normal. Using a prefix-based naming convention with pipeline variables and WebJob names can also ease pain and reduce the amount of hard-code in the deploy step. See my [post on .env files with pipelines variables]({% post_url 2019-03-26-configuring-docker-with-env-files-written-from-azdo-variables %})) for such an approach for varying docker containers. With the right conventions it's possible to even dynamically create all WebJobs from an array of names configured in the pipeline.
 
 ## Look Before You Leap
 
