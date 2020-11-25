@@ -1,0 +1,9 @@
+@import "_variables";
+
+.arts-list {
+    img { width: 90%; margin-bottom: 0.5rem; }
+    a { color: $text; text-decoration: none; }
+    .art-title { font-style: italic; font-weight: bolder; }
+    .art-meta { font-weight: lighter; }
+    .art-entry { margin-bottom: 1rem; }
+}

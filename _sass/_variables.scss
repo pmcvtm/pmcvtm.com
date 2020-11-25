@@ -1,0 +1,22 @@
+/* Coolors Exported Palette - coolors.co/293434-148261-05445e-f9faf9-d17f77 */
+$darkGray: #293434;
+$lightGray: #D6D6D6;
+$green: #148261;
+$blue: #05445E;
+$white: #f9faf9;
+$salmon: #d17f77;
+
+$text: $darkGray;
+
+$desktopMinimum: 992px;
+$veryTinyMax: 576px;
+
+$regularFont: 'Rubik', sans-serif;
+
+@mixin transition ($transition){
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}

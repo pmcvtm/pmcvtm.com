@@ -1,0 +1,17 @@
+@import "_variables";
+
+.post-title, .page-title {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: lighter;
+
+    i { font-size: smaller; vertical-align: middle; }
+}
+
+pre { padding: 1rem; font-size: smaller; }
+figure.highlight { margin: 0; }
+
+code.highlighter-rouge { background: $lightGray; }
+
+.site-content img { max-width: 900px; }
+
+.post-content, .post-excerpt, .page-content { font-size: 1.1em; line-height: 1.3em; }

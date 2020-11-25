@@ -1,0 +1,81 @@
+@import "_variables";
+
+.site-title {
+    text-decoration: none;
+    color: $text;
+    font: 2rem 'Bungee Shade', cursive;
+    @media (max-width: $veryTinyMax) { font-size: 1.5rem; }
+
+    padding-top: 1em;
+
+    .title {
+        margin: 0 0 0.5em 0;
+        line-height: 1em;
+    }
+
+    img.top-logo { 
+        display: none;
+        width: 3rem;
+        margin: auto;
+        @media (max-width: $veryTinyMax) { display:block; }
+     }
+    img.side-logo { 
+        display: inline-block;
+        width: 1.5rem;
+        @media (max-width: $veryTinyMax) { display:none; }
+    }
+
+    .site-subtitle {
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 1.5rem;
+        @media (max-width: $veryTinyMax) { font-size: 1rem; }
+    }
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: inline-block;
+    font-size: 1.5rem;
+    @include transition(transform .5s ease);
+    @media (min-width: $desktopMinimum) { display: none; }
+}
+
+#nav-toggle:checked ~ .nav-toggle-label{
+    transform: rotate(90deg);
+    @include transition(transform .5s ease);
+}
+
+#nav-toggle { display: none; }
+
+#nav-toggle ~ .page-list {
+    @media (max-width: $desktopMinimum) {
+        @include transition(all .5s ease);
+        visibility:hidden;
+        opacity:0;
+        max-height: 0;
+    }
+}
+
+#nav-toggle:checked ~ .page-list {
+    visibility:visible;
+    opacity:1;
+    max-height: 500px;
+}
+
+.page-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.page-link {
+    @extend .highlight-button;
+    @media (max-width: $desktopMinimum) { display: block; }
+
+    a {
+        font-size: 1.25rem;
+        i { font-size: 1rem; padding-left: .25rem;  }
+    }
+}

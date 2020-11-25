@@ -1,0 +1,14 @@
+@import "_variables";
+
+.social-links {
+    list-style: none;
+    display: inline-block;
+
+    a { color: $text; }
+    a:hover { color: $salmon; }
+
+    li { 
+        display: inline-block;
+        padding: 0 1rem;
+    }
+}
