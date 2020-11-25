@@ -39,10 +39,7 @@ a { color: $blue; }
     text-align: left;
 
     margin-top: 1rem;
-    border-top: solid 1px $darkGray;
-
     padding-bottom: 1rem;
-    border-bottom: solid 1px $darkGray;
 
     @media (max-width: $desktopMinimum) { padding: 0 1rem 1rem 1rem; }
 }
@@ -87,4 +84,23 @@ a { color: $blue; }
     .break { clear: both; }
 
     .center { display: inline-block; }
+}
+
+.stripes {
+    background: linear-gradient(
+        $brown,
+        $brown 1em,
+        $vermilion 1em,
+        $vermilion 2em,
+        $orange 2em,
+        $orange 3em,
+        $yellow 3em,
+        $yellow 4em,
+        $teal 4em,
+        $teal 5em
+    );
+    width:100%;
+    height:5em;
+    margin: 0;
+    border: none;
 }
