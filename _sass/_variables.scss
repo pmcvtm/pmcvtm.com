@@ -29,3 +29,22 @@ $regularFont: 'Rubik', sans-serif;
     -ms-transition: $transition;
     transition: $transition;
 }
+
+@mixin stripes ($size){
+    background: linear-gradient(
+        $brown,
+        $brown $size,
+        $vermilion $size,
+        $vermilion ($size * 2),
+        $orange ($size * 2),
+        $orange ($size * 3),
+        $yellow ($size * 3),
+        $yellow ($size * 4),
+        $teal ($size * 4),
+        $teal ($size * 5)
+    );
+    width:100%;
+    height: ($size * 5);
+    margin: 0;
+    border: none;
+}
