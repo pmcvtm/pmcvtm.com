@@ -20,7 +20,11 @@ $text: $darkGray;
 $desktopMinimum: 992px;
 $veryTinyMax: 576px;
 
-$regularFont: 'Rubik', sans-serif;
+$tileFont: 'Bungee Shade', cursive;
+$headingFont: 'Montserrat Alternates', sans-serif;
+$bodyFont: 'Montserrat', sans-serif;
+
+$regularFont: $bodyFont;
 
 @mixin transition ($transition){
     -webkit-transition: $transition;
