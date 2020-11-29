@@ -6,6 +6,37 @@ layout: base
 <header>
   <span class="subtitle">Patrick McVeety-Mill:</span>
   <h1 class="title">Loud &amp; Abrasive</h1>
+
+  <nav class="home">
+    <input id="nav-toggle" name="nav-toggle" type="checkbox" />
+    <label class="nav-toggle-label" for="nav-toggle">
+      <i class="menu-icon fa fa-bars"></i>
+    </label>
+
+    <ul>
+      <li style="background: #293434">
+        <a href="{{ "/" | relative_url }}">
+          </i> Home <i class="fa fa-bullhorn"></i>
+        </a>
+      </li>
+      {% for path in site.header_pages %}
+        {% assign page = site.pages | where: "permalink", path | first %}
+        {% if page.title %}
+          <li style="background: {{ page.color | default:'#293434' }}">
+            <a href="{{ page.url | relative_url }}">
+              {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li style="background: #293434">
+        <a href="{{ "/feed.xml" | relative_url }}">
+          Subscribe <i class="fa fa-rss"></i>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
 </header>
 
 <hr class="stripes" />

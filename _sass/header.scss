@@ -23,6 +23,44 @@ header {
         font: oblique 2em 'Vibur', sans-serif;
         @media (max-width: $veryTinyMax) { font-size: 1.5em; }
     }
+
+    nav.home {
+        @media (max-width: $desktopMinimum)
+        {
+            display: none;
+            visibility:hidden;
+            opacity:0;
+            max-height: 0;
+        }
+
+        width: 80em;
+        padding-top: 2em;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            padding: 0;
+
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        li {
+            flex-grow: 1;
+            line-height: 2em;
+            width: 100%;
+            cursor: pointer;
+
+            a {
+                font-size: 1.25rem;
+                color: $white;
+                text-decoration: none;
+                i { font-size: 1rem; padding-left: .25rem; }
+            }
+        }
+    }
 }
 
 .site-title {
