@@ -3,61 +3,80 @@
 header {
     background-color: $dope;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
 
-    padding: 2em 0;
-
     .title {
+        font: bolder 2em 'Bungee Shade', cursive;
+        line-height: 1.5em;
         color: $brown;
-        font: bolder 5em 'Bungee Shade', cursive;
         margin: 0;
-        line-height: 1em;
-        @media (max-width: $veryTinyMax) { font-size: 3em; }
-    }
 
-    .subtitle {
-        color: $brown;
-        font: oblique 2em 'Vibur', sans-serif;
-        @media (max-width: $veryTinyMax) { font-size: 1.5em; }
-    }
-
-    nav.home {
-        @media (max-width: $desktopMinimum)
-        {
-            display: none;
-            visibility:hidden;
-            opacity:0;
-            max-height: 0;
+        a {
+            color: $brown;
+            text-decoration: none;
         }
+    }
 
-        width: 80em;
-        padding-top: 2em;
-
+    nav {
         ul {
             list-style: none;
             display: flex;
-
             padding: 0;
-
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
         }
 
         li {
             flex-grow: 1;
             line-height: 2em;
             width: 100%;
-            cursor: pointer;
 
             a {
-                font-size: 1.25rem;
-                color: $white;
                 text-decoration: none;
                 i { font-size: 1rem; padding-left: .25rem; }
+            }
+        }
+    }
+
+    &.home {
+        padding: 2em 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .title {
+            font-size: 5em;
+            line-height: 1em;
+            @media (max-width: $veryTinyMax) { font-size: 3em; }
+        }
+
+        .subtitle {
+            color: $brown;
+            font: oblique 2em 'Vibur', sans-serif;
+            @media (max-width: $veryTinyMax) { font-size: 1.5em; }
+        }
+
+        nav {
+            @media (max-width: $desktopMinimum)
+            {
+                display: none;
+                visibility:hidden;
+                opacity:0;
+                max-height: 0;
+            }
+
+            width: 80em;
+            padding-top: 2em;
+
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                cursor: pointer;
+            }
+
+            a {
+                color: $white;
+                font-size: 1.25rem;
             }
         }
     }
