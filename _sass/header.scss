@@ -80,6 +80,49 @@ header {
             }
         }
     }
+
+    &.top{
+        display: block;
+
+        nav {
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: stretch;
+                align-items: stretch;
+
+                margin: 0; 
+
+                li {
+                    width: inherit;
+                }
+
+                li.nav-title {
+                    flex-grow: 4;
+                    font-size: 1.5em;
+                }
+
+                li.nav-item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    flex-grow: 3;
+                    min-width: 10rem;
+
+                    font: bolder 1.25em $headingFont, cursive;
+                }
+            }
+        }
+
+        .stripes {
+            @include stripes(0.2em);
+        }
+    }
+}
+
+.top-nav-link {
+    color: $brown;
 }
 
 .site-title {

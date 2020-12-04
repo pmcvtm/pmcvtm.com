@@ -2,9 +2,31 @@
 layout: base
 ---
 
-<div class="top">
-  {% include header.html %}
-</div>
+<header class="top">
+  <nav>
+    <ul>
+      <li class="nav-title">
+        <h1 class="title">
+          <a href="{{ "/" | relative_url }}">Loud &amp; Abrasive</a>
+        </h1>
+      </li>
+      {% for path in site.header_pages %}
+        {% assign page = site.pages | where: "permalink", path | first %}
+        {% if page.title %}
+          <li class="hover-{{ page.color | default:'brown' }} nav-item">
+            <a href="{{ page.url | relative_url }}" class="top-nav-link">
+              {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li class="nav-item">
+        <a href="{{ "/feed.xml" | relative_url }}" style="hover-charcoal"><i class="fa fa-rss"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <hr class="stripes" />
+</header>
 
 <main class="site-content" aria-label="Content">
   {{ content }}
