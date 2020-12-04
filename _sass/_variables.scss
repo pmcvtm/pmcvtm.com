@@ -9,10 +9,10 @@ $salmon: #d17f77;
 /* Coolors Exported Palette - coolors.co/264653-2a9d8f-c4cf7b-e5771e-e73602-5a3d2b */
 $charcoal: #264653ff;
 $teal: #2a9d8fff;
-$yellow: #c4cf7bff;
 $orange: #e5771eff;
 $vermilion: #e73602ff;
 $brown: #5a3d2bff;
+$citron: #a09e34ff;
 $dope: #dbd1b3;
 
 $text: $darkGray;
@@ -42,8 +42,8 @@ $regularFont: $bodyFont;
         $vermilion ($size * 2),
         $orange ($size * 2),
         $orange ($size * 3),
-        $yellow ($size * 3),
-        $yellow ($size * 4),
+        $citron ($size * 3),
+        $citron ($size * 4),
         $teal ($size * 4),
         $teal ($size * 5)
     );
