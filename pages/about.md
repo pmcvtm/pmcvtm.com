@@ -2,8 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-color: "#05445E"
-icon: fa-glass
+color: "teal"
+icon: fa-bullhorn
 ---
 
 ## _Positivum spirituum, utile iubilo_

@@ -33,7 +33,8 @@ pagination:
 
 #nav
 header_pages:
-  - "/projects/"
+  - "/tech/"
+  - "/life/"
   - "/arts/"
   - "/about/"
 

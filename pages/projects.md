@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-color: "#148261"
+title: Tech
+permalink: /tech/
+color: "vermilion"
 icon: fa-code-fork
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Arts
 permalink: /arts/
-color: "#d17f77"
+color: "citron"
 icon: fa-paint-brush
 ---
 

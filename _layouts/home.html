@@ -14,22 +14,17 @@ layout: base
     </label>
 
     <ul>
-      <li style="background: #293434">
-        <a href="{{ "/" | relative_url }}">
-          </i> Home <i class="fa fa-bullhorn"></i>
-        </a>
-      </li>
       {% for path in site.header_pages %}
         {% assign page = site.pages | where: "permalink", path | first %}
         {% if page.title %}
-          <li style="background: {{ page.color | default:'#293434' }}">
+          <li class="solid-{{page.color | default:'brown'}}">
             <a href="{{ page.url | relative_url }}">
               {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
             </a>
           </li>
         {% endif %}
       {% endfor %}
-      <li style="background: #293434">
+      <li class="solid-charcoal">
         <a href="{{ "/feed.xml" | relative_url }}">
           Subscribe <i class="fa fa-rss"></i>
         </a>
