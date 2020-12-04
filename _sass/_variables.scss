@@ -34,6 +34,16 @@ $regularFont: $bodyFont;
     transition: $transition;
 }
 
+@mixin bgColor ($color){
+    background: $color;
+}
+
+@mixin hoverColor ($color){
+    :hover {
+        color: $color;
+    }
+}
+
 @mixin stripes ($size){
     background: linear-gradient(
         $brown,
