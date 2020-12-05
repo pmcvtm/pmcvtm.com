@@ -38,7 +38,7 @@ header {
     }
 
     &.home {
-        padding: 2em 0;
+        padding-top: 2em;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -56,14 +56,6 @@ header {
         }
 
         nav {
-            @media (max-width: $desktopMinimum)
-            {
-                display: none;
-                visibility:hidden;
-                opacity:0;
-                max-height: 0;
-            }
-
             width: 80em;
             padding-top: 2em;
 
@@ -71,6 +63,11 @@ header {
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
+
+                @media (max-width: $desktopMinimum)
+                {
+                    flex-direction: column;
+                }
             }
 
             a {
@@ -84,7 +81,6 @@ header {
         display: block;
 
         nav {
-
             ul {
                 display: flex;
                 flex-direction: row;
@@ -116,6 +112,20 @@ header {
 
         .stripes {
             @include stripes(0.2em);
+        }
+    }
+
+    .mobile-stripes {
+        @include stripes(.8em);
+        @media (min-width: $desktopMinimum) { 
+            display: none !important;
+        }
+    }
+
+    .desktop-stripes {
+        @include stripes(.8em);
+        @media (max-width: $desktopMinimum) { 
+            display: none !important;
         }
     }
 }
@@ -157,36 +167,54 @@ header {
 }
 
 .nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    display: inline-block;
-    font-size: 1.5rem;
-    @include transition(transform .5s ease);
-    @media (min-width: $desktopMinimum) { display: none; }
-}
-
-#nav-toggle:checked ~ .nav-toggle-label{
-    transform: rotate(90deg);
-    @include transition(transform .5s ease);
-}
-
-#nav-toggle { display: none; }
-
-#nav-toggle ~ .page-list {
-    @media (max-width: $desktopMinimum) {
-        @include transition(all .5s ease);
-        visibility:hidden;
-        opacity:0;
-        max-height: 0;
+    @media (min-width: $desktopMinimum) { 
+        display: none !important;
     }
 }
 
-#nav-toggle:checked ~ .page-list {
-    visibility:visible;
-    opacity:1;
-    max-height: 500px;
+label.nav-toggle {
+    display: block;
+    width: 100%;
+    background-color: $brown;
+    color: $white;
+    font-size: 1.5rem;
+    @include transition(transform .5s ease);
+}
+
+input.nav-toggle {
+    display: none;
+
+    ~ .page-list {
+        @media (max-width: $desktopMinimum) {
+            @include transition(all .5s ease);
+            visibility:hidden;
+            opacity:0;
+            max-height: 0;
+            margin: 0;
+        }
+    }
+
+    &:checked {
+        ~ label i {
+            transform: rotate(90deg);
+            @include transition(transform .5s ease);
+        }
+
+        ~ .page-list {
+            @include transition(all .5s ease);
+            visibility:visible;
+            opacity:1;
+            max-height: 500px;
+        }
+
+        ~ .mobile-stripes {
+            @include transition(all .5s ease);
+            visibility:hidden;
+            opacity:0;
+            max-height: 0;
+            margin: 0;
+        }
+    }
 }
 
 .page-list {

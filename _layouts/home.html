@@ -8,12 +8,12 @@ layout: base
   <h1 class="title">Loud &amp; Abrasive</h1>
 
   <nav>
-    <input id="nav-toggle" name="nav-toggle" type="checkbox" />
-    <label class="nav-toggle-label" for="nav-toggle">
-      <i class="menu-icon fa fa-bars"></i>
+    <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
+    <label for="nav-toggle-check" class="nav-toggle">
+      <i class="fa fa-bars"></i>
     </label>
 
-    <ul>
+    <ul class="page-list">
       {% for path in site.header_pages %}
         {% assign page = site.pages | where: "permalink", path | first %}
         {% if page.title %}
@@ -30,11 +30,10 @@ layout: base
         </a>
       </li>
     </ul>
-
+    <hr class="mobile-stripes" />
   </nav>
+  <hr class="desktop-stripes" />
 </header>
-
-<hr class="stripes" />
 
 <main class="site-content" aria-label="Content">
   {{ content }}

@@ -46,16 +46,16 @@ $regularFont: $bodyFont;
 
 @mixin stripes ($size){
     background: linear-gradient(
-        $brown,
-        $brown $size,
+        $vermilion,
         $vermilion $size,
-        $vermilion ($size * 2),
+        $orange $size,
         $orange ($size * 2),
-        $orange ($size * 3),
+        $citron ($size * 2),
         $citron ($size * 3),
-        $citron ($size * 4),
+        $teal ($size * 3),
         $teal ($size * 4),
-        $teal ($size * 5)
+        $charcoal ($size * 4),
+        $charcoal ($size * 5),
     );
     width:100%;
     height: ($size * 5);
