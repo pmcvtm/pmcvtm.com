@@ -130,7 +130,8 @@ header {
     background: $color;
     font-size: 1.25rem;
 
-    a { color: white; }
+    a { color: $white; }
+    &:hover { filter: brightness(120%) saturate(75%); }
 }
 
 .nav-link-brown { @include nav-button($brown) }

@@ -11,20 +11,6 @@ body {
 
 a { color: $blue; }
 
-.highlight-button {
-    display: inline-block;
-    padding: .5rem 1rem;
-    cursor: pointer;
-    color: $white;
-    text-decoration: none;
-
-    a { 
-        color: $white;
-        text-decoration: none;
-    }
-}
-
-.highlight-button:hover { filter: brightness(120%) saturate(75%); }
 
 
 .centered {
@@ -59,7 +45,6 @@ a { color: $blue; }
     }
 
     .read-more {
-        @extend .highlight-button;
         background: $blue;
     }
 
