@@ -28,6 +28,7 @@ header {
             flex-grow: 1;
             line-height: 2em;
             width: 100%;
+            cursor: pointer;
 
             a {
                 text-decoration: none;
@@ -66,12 +67,10 @@ header {
             width: 80em;
             padding-top: 2em;
 
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-
-            li {
-                cursor: pointer;
+            ul {
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
             }
 
             a {
