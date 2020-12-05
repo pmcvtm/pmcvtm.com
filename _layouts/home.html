@@ -2,37 +2,8 @@
 layout: base
 ---
 
-
 <header class="home">
-  <span class="subtitle">Patrick McVeety-Mill:</span>
-  <h1 class="title">Loud &amp; Abrasive</h1>
-
-  <nav>
-    <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
-    <label for="nav-toggle-check" class="nav-toggle">
-      <i class="fa fa-bars"></i>
-    </label>
-
-    <ul class="page-list">
-      {% for path in site.header_pages %}
-        {% assign page = site.pages | where: "permalink", path | first %}
-        {% if page.title %}
-          <li class="solid-{{page.color | default:'brown'}}">
-            <a href="{{ page.url | relative_url }}">
-              {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-      <li class="solid-charcoal">
-        <a href="{{ "/feed.xml" | relative_url }}">
-          Subscribe <i class="fa fa-rss"></i>
-        </a>
-      </li>
-    </ul>
-    <hr class="mobile-stripes" />
-  </nav>
-  <hr class="desktop-stripes" />
+  {% include header.html %}
 </header>
 
 <main class="site-content" aria-label="Content">
