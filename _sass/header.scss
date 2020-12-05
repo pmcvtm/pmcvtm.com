@@ -134,38 +134,6 @@ header {
     color: $brown;
 }
 
-.site-title {
-    text-decoration: none;
-    color: $text;
-    font: 2rem 'Bungee Shade', cursive;
-    @media (max-width: $veryTinyMax) { font-size: 1.5rem; }
-
-    padding-top: 1em;
-
-    .title {
-        margin: 0 0 0.5em 0;
-        line-height: 1em;
-    }
-
-    img.top-logo { 
-        display: none;
-        width: 3rem;
-        margin: auto;
-        @media (max-width: $veryTinyMax) { display:block; }
-     }
-    img.side-logo { 
-        display: inline-block;
-        width: 1.5rem;
-        @media (max-width: $veryTinyMax) { display:none; }
-    }
-
-    .site-subtitle {
-        font-family: 'Rubik Mono One', sans-serif;
-        font-size: 1.5rem;
-        @media (max-width: $veryTinyMax) { font-size: 1rem; }
-    }
-}
-
 .nav-toggle {
     @media (min-width: $desktopMinimum) { 
         display: none !important;
@@ -214,20 +182,5 @@ input.nav-toggle {
             max-height: 0;
             margin: 0;
         }
-    }
-}
-
-.page-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.page-link {
-    @extend .highlight-button;
-    @media (max-width: $desktopMinimum) { display: block; }
-
-    a {
-        font-size: 1.25rem;
-        i { font-size: 1rem; padding-left: .25rem;  }
     }
 }
