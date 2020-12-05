@@ -23,6 +23,8 @@ header {
             color: $brown;
             text-decoration: none;
         }
+
+        @media (min-width: $veryTinyMax) { font-size: 3em; }
     }
 
     .subtitle {
@@ -80,6 +82,7 @@ header {
             justify-content: space-around;
             align-items: stretch;
 
+            .title { font-size: 2.2em; }
             .title-container { flex-grow: 1;  }
             .subtitle { font-size: 1.2em; }
 
