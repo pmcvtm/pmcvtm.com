@@ -13,17 +13,19 @@
     {% for path in site.header_pages %}
       {% assign page = site.pages | where: "permalink", path | first %}
       {% if page.title %}
-        <li class="hover-{{ page.color | default:'brown' }} nav-item">
-          <a href="{{ page.url | relative_url }}" class="top-nav-link">
+        <li class="nav-link-{{ page.color | default:'brown' }}">
+          <a href="{{ page.url | relative_url }}">
             {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
           </a>
         </li>
       {% endif %}
     {% endfor %}
-    <li class="nav-item">
-      <a href="{{ "/feed.xml" | relative_url }}" class="hover-charcoal"><i class="fa fa-rss"></i></a>
+    <li class="nav-link-charcoal">
+      <a href="{{ "/feed.xml" | relative_url }}" class="hover-charcoal">Subscribe <i class="fa fa-rss"></i></a>
     </li>
   </ul>
+
   <hr class="stripes mobile-stripes" />
 </nav>
+
 <hr class="stripes desktop-stripes" />

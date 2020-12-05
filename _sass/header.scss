@@ -1,13 +1,21 @@
 @import "_variables";
 
 header {
-    background-color: $dope;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
     text-align: center;
+    background-color: $dope;
+
+    @media (max-width: $veryTinyMax) { 
+        padding-top: 1em;
+    }
 
     .title {
         font: bolder 2em 'Bungee Shade', cursive;
-        line-height: 1.5em;
+        line-height: 1em;
         color: $brown;
         margin: 0;
 
@@ -17,11 +25,33 @@ header {
         }
     }
 
+    .subtitle {
+        color: $brown;
+        font: oblique 2em 'Vibur', sans-serif;
+        @media (max-width: $veryTinyMax) { font-size: 1.25em; }
+    }
+
     nav {
+        padding-top: 2em;
+
+        @media (max-width: $desktopMinimum) {
+            width: 100%;
+        }
+
+
         ul {
             list-style: none;
-            display: flex;
             padding: 0;
+
+            display: flex;
+            flex-direction: row;
+
+            @media (max-width: $desktopMinimum)
+            {
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
         }
 
         li {
@@ -38,52 +68,18 @@ header {
     }
 
     &.home {
-        padding-top: 2em;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-
-        .title {
-            font-size: 5em;
-            line-height: 1em;
-            @media (max-width: $veryTinyMax) { font-size: 3em; }
-        }
-
-        .subtitle {
-            color: $brown;
-            font: oblique 2em 'Vibur', sans-serif;
-            @media (max-width: $veryTinyMax) { font-size: 1.5em; }
-        }
-
-        nav {
-            width: 80em;
+        @media (min-width: $desktopMinimum) {
             padding-top: 2em;
 
-            ul {
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
+            .title { font-size: 5em; }
 
-                @media (max-width: $desktopMinimum)
-                {
-                    flex-direction: column;
-                }
-            }
-
-            a {
-                color: $white;
-                font-size: 1.25rem;
-            }
+            nav { width: 80em; }
         }
     }
 
     &.top{
-        display: block;
-
         nav {
             ul {
-                display: flex;
-                flex-direction: row;
                 justify-content: stretch;
                 align-items: stretch;
 
@@ -110,7 +106,7 @@ header {
             }
         }
 
-        .stripes {
+        .desktop-stripes {
             @include stripes(0.2em);
         }
     }
@@ -130,12 +126,22 @@ header {
     }
 }
 
-.top-nav-link {
-    color: $brown;
+@mixin nav-button($color) {
+    background: $color;
+    font-size: 1.25rem;
+
+    a { color: white; }
 }
 
+.nav-link-brown { @include nav-button($brown) }
+.nav-link-vermilion { @include nav-button($vermilion) }
+.nav-link-orange { @include nav-button($orange) }
+.nav-link-citron { @include nav-button($citron) }
+.nav-link-teal { @include nav-button($teal) }
+.nav-link-charcoal { @include nav-button($charcoal) }
+
 .nav-toggle {
-    @media (min-width: $desktopMinimum) { 
+    @media (min-width: $desktopMinimum) {
         display: none !important;
     }
 }
