@@ -87,21 +87,3 @@ a { color: $blue; }
 
     .center { display: inline-block; }
 }
-
-.solid-brown { @include bgColor($brown) }
-.solid-vermilion { @include bgColor($vermilion) }
-.solid-orange { @include bgColor($orange) }
-.solid-citron { @include bgColor($citron) }
-.solid-teal { @include bgColor($teal) }
-.solid-charcoal { @include bgColor($charcoal) }
-.solid-dope { @include bgColor($dope) }
-
-.hover-brown { @include hoverColor($brown) }
-.hover-vermilion { @include hoverColor($vermilion) }
-.hover-orange { @include hoverColor($orange) }
-.hover-citron { @include hoverColor($citron) }
-.hover-teal { @include hoverColor($teal) }
-.hover-charcoal { @include hoverColor($charcoal) }
-.hover-dope { @include hoverColor($dope) }
-
-.stripes { @include stripes(.8em); }

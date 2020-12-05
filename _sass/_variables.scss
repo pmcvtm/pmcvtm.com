@@ -26,22 +26,24 @@ $bodyFont: 'Montserrat', sans-serif;
 
 $regularFont: $bodyFont;
 
+.desktop-only {
+    @media (max-width: $desktopMinimum) { 
+        display: none !important;
+    }
+}
+
+.mobile-only {
+    @media (min-width: $desktopMinimum) { 
+        display: none !important;
+    }
+}
+
 @mixin transition ($transition){
     -webkit-transition: $transition;
     -moz-transition: $transition;
     -o-transition: $transition;
     -ms-transition: $transition;
     transition: $transition;
-}
-
-@mixin bgColor ($color){
-    background: $color;
-}
-
-@mixin hoverColor ($color){
-    :hover {
-        color: $color;
-    }
 }
 
 @mixin stripes ($size){

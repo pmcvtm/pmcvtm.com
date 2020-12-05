@@ -67,61 +67,58 @@ header {
         }
     }
 
-    &.home {
-        @media (min-width: $desktopMinimum) {
-            padding-top: 2em;
+    @media (min-width: $desktopMinimum) {
+        &.home {
+                padding-top: 2em;
+                .title { font-size: 5em; }
+                nav { width: 80em; }
+            }
 
-            .title { font-size: 5em; }
+        &.top {
+            flex-direction: row;
 
-            nav { width: 80em; }
-        }
-    }
+            justify-content: space-around;
+            align-items: stretch;
 
-    &.top{
-        nav {
-            ul {
-                justify-content: stretch;
-                align-items: stretch;
+            .title-container { flex-grow: 1;  }
+            .subtitle { font-size: 1.2em; }
 
-                margin: 0; 
+            padding: .5em 10em 1em 0;
 
-                li {
-                    width: inherit;
-                }
+            nav {
+                flex-grow: 4;
 
-                li.nav-title {
-                    flex-grow: 4;
-                    font-size: 1.5em;
-                }
+                ul {
+                    justify-content: stretch;
+                    align-items: stretch;
 
-                li.nav-item {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    flex-grow: 3;
-                    min-width: 10rem;
+                    margin: 0;
 
-                    font: bolder 1.25em $headingFont, cursive;
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        font: bolder 1.25em $headingFont, cursive;
+
+                        @mixin nav-hover ($color) {
+                            background: inherit;
+                            a { color: $brown; }
+
+                            a:hover {
+                                color: $color;
+                            }
+                        }
+
+                        &.nav-link-brown { @include nav-hover($brown) }
+                        &.nav-link-vermilion { @include nav-hover($vermilion) }
+                        &.nav-link-orange { @include nav-hover($orange) }
+                        &.nav-link-citron { @include nav-hover($citron) }
+                        &.nav-link-teal { @include nav-hover($teal) }
+                        &.nav-link-charcoal { @include nav-hover($charcoal) }
+                    }
                 }
             }
-        }
-
-        .desktop-stripes {
-            @include stripes(0.2em);
-        }
-    }
-
-    .mobile-stripes {
-        @include stripes(.8em);
-        @media (min-width: $desktopMinimum) { 
-            display: none !important;
-        }
-    }
-
-    .desktop-stripes {
-        @include stripes(.8em);
-        @media (max-width: $desktopMinimum) { 
-            display: none !important;
         }
     }
 }
@@ -181,7 +178,7 @@ input.nav-toggle {
             max-height: 500px;
         }
 
-        ~ .mobile-stripes {
+        ~ .stripes {
             @include transition(all .5s ease);
             visibility:hidden;
             opacity:0;
@@ -189,4 +186,19 @@ input.nav-toggle {
             margin: 0;
         }
     }
+}
+
+.mobile-stripes {
+    @extend .mobile-only;
+    @include stripes(.8em);
+}
+
+.home-stripes {
+    @extend .desktop-only;
+    @include stripes(.8em);
+}
+
+.top-stripes {
+    @extend .desktop-only;
+    @include stripes(.4em);
 }
