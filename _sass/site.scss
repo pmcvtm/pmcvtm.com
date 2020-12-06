@@ -8,16 +8,21 @@ body {
     background: $white;
     color: $darkGray;
     font-family: $regularFont;
-    font-size: 1.1em;
-    font-weight: lighter;
+    font-size: 1.2em;
     margin: auto;
 }
 
-a { color: $blue; }
+h1,h2,h3,h4,h5 {
+    font-family: $headingFont;
+    color: $brown;
+    font-weight: lighter;
+}
 
-
-
-    margin: auto;
+a { 
+    color: $teal;
+    &:hover {
+        color: $charcoal;
+    }
 }
 
 .site-content {

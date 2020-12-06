@@ -16,7 +16,7 @@ header {
     }
 
     .title {
-        font: bolder 2em 'Bungee Shade', cursive;
+        font: normal 2em 'Bungee Shade', cursive;
         line-height: 1em;
         color: $brown;
         margin: 0;
@@ -31,7 +31,7 @@ header {
 
     .subtitle {
         color: $brown;
-        font: oblique 2em 'Vibur', sans-serif;
+        font: oblique 1.75em 'Vibur', sans-serif;
         @media (max-width: $veryTinyMax) { font-size: 1.25em; }
     }
 
@@ -76,7 +76,7 @@ header {
     @media (min-width: $desktopMinimum) {
         &.home {
                 padding-top: 2em;
-                .title { font-size: 5em; }
+                .title { font-size: 4em; }
                 nav { width: 80em; }
                 border-bottom: 1em solid $brown;
             }
