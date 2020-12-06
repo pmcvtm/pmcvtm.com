@@ -33,6 +33,33 @@ a {
     margin-top: 1rem;
     padding-bottom: 1rem;
 
+    img { 
+        max-width: 900px;
+    }
+}
+
+// === CODE === === === === ===
+
+pre { 
+    padding: 1rem; font-size: smaller;
+
+    &.highlight { 
+        background: $lightGray;
+        overflow-x: scroll;
+    }
+
+    code {
+        background: #282c34;
+        color: #abb2bf;
+    }
+}
+
+code {
+    background: $dope;
+    color: $brown;
+    border-radius: 0.2em;
+    padding: 0 3px;
+    font-weight: bold;
 }
 
 // === POST LIST === === === === ===
@@ -54,7 +81,6 @@ a {
     .post-list-entry:last-child {
         border-bottom: none;
         padding-bottom: 1rem;
-    }
 }
 
 .post-list-entry {
