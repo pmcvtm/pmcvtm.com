@@ -1,0 +1,14 @@
+name: Github Pages Deploy
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-16.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: compile jekyll to gh-pages
+        uses: helaili/jekyll-action@2.0.1
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
