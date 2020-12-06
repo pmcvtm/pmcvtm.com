@@ -1,35 +1,33 @@
 @import "_variables";
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background: $white;
     color: $darkGray;
     font-family: $regularFont;
     font-size: 1.1em;
     font-weight: lighter;
-    margin: 0;
+    margin: auto;
 }
 
 a { color: $blue; }
 
 
 
-.centered {
     margin: auto;
-    text-align: center;
-}
-
-.site-header, .site-content, .site-footer {
-    @extend .centered;
 }
 
 .site-content {
+    width: 90%;
     max-width: 55rem;
-    text-align: left;
+    @media (max-width: $desktopMinimum) { padding: 0 1rem 1rem 1rem; }
 
     margin-top: 1rem;
     padding-bottom: 1rem;
 
-    @media (max-width: $desktopMinimum) { padding: 0 1rem 1rem 1rem; }
 }
 
 // === POST LIST === === === === ===
