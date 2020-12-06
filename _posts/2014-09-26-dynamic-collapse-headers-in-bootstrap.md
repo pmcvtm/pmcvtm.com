@@ -24,7 +24,7 @@ Bootstrap's [Collapse](http://getbootstrap.com/javascript/#collapse) component i
   </div>
 </div>
 
-<p>Unfortunately, it's not immediately apparent that a collapse component is interactive, after all, their example is styled just like a regular Bootstrap panel. To resolve this, it's common to indicate usage with icons like these: <i class="fa fa-chevron-right"></i> <i class="fa fa-chevron-down"></i> for closed and open collapsables, respectively. But how do you show the right icon given the panel's state?</p>
+<p>Unfortunately, it's not immediately apparent that a collapse component is interactive, after all, their example is styled just like a regular Bootstrap panel. To resolve this, it's common to indicate usage with icons like these: <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-down"></i> for closed and open collapsables, respectively. But how do you show the right icon given the panel's state?</p>
 
 Bootstrap provides `show.bs.collapse` and `hide.bs.collapse` javascript events that fire when a component opens or closes that you can tie functions to like so: `$('collapseDiv').on('show.bs.collapse', function(){...})` It wouldn't be difficult to add some jQuery to toggle your icons, but you'll end up having to wire each collapse component separately. Pair that with having to add and remove classes on both your icon elements, and things get hairy, or at least a little more verbose than is ideal.
 
@@ -60,8 +60,8 @@ And here is the result:
 <div class="panel panel-default">
   <div class="panel-heading">
     <div data-toggle="collapse" data-target="#collapseWithIcon" class="collapse-trigger collapsed">
-      <i class="fa fa-chevron-down show-when-open"></i>
-      <i class="fa fa-chevron-right show-when-collapsed"></i>
+      <i class="fas fa-chevron-down show-when-open"></i>
+      <i class="fas fa-chevron-right show-when-collapsed"></i>
       <strong>An Informative Header</strong>
     </div>
   </div>

@@ -3,7 +3,7 @@ layout: page
 title: Tech
 permalink: /tech/
 color: "vermilion"
-icon: fa-code-fork
+icon: fa-code-branch
 ---
 
 My modest portfolio of recent side projects and prideworthy leftovers from my college daze.

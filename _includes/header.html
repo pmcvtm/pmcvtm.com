@@ -8,7 +8,7 @@
 <nav>
   <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
   <label for="nav-toggle-check" class="nav-toggle">
-    <i class="fa fa-bars"></i>
+    <i class="fas fa-bars"></i>
   </label>
 
   <ul class="page-list">
@@ -17,13 +17,13 @@
       {% if page.title %}
         <li class="nav-link-{{ page.color | default:'brown' }}">
           <a href="{{ page.url | relative_url }}">
-            {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
+            {{ page.title | escape }} <i class="fas {{page.icon}}"></i>
           </a>
         </li>
       {% endif %}
     {% endfor %}
     <li class="nav-link-charcoal">
-      <a href="{{ "/feed.xml" | relative_url }}" class="hover-charcoal">Subscribe <i class="fa fa-rss"></i></a>
+      <a href="{{ "/feed.xml" | relative_url }}" class="hover-charcoal">Subscribe <i class="fas fa-rss"></i></a>
     </li>
   </ul>
 
