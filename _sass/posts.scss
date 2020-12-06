@@ -21,6 +21,75 @@
     }
 }
 
+// === POST LIST === === === === ===
 
+.post-list {
 
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
 
+    .post-title {
+        a { color: $brown; text-decoration: none; }
+        margin-top: 0;
+    }
+
+    .read-more {
+        border: 1px solid $brown;
+        border-radius: 0.6em;
+        padding: .1em .5em;
+
+        color: $text;
+        text-decoration: none;
+
+        &:hover {
+            color: $white;
+            background-color: $brown;
+        }
+    }
+
+    .post-list-entry {
+        border-bottom: 1px dotted $brown;
+        padding: 1em 0;
+
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 1em;
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+
+    .disabled {
+        border-radius: 0.6em;
+        padding: .1em .5em;
+        color: $white;
+        background-color: $lightGray;
+    }
+
+    .link {
+        border: 1px solid $brown;
+        border-radius: 0.6em;
+        padding: .1em .5em;
+
+        color: $brown;
+        text-decoration: none;
+        background-color: $white;
+
+        &:hover {
+            color: $white;
+            background-color: $brown;
+        }
+    }
+
+    .archive {
+        margin-top: 0.4em;
+    }
+}

@@ -62,42 +62,13 @@ code {
     font-weight: bold;
 }
 
-// === POST LIST === === === === ===
+// === HELPERS === === === === ===
 
-.post-list {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
+.brown { color: $brown; }
+.vermilion { color: $vermilion; }
+.orange { color: $orange; }
+.citron { color: $citron; }
+.teal { color: $teal; }
+.charcoal { color: $charcoal; }
+.dope { color: $dope; }
 
-    .post-title {
-        a { color: $text; text-decoration: none; }
-        margin-top: 0;
-    }
-
-    .read-more {
-        background: $blue;
-    }
-
-    .post-list-entry:last-child {
-        border-bottom: none;
-        padding-bottom: 1rem;
-}
-
-.post-list-entry {
-    padding: 2rem 0;
-    border-bottom: 1px solid $lightGray;
-}
-
-.pagination {
-    margin: auto;
-    text-align: center;
-    margin: 1rem 0;
-
-    .previous, .next { padding-top: .5rem; }
-
-    .previous { float: left; }
-    .next { float: right; }
-    .break { clear: both; }
-
-    .center { display: inline-block; }
-}

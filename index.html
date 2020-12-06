@@ -21,27 +21,32 @@ pagination:
         <div class="post-excerpt">
           {{post.excerpt}}
         </p>
-        <a class="read-more" href="{{ post.url | relative_url }}"> Read on &raquo;</a>
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          Read On
+          <i class="fa fa-chevron-right vermilion"><i class="fa fa-chevron-right orange"></i></i><i class="fa fa-chevron-right citron"></i><i class="fa fa-chevron-right teal"></i>
+        </a>
       </li>
     {% endfor %}
   </ul>
 
   <div class="pagination">
-    <div class="previous">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-hand-o-left"></i>&nbsp;Previous</a>
-      {% else %} <span class="previous"><i class="fa fa-hand-o-left"></i>&nbsp;Previous</span>
+      <a href="{{ paginator.previous_page_path }}" class="link"><i class="fa fa-hand-o-left vermilion"></i>&nbsp;Previous</a>
+      {% else %} <span class="disabled"><i class="fa fa-hand-o-left"></i>&nbsp;Previous</span>
     {% endif %}
-    </div>
+
     <div class="center">
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span><br/>
-        <a href="/archive">Archive </a>
+        <p class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
+        <a href="/archive" class="link">
+          Archive
+          <i class="fa fa-archive citron"></i>
+        </a>
     </div>
+
     <div class="next">
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next&nbsp;<i class="fa fa-hand-o-right"></i></a>
-      {% else %}<span class="next ">Next&nbsp;<i class="fa fa-hand-o-right"></i></span>
+      <a href="{{ paginator.next_page_path }}" class="link">Next&nbsp;<i class="fa fa-hand-o-right orange"></i></a>
+      {% else %}<span class="disabled">Next&nbsp;<i class="fa fa-hand-o-right"></i></span>
     {% endif %}
     </div>
-    <div class="break"></div>
 </div>
