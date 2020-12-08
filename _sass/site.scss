@@ -1,15 +1,21 @@
 @import "_variables";
 
+html {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    height: 100%;
+    margin: 0;
 
     background: $white;
     color: $darkGray;
     font-family: $regularFont;
     font-size: 1.2em;
-    margin: auto;
 }
 
 h1,h2,h3,h4,h5 {
@@ -32,6 +38,7 @@ a {
 
     margin-top: 1rem;
     padding-bottom: 1rem;
+    flex-grow: 1;
 
     img { 
         max-width: 900px;
