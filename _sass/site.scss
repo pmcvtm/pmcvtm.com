@@ -72,3 +72,10 @@ code {
 .charcoal { color: $charcoal; }
 .dope { color: $dope; }
 
+.hover-brown { &:hover { color: $brown; } }
+.hover-vermilion { &:hover { color: $vermilion; } }
+.hover-orange { &:hover { color: $orange; } }
+.hover-citron { &:hover { color: $citron; } }
+.hover-teal { &:hover { color: $teal; } }
+.hover-charcoal { &:hover { color: $charcoal; } }
+.hover-dope { &:hover { color: $dope; } }

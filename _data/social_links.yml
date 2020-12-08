@@ -1,39 +1,47 @@
 - name: Twitter
   urlPart: twitter.com
   icon: fa-twitter
+  color: vermilion
   show: true
 
 - name: LinkedIn
   urlPart: linkedin.com
-  icon: fa-linkedin
+  icon: fa-linkedin-in
+  color: orange
   show: true
 
 - name: Github
   urlPart: github.com
   icon: fa-github
+  color: citron
   show: true
 
 - name: Bandcamp
   urlPart: bandcamp.com
   icon: fa-bandcamp
+  color: teal
   show: true
 
 - name: Letterboxd
   urlPart: letterboxd.com
   icon: fa-pied-piper
+  color: charcoal
   show: true
 
 - name: Untappd
   urlPart: untappd.com
   icon: fa-untappd
+  color: vermilion
   show: true
 
 - name: Goodreads
   urlPart: goodreads.com
   icon: fa-goodreads-g
+  color: orange
   show: true
 
 - name: Instagram
   urlPart: instagram.com
   icon: fa-instagram
+  color: citron
   show: true
