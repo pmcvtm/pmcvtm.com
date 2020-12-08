@@ -13,17 +13,8 @@
   icon: fa-github
   show: true
 
-- name: Facebook
-  urlPart: facebook.com
-  icon: fa-facebook
-  show: false
 
 - name: Instagram
   urlPart: instagram.com
   icon: fa-instagram
-  show: true
-
-- name: Etsy
-  urlPart: etsy.com
-  icon: fa-etsy
   show: true
