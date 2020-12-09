@@ -60,7 +60,7 @@ $regularFont: $bodyFont;
         $charcoal ($size * 5),
     );
     width:100%;
-    height: ($size * 5);
+    min-height: ($size * 5);
     margin: 0;
     border: none;
 }
