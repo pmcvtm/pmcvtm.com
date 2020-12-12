@@ -9,12 +9,13 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 3"
+gem "kramdown-parser-gfm"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-paginate-v2"
+   gem "jekyll-paginate-v2", "~> 2.0"
    gem "jekyll-sitemap"
    gem "jekyll-seo-tag"
 end
