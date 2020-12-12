@@ -32,10 +32,10 @@ pagination:
 
 #nav
 header_pages:
-  - "/tech/"
-  - "/life/"
-  - "/arts/"
-  - "/about/"
+  - projects.md
+  - life.md
+  - arts.md
+  - about.md
 
 #seo
 logo: /assets/loudandalogo.png
