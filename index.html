@@ -5,48 +5,5 @@ pagination:
 ---
 
 <div class="home">
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li class="post-list-entry">
-        <h2 class="post-title">
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <div class="post-meta">
-          <time class="post-date" datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-          {% for tag in post.tags %}
-            | {{tag}}
-          {% endfor %}
-          <span>
-        </div>
-        <div class="post-excerpt">
-          {{post.excerpt}}
-        </p>
-        <a class="read-more" href="{{ post.url | relative_url }}">
-          Read On
-          <i class="fas fa-chevron-right vermilion"><i class="fas fa-chevron-right orange"></i></i><i class="fas fa-chevron-right citron"></i><i class="fas fa-chevron-right teal"></i>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="link"><i class="fa fa-hand-point-left vermilion"></i>&nbsp;Previous</a>
-      {% else %} <span class="disabled"><i class="fas fa-hand-point-left"></i>&nbsp;Previous</span>
-    {% endif %}
-
-    <div class="center">
-        <p class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</p>
-        <a href="/archive" class="link">
-          Archive
-          <i class="fas fa-book-dead citron"></i>
-        </a>
-    </div>
-
-    <div class="next">
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="link">Next&nbsp;<i class="fas fa-hand-point-right orange"></i></a>
-      {% else %}<span class="disabled">Next&nbsp;<i class="fas fa-hand-point-right"></i></span>
-    {% endif %}
-    </div>
+  {% include pagination.html %}
 </div>
