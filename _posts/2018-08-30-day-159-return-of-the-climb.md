@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 159: Return of the Climb"
 date:   2018-08-30 14:53:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 The way passing time and miles are so bound on the trail is most evident to me at its ends. It was a slow, proud, backwards-looking crawl at the beginning, asking "How far have I gone? Can I survive another day or week?" But has twisted to approaching deadline, "How far do I have to go today? Can I make it by this day, or week?" Hikers are buying bus or plane tickets home, fearing their expiring visas, and watching their faster friends' summit photos roll by on social media, with 400 miles left to go.

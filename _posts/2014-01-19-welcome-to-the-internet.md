@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to the Internet"
 date:   2013-01-19 20:38:00 -0600
+categories: announcement
 ---
 
 

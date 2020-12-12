@@ -2,7 +2,8 @@
 layout: post
 title:  "JS in .NET Without Node"
 date:   2014-06-14 06:00:00 -0600
-tags: development .net nodejs
+categories: Development
+tags: .net nodejs javascript commentary
 ---
 
 ## Or, Not Node, .Net.

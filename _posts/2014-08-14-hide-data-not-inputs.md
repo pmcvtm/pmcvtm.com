@@ -2,7 +2,8 @@
 layout: post
 title:  "Hide Data, Not Inputs"
 date:   2014-08-14 09:05:00 -0600
-tags: development html
+categories: Development
+tags: html javascript how-to
 ---
 
 Today's data-rich, dynamic internet can mean shoving context and metadata wherever you can to support content styling, drive data usage, or otherwise spruce up your UI. Recently I was tasked with sorting and grouping items in a list by date, with display headers over each group. The list item sort-by dates initially came from the server, so I was able to leverage Razor helpers to generate the headers. Things got complicated, however, when I needed to dynamically show or hide each header based on whether its contents matched the current filter settings. Luckily we were using [Knockout](http://knockoutjs.com/), so a framework for fancy front-end logic was in place.

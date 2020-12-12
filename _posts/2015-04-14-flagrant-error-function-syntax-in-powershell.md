@@ -2,7 +2,8 @@
 layout: post
 title:  "Flagrant Error: Function Syntax In PowerShell"
 date:   2015-04-14 09:15:00 -0600
-tags: development powershell troubleshooting
+categories: Development
+tags: powershell
 ---
 
 The modarn developer can easily find themselves knee-deep in several programming languages. Between javascript and the server language of your choice for the web, the various options for mobile platforming, or the many hats of the academic, chances are if you're making for computers you're some degree of a [polyglot](http://en.wikipedia.org/wiki/Polyglotism).
@@ -33,4 +34,3 @@ yellWordAtFriend "pancake" $rodolfo
 Since there's a comma in between `"pancake",$rodolfo` these intended-to-be-two parameters are interpreted as a single array. The function I was calling had some rules to bark at me for messing up, but without any nice checking you're likely to just see *incorrect behavior*, which is perhaps worse than an actual error.It took me longer than it might should have to realize that this was a syntax error. For a while I wondered if `"pancake"` was being read as a char-array, based on the error message. It never occurred to me that I had just typed in the wrong language.
 
 Unfortunately, there isn't a catch-all quick-fix for problems like this. Further familiarity with a language can certainly help with context-switching, but flubs and blubs along the way are hard to avoid. The good news is, in the aftermath of a code-wrestling match, the blunders made are not soon forgotten.
-

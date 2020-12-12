@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 77: More Virginia, But Not The Same"
 date:   2018-06-08 15:30:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 The past few weeks have been "fluid," to put it kindly, but more fairly have been the most by-the-seat-of-my-pants yet. I write this from mile 740, just past the 1/3 mark of the length of the trail, in Daleville, VA. While it may seem like good progress, in the grand scheme I've slowed down a bit, but all for good reason.

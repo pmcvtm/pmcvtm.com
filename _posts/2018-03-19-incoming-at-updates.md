@@ -2,7 +2,8 @@
 layout: post
 title:  "Incoming: Appalachian Trail Updates"
 date:   2018-03-19 12:25:00 -0600
-tags: announcement appalachian-trail
+categories: Announcement
+tags: [appalachian trail]
 ---
 
 It's been a hot minute since I've posted on my blog. I have lots of (mostly poor) excuses, but the one I'll highlight is exciting new: Next week, I will be embarking on a full thru-hike of the Appalachian Trail. I'll be gone for about 6 months, if everything goes well, on the 2200 mile journey from Georgia or Maine.

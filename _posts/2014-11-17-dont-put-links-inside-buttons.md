@@ -2,7 +2,8 @@
 layout: post
 title:  "Don't Put Links Inside Buttons"
 date:   2014-11-17 07:52:00 -0600
-tags: development html
+categories: Development
+tags: html css
 ---
 
 _And Vice Versa_

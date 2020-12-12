@@ -2,7 +2,8 @@
 layout: post
 title:  "Dynamic Collapse Headers in Bootstrap"
 date:   2014-09-26 18:01:00 -0600
-tags: development html bootstrap
+categories: Development
+tags: html bootstrap css
 ---
 
 [Twitter Bootstrap](http://getbootstrap.com/) sure is fancy. With it or cousin framework [Foundation](http://foundation.zurb.com/), you can whip up a pretty nice, modern-looking website with minimal effort. (Though personally, I often prefer the less-opinionated [Pure](http://purecss.io/) framework.) These libraries and tools provide the groundwork and components to style your way into the future, but also leave out some of the nuances to enhance your user experience to primo usability and slickness.

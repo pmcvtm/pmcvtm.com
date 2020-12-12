@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 122: And The States Won't Stop (But I Might Here And There)"
 date:   2018-07-22 21:40:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 The days out of Front Royal passed more quickly than any others thus far. As expected, the handful of familiar folks I had seen through Shenandoah were now ahead of me, or surprisingly behind. Armed with my rover's resolve and clear landmarks ahead, going came easily, but it took time for me to let go and let the trail take me as its wont, over my own.

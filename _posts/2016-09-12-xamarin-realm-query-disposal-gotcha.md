@@ -2,7 +2,8 @@
 layout: post
 title:  "Xamarin Realm Query Disposal Gotcha"
 date:   2016-09-16 11:24:00 -0600
-tags: development mobile xamarin
+categories: Development
+tags: mobile .net xamarin
 ---
 
 ## `using` More Than You'd Think

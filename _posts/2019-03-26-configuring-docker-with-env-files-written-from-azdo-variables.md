@@ -2,7 +2,8 @@
 layout: post
 title:  "Configuring Docker with Env Files Written from Azure DevOps Variables"
 date:   2019-03-26 13:53:00 -0600
-tags: dev-ops ci-cd azure-dev-ops docker configuration environment-variables powershell
+categories: DevOps
+tags: azure-dev-ops docker configuration powershell
 ---
 
 I've become a big fan of [Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/). It's a powerful and robust tool that enables really slick automated build and release processes. I wrote last about [sexy auto-semversioning Nuget libraries]({% post_url 2019-01-22-effective-nuget-versioning-in-azure-devops %}) using Build Pipelines. I'm still no expert in AzDO but am continuing to extend and improve the ways we leverage it. Recently I found a way to optimize against one of release pipelines' biggest annoyances: app configuration for "non-transformable" config formats such as environment variables for Docker containers. <!--more-->

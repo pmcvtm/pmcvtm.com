@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 27: Exiting The Great Smoky Mountains"
 date:   2018-04-20 08:24:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 Hello!

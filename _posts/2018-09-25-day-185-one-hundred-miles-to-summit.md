@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 185: One Hundred Miles to Summit"
 date:   2018-09-25 21:43:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 It's been a hot minute or three since I've emailed you. It would be easy to assume, as with previous updates, I've been to busy _walking_ to get my thoughts together. At first I did not want to write this final post, but over time I realized it was unfair to leave my story without an end.

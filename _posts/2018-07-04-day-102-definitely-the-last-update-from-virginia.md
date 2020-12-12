@@ -2,7 +2,8 @@
 layout: post
 title:  "AT Day 102: Definitely The Last Update From Virginia"
 date:   2018-07-04 20:17:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+tags: [appalachian trail]
 ---
 
 The past month-so since my last update has included some of my best days on trail, as well as most challenging. The canoe trip was a great success, despite some setbacks, and well worth being set back a week of hiking. The following days, hiking alone and atrophied, were frustrating and chore-like, but by the time I exited Shenandoah I felt renewed, with a peace and understanding that I lacked before the endeavor.
