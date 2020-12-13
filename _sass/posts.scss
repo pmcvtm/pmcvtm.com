@@ -21,6 +21,21 @@
     }
 }
 
+// === PAGE CONTENT === === === === ===
+
+.page {
+    header {
+        background-color: $white;
+        flex-direction: column;
+
+        .page-title {
+            margin: 0 auto;
+            padding: 0.25em 1em;
+            font: lighter 2.5em $headingFont;
+        }
+    }
+}
+
 // === POST LIST === === === === ===
 
 .post-list {

@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-<article>
-
+<article class="page">
   <header class="page-header">
-    <h1 class="page-title">
+    <h1 class="page-title {{page.color}}">
       {{ page.title | escape }}
       {% if page.icon %}
         <i class="fas {{page.icon}}"></i>
