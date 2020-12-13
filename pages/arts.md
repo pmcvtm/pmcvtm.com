@@ -4,10 +4,8 @@ title: Arts
 permalink: /arts/
 color: "citron"
 icon: fa-paint-brush
+description: Dedicated doodles and stress-relieving crafts.
 ---
-
-Art is a longtime hobby, from dedicated doodles to stress-relieving crafts.
-Check out [my Etsy](http://www.etsy.com/shop/{{ site.author.etsy }}) if you're that into it.
 
 _Click an image to view it full size in a new window._
 

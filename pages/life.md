@@ -4,6 +4,7 @@ title: Life
 permalink: /life/
 color: "orange"
 icon: fa-hiking
+description: Musings, essays, updates, and trail logs.
 pagination:
   enabled: true
   categories:
@@ -11,8 +12,6 @@ pagination:
      - Thru-Hike
    matching: any
 ---
-
-Musings, essays, updates, and trail logs.
 
 <div>
   {% include pagination.html %}

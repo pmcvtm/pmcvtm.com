@@ -4,6 +4,7 @@ title: Tech
 permalink: /tech/
 color: "vermilion"
 icon: fa-code-branch
+description: Posts on development, software, and technology including tips, troubleshooting, and "nobody-asked-you" commentary.
 pagination:
   enabled: true
   categories:
@@ -13,8 +14,6 @@ pagination:
      - devops
    matching: any
 ---
-
-Posts on development, software, and technology including guides and "nobody-asked-you" commentary.
 
 <div>
   {% include pagination.html %}

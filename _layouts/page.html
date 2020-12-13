@@ -11,7 +11,13 @@ layout: default
     </h1>
   </header>
 
-  <div class="page-content">
+  <div class="page-description">
+    {% if page.description %}
+        <p>{{page.description}}</p>
+    {%endif%}
+  </div>
+
+  <div>
     {{ content }}
   </div>
 
