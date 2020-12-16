@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 102: Definitely The Last Update From Virginia"
 date:   2018-07-04 20:17:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

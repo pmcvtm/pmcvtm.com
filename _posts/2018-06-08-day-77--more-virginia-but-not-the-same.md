@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 77: More Virginia, But Not The Same"
 date:   2018-06-08 15:30:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

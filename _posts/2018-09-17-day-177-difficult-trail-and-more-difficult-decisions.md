@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 177: Difficult Trail and More Difficult Decisions"
 date:   2018-09-17 09:30:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

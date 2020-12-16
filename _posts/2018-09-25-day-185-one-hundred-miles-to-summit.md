@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 185: One Hundred Miles to Summit"
 date:   2018-09-25 21:43:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

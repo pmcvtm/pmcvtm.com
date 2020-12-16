@@ -3,6 +3,7 @@ layout: post
 title:  "Dynamic Collapse Headers in Bootstrap"
 date:   2014-09-26 18:01:00 -0600
 categories: Development
+color: vermilion
 tags: html bootstrap css
 ---
 

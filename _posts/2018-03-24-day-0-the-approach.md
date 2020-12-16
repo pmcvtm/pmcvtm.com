@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 0: The Approach"
 date:   2018-03-24 07:34:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Checked=\"checked\" in Razor"
 date:   2014-11-26 08:03:00 -0600
 categories: Development
+color: vermilion
 tags: html .NET razor
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Incoming: Appalachian Trail Updates"
 date:   2018-03-19 12:25:00 -0600
 categories: Announcement
+color: teal
 tags: [appalachian trail]
 ---
 

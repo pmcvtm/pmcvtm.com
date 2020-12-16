@@ -3,6 +3,7 @@ layout: post
 title:  "Flagrant Error: Function Syntax In PowerShell"
 date:   2015-04-14 09:15:00 -0600
 categories: Development
+color: vermilion
 tags: powershell
 ---
 

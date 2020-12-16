@@ -3,6 +3,7 @@ layout: post
 title:  "JS in .NET Without Node"
 date:   2014-06-14 06:00:00 -0600
 categories: Development
+color: vermilion
 tags: .net nodejs javascript commentary
 ---
 

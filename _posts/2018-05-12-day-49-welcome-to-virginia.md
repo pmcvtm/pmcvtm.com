@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 49: Welcome to Virginia"
 date:   2018-05-12 15:12:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

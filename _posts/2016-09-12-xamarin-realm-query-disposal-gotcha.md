@@ -3,6 +3,7 @@ layout: post
 title:  "Xamarin Realm Query Disposal Gotcha"
 date:   2016-09-16 11:24:00 -0600
 categories: Development
+color: vermilion
 tags: mobile .net xamarin
 ---
 

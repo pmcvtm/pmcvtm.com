@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 122: And The States Won't Stop (But I Might Here And There)"
 date:   2018-07-22 21:40:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Deploying Multiple WebJobs in Azure DevOps"
 date:   2019-06-20 16:02:00 -0600
 categories: Cloud
+color: vermilion
 tags: azure-dev-ops azure webjobs powershell
 ---
 

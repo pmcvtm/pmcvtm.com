@@ -3,6 +3,7 @@ layout: post
 title:  "Hide Data, Not Inputs"
 date:   2014-08-14 09:05:00 -0600
 categories: Development
+color: vermilion
 tags: html javascript how-to
 ---
 

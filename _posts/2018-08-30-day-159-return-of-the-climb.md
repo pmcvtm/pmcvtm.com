@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 159: Return of the Climb"
 date:   2018-08-30 14:53:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 

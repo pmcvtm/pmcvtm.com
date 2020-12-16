@@ -3,6 +3,7 @@ layout: post
 title:  "AT Day 140: New Jersey - New York - New England"
 date:   2018-08-11 11:30:00 -0600
 categories: Thru-Hike
+color: orange
 tags: [appalachian trail]
 ---
 
