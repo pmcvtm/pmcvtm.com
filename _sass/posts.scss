@@ -80,6 +80,10 @@
         border-bottom: 1px dotted $brown;
         padding: 1em 0;
 
+        .category {
+            font-size: 1.1em;
+        }
+
         &:last-child {
             border-bottom: none;
             padding-bottom: 1em;
