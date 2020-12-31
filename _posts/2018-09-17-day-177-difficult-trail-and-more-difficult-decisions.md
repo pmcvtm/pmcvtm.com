@@ -2,7 +2,9 @@
 layout: post
 title:  "AT Day 177: Difficult Trail and More Difficult Decisions"
 date:   2018-09-17 09:30:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+color: orange
+tags: [appalachian trail]
 ---
 
 The transition to living on the trail was gradual, from all the expectations of a new adventure, starting like a long backpacking trip, growing to a way of life, then so routine it's hard to imagine what it was like before. Coming so close to completing the trail is surreal. The time feels short, especially compared to the experience. Many of us are conflicted between a weary eagerness and an anxious fear. But for all of us the end will be a jolt, and an inevitability.

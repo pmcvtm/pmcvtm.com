@@ -2,7 +2,9 @@
 layout: post
 title:  "Checked=\"checked\" in Razor"
 date:   2014-11-26 08:03:00 -0600
-tags: development razor html
+categories: Development
+color: vermilion
+tags: html .NET razor
 ---
 
 I often see the following [Razor-enhanced](http://www.asp.net/mvc/overview/views) form markup for writing out input checkboxes, particularly in loops where a given checkbox may be checked or unchecked based on some state in the Model. In the completely real scenario below, I have a form on a webpage where I select fruits for a smoothie:

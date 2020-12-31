@@ -2,7 +2,9 @@
 layout: post
 title:  "AT Day 49: Welcome to Virginia"
 date:   2018-05-12 15:12:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+color: orange
+tags: [appalachian trail]
 ---
 
 At first when I realized this was day 49 I thought, "Dang, I should've waited another day to send an update for a nice round number," but day 49 is better than I thought. Back when I first resolved I'd hike the AT, a more experienced outdoorsman friend of mine took me out on what I consider my first "shake down" trip and the first of several wake-up calls. Out at Lake Georgetown, on the first freeze of the year, my hands cold and jeans soaked through, he assured me - as if I couldn't tell - I had a lot to do still before I'd be ready. Later, after I'd done some growing, he also told me "If you can last six weeks, you can last six months" Well, we're through week 7 and showing no signs of stopping.

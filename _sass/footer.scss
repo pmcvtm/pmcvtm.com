@@ -1,14 +1,47 @@
 @import "_variables";
 
-.social-links {
-    list-style: none;
-    display: inline-block;
+footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
-    a { color: $text; }
-    a:hover { color: $salmon; }
-
-    li { 
-        display: inline-block;
-        padding: 0 1rem;
+    @media (max-width: $desktopMinimum) {
+        padding-top: 0.2em;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+        text-align: center;
     }
+
+    width: 100%;
+    background-color: $dope;
+    color: $brown;
+    font: normal 1em $headingFont;
+    line-height: 1em;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: $desktopMinimum) {
+        flex-basis: 25em;
+        padding-left: 0;
+    }
+
+    @media (max-width: $desktopMinimum) {
+        margin: 0.2em;
+        padding: 0 1em;
+    }
+
+    list-style: none;
+    a { color: $brown; }
+}
+
+.footer-stripes {
+    @include stripes(0.2rem);
+    border-top: 0.2rem solid $brown;
 }

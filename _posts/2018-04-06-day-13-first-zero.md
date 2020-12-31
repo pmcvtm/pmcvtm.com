@@ -2,7 +2,9 @@
 layout: post
 title:  "AT Day 13: First 'Zero' in Franklin, NC"
 date:   2018-04-06 09:30:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+color: orange
+tags: [appalachian trail]
 ---
 
 Hey all,

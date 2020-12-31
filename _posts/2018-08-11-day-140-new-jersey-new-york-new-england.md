@@ -2,7 +2,9 @@
 layout: post
 title:  "AT Day 140: New Jersey - New York - New England"
 date:   2018-08-11 11:30:00 -0600
-tags: appalachian-trail thru-hiking
+categories: Thru-Hike
+color: orange
+tags: [appalachian trail]
 ---
 
 Leaving Pennsylvania felt like closing a long chapter of the hike, and crossing into New Jersey turned out to be the start of a series of pleasant surprises.

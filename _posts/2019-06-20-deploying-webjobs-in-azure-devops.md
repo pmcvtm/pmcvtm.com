@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Deploying Multiple WebJobs via Azure DevOps"
+title:  "Deploying Multiple WebJobs in Azure DevOps"
 date:   2019-06-20 16:02:00 -0600
-tags: dev-ops ci-cd azure-dev-ops azure-app-services webjobs powershell
+categories: Cloud
+color: vermilion
+tags: azure-dev-ops azure webjobs powershell
 ---
 
 Unsurprisingly, [App Services](https://docs.microsoft.com/en-us/azure/app-service/) are one of Azure's more useful and persistent offerings. Somewhat surprising (to me at least) is that [WebJobs](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create) stand firmly beside them, after seeming like a tack-on, albeit a cool one. The way they are developed has evolved, however, now leveraging the [same SDK that Azure Functions is built on](https://docs.microsoft.com/en-us/azure/app-service/webjobs-sdk-how-to). From a user's perspective, WebJobs' deploy-and-run-time is conversely unchanged. Unfortunately, that means deploying them is primarily advertised as a manual process from Visual Studio, the Azure Portal, or using Powershell. We know better, though, and can integrate WebJobs with our App Services in [Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/), even if we're straying from the happy path.<!--more-->

@@ -2,7 +2,9 @@
 layout: post
 title:  "Debugging Shortcuts in Visual Studio 2017"
 date:   2017-08-29 03:25:00 -0600
-tags: development visual-studio debugging keyboard-shortcuts
+categories: Development
+color: vermilion
+tags: .net visual-studio debugging
 ---
 
 How do you debug your application in Visual Studio? Is it something like:

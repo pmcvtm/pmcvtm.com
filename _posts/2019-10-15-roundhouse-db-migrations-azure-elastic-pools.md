@@ -2,7 +2,9 @@
 layout: post
 title:  "Database Migrations For Azure SQL Elastic Pools Using RoundhousE"
 date:   2019-10-15 03:24:00 -0600
-tags: dev-ops ci-cd azure-sql-elastic-pools roundhouse db-migrations
+categories: Cloud
+color: vermilion
+tags: azure sql roundhouse
 ---
 
 Databases are important for most applications, but keeping their schemas consistent across versions and environments can become a sticky date pudding without proper care. Tools like [RoundhousE](https://github.com/chucknorris/roundhouse) provide streamlined, repeatable, script-based migrations and work like a charm out of the box. If using the very cool and atmospheric [Azure SQL Elastic Pools](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool), however, the default behavior lands us adjacent to the pool, not in it. Let's not be hasty to abandon database host nor migrator; it's easy to correct this with little configuration. <!--more-->

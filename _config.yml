@@ -18,8 +18,7 @@ email: p.mcvtm@protonmail.com
 organization: "Loud & Abrasive & Co."
 description: > # this means to ignore newlines until "baseurl:"
   Patrick McVeety-Mill's blog and portfolio: Loud & Abrasive.
-  Featuring guides, thoughts, and commentary on development, .NET, and more,
-  as well as art and project highlights.
+  Featuring guides, art samples, and thoughts and commentaries on development and the world around us.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://loudandabrasive.com"
 permalink: ":title"
@@ -33,27 +32,29 @@ pagination:
 
 #nav
 header_pages:
-  - "/projects/"
-  - "/arts/"
-  - "/about/"
+  - tech.md
+  - life.md
+  - arts.md
+  - about.md
 
 #seo
 logo: /assets/loudandalogo.png
 author:
   name: Patrick McVeety-Mill
   twitter: loudandabrasive
-  etsy: corrugatedcardbuds
   github: pmcvtm
 google_analytics: UA-49372703-1
 social:
   name: Patrick McVeety-Mill
   links:
     - https://twitter.com/loudandabrasive
-    - https://www.linkedin.com/in/pmcvtm
+    - https://linkedin.com/in/pmcvtm
     - https://github.com/pmcvtm
-    - https://www.facebook.com/patrick.mcveetymill
-    - https://www.instagram.com/loudandabrasive
-    - http://www.etsy.com/shop/corrugatedcardbuds
+    - https://bandcamp.com/loudandabrasive
+    - https://letterboxd.com/loudandabrasive/
+    - https://untappd.com/user/loudandabrasive
+    - https://goodreads.com/loudandabrasive/
+    - https://instagram.com/loudandabrasive
 twitter:
   username: loudandabrasive
 

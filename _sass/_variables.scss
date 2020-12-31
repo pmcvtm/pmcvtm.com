@@ -1,17 +1,39 @@
-/* Coolors Exported Palette - coolors.co/293434-148261-05445e-f9faf9-d17f77 */
+/* Neutrals */
 $darkGray: #293434;
 $lightGray: #D6D6D6;
-$green: #148261;
-$blue: #05445E;
 $white: #f9faf9;
-$salmon: #d17f77;
+
+/* Coolors Exported Palette - coolors.co/264653-2a9d8f-c4cf7b-e5771e-e73602-5a3d2b */
+$brown: #5a3d2bff;
+$vermilion: #e73602ff;
+$orange: #e5771eff;
+$citron: #a09e34ff;
+$teal: #2a9d8fff;
+$charcoal: #264653ff;
+$dope: #dbd1b3;
 
 $text: $darkGray;
 
 $desktopMinimum: 992px;
 $veryTinyMax: 576px;
 
-$regularFont: 'Rubik', sans-serif;
+$tileFont: 'Bungee Shade', cursive;
+$headingFont: 'Montserrat Alternates', sans-serif;
+$bodyFont: 'Montserrat', sans-serif;
+
+$regularFont: $bodyFont;
+
+.desktop-only {
+    @media (max-width: $desktopMinimum) { 
+        display: none !important;
+    }
+}
+
+.mobile-only {
+    @media (min-width: $desktopMinimum) { 
+        display: none !important;
+    }
+}
 
 @mixin transition ($transition){
     -webkit-transition: $transition;
@@ -19,4 +41,23 @@ $regularFont: 'Rubik', sans-serif;
     -o-transition: $transition;
     -ms-transition: $transition;
     transition: $transition;
+}
+
+@mixin stripes ($size){
+    background: linear-gradient(
+        $vermilion,
+        $vermilion $size,
+        $orange $size,
+        $orange ($size * 2),
+        $citron ($size * 2),
+        $citron ($size * 3),
+        $teal ($size * 3),
+        $teal ($size * 4),
+        $charcoal ($size * 4),
+        $charcoal ($size * 5),
+    );
+    width:100%;
+    min-height: ($size * 5);
+    margin: 0;
+    border: none;
 }

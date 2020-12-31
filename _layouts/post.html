@@ -2,22 +2,31 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+    <div class="post-meta">
+      <div>
+        <span class="post-category {{page.color}}">{{page.categories}}</span>
+        published
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+      </div>
+      {% if page.tags.size > 0 %}
+        regarding {{ page.tags | join: ' | ' }}
+      {% endif %}
+    </div>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content" aria-label="Content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <a class="outline-link" href="javascript:history.back()">
+    <i class="fas fa-chevron-left vermilion"><i class="fas fa-chevron-left orange"></i></i><i class="fas fa-chevron-left citron"></i><i class="fas fa-chevron-left teal"></i>
+    Return
+  </a>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}

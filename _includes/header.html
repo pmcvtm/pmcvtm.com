@@ -1,42 +1,31 @@
+<div class="title-container">
+  <span class="subtitle">Patrick McVeety-Mill:</span>
+  <h1 class="title">
+    <a href="{{ "/" | relative_url }}">Loud &amp; Abrasive</a>
+  </h1>
+</div>
 
-<header class="site-header">
-  <a class="site-title" href="{{ "/" | relative_url }}">
-    <span>
-      <img class="top-logo" src="{{ "/assets/loudandalogo.png" | relative_url }}" />
-      <img class="side-logo" src="{{ "/assets/loudandalogo.png" | relative_url }}" />
-      <span class="site-subtitle">Patrick McVeety-Mill</span>
-      <img class="side-logo" src="{{ "/assets/loudandalogo.png" | relative_url }}" />
-    </span>
-    <h1 class="title">Loud &amp; Abrasive</span></h1>
-  </a>
+<nav>
+  <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
+  <label for="nav-toggle-check" class="nav-toggle">
+    <i class="fas fa-bars"></i>
+  </label>
 
-  <nav class="site-nav">
-    <input id="nav-toggle" name="nav-toggle" type="checkbox" />
-    <label class="nav-toggle-label" for="nav-toggle">
-      <i class="menu-icon fa fa-bars"></i>
-    </label>
-    <ul class="page-list">
-      <li class="page-link" style="background: #293434">
-        <a href="{{ "/" | relative_url }}">
-          </i> Home <i class="fa fa-bullhorn"></i>
-        </a>
-      </li>
-      {% for path in site.header_pages %}
-        {% assign page = site.pages | where: "permalink", path | first %}
-        {% if page.title %}
-          <li class="page-link" style="background: {{ page.color | default:'#293434' }}">
-            <a href="{{ page.url | relative_url }}">
-              {{ page.title | escape }} <i class="fa {{page.icon}}"></i>
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-      <li class="page-link" style="background: #293434">
-        <a href="{{ "/feed.xml" | relative_url }}">
-          Subscribe <i class="fa fa-rss"></i>
-        </a>
-      </li>
-    </ul>
+  <ul class="page-list">
+    {% for page_name in site.header_pages %}
+      {% assign page = site.pages | where: "name", page_name | first %}
+      {% if page.title %}
+        <li class="nav-link-{{ page.color | default:'brown' }}">
+          <a href="{{ page.url | relative_url }}">
+            {{ page.title | escape }} <i class="fas {{page.icon}}"></i>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    <li class="nav-link-charcoal">
+      <a href="{{ "/feed.xml" | relative_url }}" target="_blank" class="hover-charcoal">Subscribe <i class="fas fa-rss"></i></a>
+    </li>
+  </ul>
 
-  </nav>
-</header>
+  <hr class="stripes mobile-stripes" />
+</nav>
