@@ -25,11 +25,10 @@ By tuning in to Loud &amp; Abrasive, you can expect some very cool stuff:
 * A link to [homestarrunner.com](http://www.homestarrunner.com)
 
 
-Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <p.mcvtm@gmail.com>, tweeting at me [@loudandabrasive](http://twitter.com/loudandabrasive), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
+Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@hey.com>, tweeting at me [@loudandabrasive](http://twitter.com/loudandabrasive), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
 
-![Sleezy Guy Giving Thumbs Up](http://www.inbound.co.za/wp-content/uploads/2013/08/7449344-a-sleazy-car-salesman-con-man-retro-suit-wearing-man-with-happy-face-and-doing-the-two-thumbs-up-sig.jpg)
+![Sleezy Guy Giving Thumbs Up](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsleazy-guy-two-thumbs-up-picture-id105816019%3Fs%3D170667a&f=1&nofb=1)
 <div style="text-align:center;"> *This is not a photo of me </div>
 
-See y'all again soon,
-
-**Patrick**
+See you soon,
+<br /><span style="font: oblique 1.75em 'Vibur', sans-serif">Patrick</span>
