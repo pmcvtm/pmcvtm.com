@@ -12,6 +12,6 @@ color: citron
 
 This East African bird is typically iridescent, but that is hard to represent with cardboard. Here, it is made from boxes of Shiner Ruby Redbird and Shock Top's orange slice.
 
-![Rear view of the same sculpture](https://live.staticflickr.com/65535/50776373152_bb824b96d8_b.jpg)
+![Side view of the same sculpture](https://live.staticflickr.com/65535/50776373082_a887c0004a_b.jpg)
 
-![Full front front view of the same sculpture](https://live.staticflickr.com/65535/50775505138_fe0394a773_b.jpg)
+![Three-quarters view of the same sculpture's front](https://live.staticflickr.com/65535/50776373057_8e1a54e7f9_b.jpg)
