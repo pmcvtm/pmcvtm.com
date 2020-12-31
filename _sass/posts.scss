@@ -80,7 +80,7 @@
         border-bottom: 1px dotted $brown;
         padding: 1em 0;
 
-        .category {
+        .post-category {
             font-size: 1.1em;
         }
 
@@ -91,6 +91,16 @@
 
         img {
             max-height: 20em;
+        }
+
+        .post-meta {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .post-tags {
+                font-size: 0.9em;
+            }
         }
     }
 
