@@ -93,6 +93,13 @@
             max-height: 20em;
         }
     }
+
+    .post-excerpt {
+        h2 {
+            font-family: $bodyFont;
+            font-size: 1.2em;
+        }
+    }
 }
 
 .pagination {
