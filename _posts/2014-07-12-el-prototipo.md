@@ -12,4 +12,6 @@ color: citron
 
 Proof of concept (a _prototype_ if you will) of a cardboard "action figure" type sculpture. Some simple muscle-shapes made pose-able by florists' wire. This pattern was followed again and more fully-decorated to make [El Roble Poderoso]({% post_url 2017-02-11-el-roble-poderoso %}).
 
+📷 Photos taken by [Holly Marie Photography](https://hollymarie.photo/).
+
 ![Rear view of the same sculpture](https://live.staticflickr.com/65535/50781024011_091a90d1ec_b.jpg)
