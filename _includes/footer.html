@@ -6,9 +6,9 @@
     {% for link in site.social.links %}
       {% assign social = site.data.social_links | where_exp:"social", "link contains social.urlPart" | first %}
       {% if social.show == true %}
-      <li><a href="{{link}}" title="{{social.name}}"><i class="fab {{social.icon}} hover-{{social.color}}"></i></a></li>
+      <li><a href="{{link}}" title="{{social.name}}" target="_blank"><i class="fab {{social.icon}} hover-{{social.color}}"></i></a></li>
       {% endif %}
     {% endfor %}
-    <li><a class="rss" title="Subscribe" href="{{ "/feed.xml" | relative_url }}"><i class="fas fa-rss"></i></a></li>
+    <li><a class="rss" title="Subscribe" target="_blank" href="{{ "/feed.xml" | relative_url }}"><i class="fas fa-rss"></i></a></li>
   </ul>
 </footer>
