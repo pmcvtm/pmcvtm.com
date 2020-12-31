@@ -2,14 +2,16 @@
 layout: page
 title: Archive
 permalink: /archive/
-icon: fa-archive
+color: citron
+icon: fa-book-dead
 ---
 
-Here's a list of all the posts on the site:
-
-{% for post in site.posts reversed %}
-
-- {{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url | relative_url }}) {% if post.tags.size > 0 %} &nbsp;&mdash; {% for tag in post.tags %}&nbsp;{{ tag }}{% endfor %}{% endif %}
-
+<ul class="archive">
+{% for post in site.posts %}
+    <li class="hover-{{post.color}}">
+        <a class="hover-{{post.color}}" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        | <span class="{{post.color}}">{{ post.categories }}</span>
+        | {{ post.date | date: "%Y-%m-%d" }}
+    </li>
 {% endfor %}
-
+</ul>

@@ -86,3 +86,16 @@ code {
 .hover-teal { &:hover { color: $teal; } }
 .hover-charcoal { &:hover { color: $charcoal; } }
 .hover-dope { &:hover { color: $dope; } }
+
+// === MISC === === === === ===
+
+.archive {
+    a { 
+        color: $text;
+        text-decoration: none;
+    }
+
+    white-space: nowrap;
+    list-style: none;
+    padding: 0;
+}
