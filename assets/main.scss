@@ -2,6 +2,7 @@
 # Only the assets Sass file needs front matter (the dashes are enough)
 ---
 
+@import "_flexbox";
 @import "_variables";
 @import "footer";
 @import "header";
