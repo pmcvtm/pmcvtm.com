@@ -2,7 +2,7 @@
 layout: page
 title: Archive
 permalink: /archive/
-color: citron
+color: teal
 icon: fa-book-dead
 ---
 
