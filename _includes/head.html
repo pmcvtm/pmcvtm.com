@@ -17,3 +17,13 @@
 
 <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"/>
 <link rel="alternate" type="application/rss+xml"  title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"> 
+
+<script>
+  window.backOrHome = function() {
+    if(window.history.length <= 1){
+      window.location.replace('{{ "/" | relative_url }}')
+    } else{
+      history.back();
+    }
+  };
+</script>
