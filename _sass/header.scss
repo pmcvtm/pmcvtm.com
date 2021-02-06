@@ -63,8 +63,9 @@ header {
         li {
             @include flex-grow(1);
             line-height: 2em;
-            width: 100%;
             cursor: pointer;
+            width: 100%;
+            white-space: nowrap;
 
             a {
                 display: inline-block;
