@@ -54,6 +54,15 @@ a {
     }
 }
 
+blockquote {
+    border-left: 0.5em solid $charcoal;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+}
+
+
+
 // === CODE === === === === ===
 
 pre { 
