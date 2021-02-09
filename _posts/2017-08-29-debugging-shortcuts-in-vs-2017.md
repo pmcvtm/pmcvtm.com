@@ -15,7 +15,7 @@ Or maybe, **if you're hep**, you
 
 > _Ctrl+F5_
 >
-> _Debug ---> Attach to Process... --->  Dialog..._
+> _Debug ➡ Attach to Process... ➡ Dialog..._
 
 so can develop and re-build with the app still running, and debug only when you want to.
 
