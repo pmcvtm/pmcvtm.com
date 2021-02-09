@@ -11,7 +11,7 @@ How do you debug your application in Visual Studio? Is it something like:
 
 > _F5_
 
-Or maybe, **if you're woke**, you
+Or maybe, **if you're hep**, you
 
 > _Ctrl+F5_
 >
