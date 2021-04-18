@@ -1,6 +1,16 @@
 @import "_flexbox";
 @import "_variables";
 
+:root {
+    --size-300: 0.75rem;
+    --size-400: 1rem;
+    --size-500: 1.5rem;
+    --size-600: 1.77rem;
+    --size-700: 2.36rem;
+    --size-800: 3.15rem;
+        --size-900: 4.2rem;
+}
+
 html {
     height: 100%;
 }
