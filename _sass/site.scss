@@ -36,6 +36,34 @@ h1,h2,h3,h4,h5 {
     font-weight: lighter;
 }
 
+
+@media (min-width: 45em) {
+    h1 { font-size: var(--size-900); }
+    h2 { font-size: var(--size-700); }
+    p, ul, span { font-size: var(--size-500); }
+
+    blockquote p {
+        font-size: var(--size-600);
+        max-width: 40ch;
+    }
+}
+
+
+h1,
+h2 { font-weight: 900; }
+
+h1 {
+    font-size: var(--size-700);
+}
+
+h2, h3 {
+    max-width: 25ch;
+}
+
+h2 { font-size: var(--size-600); }
+
+h3 { font-size: var(--size-600); }
+
 a { 
     &:not([class]) {
         color: currentColor;
