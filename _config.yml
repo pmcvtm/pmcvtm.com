@@ -37,6 +37,13 @@ header_pages:
   - arts.md
   - about.md
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /assets/default-card-image.jpg
+
 #seo
 logo: /assets/loudandalogo.png
 author:
