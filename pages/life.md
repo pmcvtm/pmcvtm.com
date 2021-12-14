@@ -10,6 +10,7 @@ pagination:
   categories:
    values:
      - Thru-Hike
+     - Music
    matching: any
 ---
 
