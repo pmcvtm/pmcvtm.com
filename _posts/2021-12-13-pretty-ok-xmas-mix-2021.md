@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pretty OK Xmas Mix 2021
-date:   2021-12-13 17:56:00 -0500
+date:   2021-12-13 17:56:00 -0600
 categories: Music
 color: orange
 tags: tunes playlist xmas pretty-ok
