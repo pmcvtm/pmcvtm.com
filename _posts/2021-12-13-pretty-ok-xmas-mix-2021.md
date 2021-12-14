@@ -5,6 +5,7 @@ date:   2021-12-13 17:56:00 -0600
 categories: Music
 color: orange
 tags: tunes playlist xmas pretty-ok
+image: /assets/post-cards/2021-12-13-pretty-ok-xmas-mix-2021-card.jpg
 ---
 
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Floudandabrasive%2Fpatricks-pretty-ok-xmas-mix-2021%2F" frameborder="0" ></iframe>
