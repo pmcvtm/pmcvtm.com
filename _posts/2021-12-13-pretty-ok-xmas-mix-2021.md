@@ -7,9 +7,9 @@ color: orange
 tags: tunes playlist xmas pretty-ok
 ---
 
-Another year has gone by and we find ourselves surrounded by joyous cheer and terrible music. Allow me to offer you more of the former and comfort from the latter with another playlist of "Pretty OK" holiday music alternatives. This year's mix contains classics you can't find on streaming, excellent covers, new releases, and just enough oddities to keep the sickos satisfied.
-
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Floudandabrasive%2Fpatricks-pretty-ok-xmas-mix-2021%2F" frameborder="0" ></iframe>
+
+Another year has gone by and we find ourselves surrounded by joyous cheer and terrible music. Allow me to offer you more of the former and comfort from the latter with another playlist of "Pretty OK" holiday music alternatives. This year's mix contains classics you can't find on streaming, excellent covers, new releases, and just enough oddities to keep the sickos satisfied.
 
 <!--more-->
 
