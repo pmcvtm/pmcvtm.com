@@ -10,7 +10,7 @@ image: /assets/post-cards/2022-06-23-debug-dev-release-prod-in-dotnet.jpg
 
 A recent exchange between coworkers revealed a confusing but important distinction in .NET runtime nomenclature. These folks were looking to reproduce the same behavior on their individual machines, but just couldn't stick it. One of them was running the application "in Production mode" and the other "with Release build." The terms "Release" and "Production" seem to go together naturally, similarly with "Debug" and "Development," but in practice these keywords refer to distinct elements of a running application.
 
-<!-- more -->
+<!--more-->
 
 **Debug** and **Release** are [_build_ configurations](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-set-debug-and-release-configurations?view=vs-2022) which impact code compilation. Applications that were compiled in _Debug_ have less-optimized, lengthier source code you can set breakpoints against, compared to _Release_ which are optimized and more performant. You can pick which configuration to build with in Visual Studio or using the `--configuration` option in the `dotnet` CLI. You _can_ write code with `#regions` that are included or excluded by build config, but it's mostly ill-advised.
 
