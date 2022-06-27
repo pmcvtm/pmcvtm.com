@@ -10,6 +10,8 @@ pagination:
   categories:
    values:
      - cardboard
+     - xmas mix
+     - playlist
    matching: any
 ---
 

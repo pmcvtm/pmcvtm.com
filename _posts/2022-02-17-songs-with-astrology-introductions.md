@@ -2,9 +2,9 @@
 layout: post
 title: List of Songs Where the Band Introduces Themselves with Their Names and Astrological Signs
 date: 2022-02-17 17:34:00 -0600
-categories: Music
-color: orange
-tags: music song-lists astrology introductions
+categories: Playlist
+color: citron
+tags: playlist song-lists astrology introductions
 image: /assets/post-cards/2022-02-17-songs-with-astrology-introductions.jpg
 ---
 

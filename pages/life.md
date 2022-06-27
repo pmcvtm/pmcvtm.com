@@ -10,7 +10,7 @@ pagination:
   categories:
    values:
      - Thru-Hike
-     - Music
+     - Xmas Mix
    matching: any
 ---
 
