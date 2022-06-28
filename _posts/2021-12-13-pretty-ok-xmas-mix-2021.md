@@ -2,7 +2,7 @@
 layout: post
 title: Pretty OK Xmas Mix 2021
 date:   2021-12-13 17:56:00 -0600
-categories: Xmas Mix
+categories: "Xmas Mix"
 color: citron
 tags: tunes playlist xmas pretty-ok
 image: /assets/post-cards/2021-12-13-pretty-ok-xmas-mix-2021-card.jpg
