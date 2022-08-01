@@ -1,0 +1,36 @@
+- text: Add to Contacts
+  url: /assets/Patrick_McVeety-Mill.vcf
+  icon: 'fas fa-address-book'
+  color: brown
+  show: true
+
+- text: Follow on Twitter
+  url: https://twitter.com/loudandabrasive
+  icon: 'fab fa-twitter'
+  color: vermilion
+  show: true
+
+- text: Read my Blog
+  url: https://loudandabrasive.com
+  icon: 'fas fa-blog'
+  color: orange
+  show: true
+
+- text: Collab on Polywork
+  url: https://polywork.com/pmcvtm
+  icon: 'fas fa-hand-sparkles'
+  color: citron
+  show: true
+
+- text: Connect on LinkedIn
+  url: https://linkedin.com/in/pmcvtm
+  icon: 'fab fa-linkedin-in'
+  color: teal
+  show: true
+
+- text: Star me on Github
+  url: https://github.com/pmcvtm
+  icon: 'fab fa-github'
+  color: charcoal
+  show: true
+
