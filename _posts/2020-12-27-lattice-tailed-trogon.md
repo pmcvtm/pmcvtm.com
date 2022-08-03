@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lattice-Tailed Trogon"
-date:   2019-07-08 12:38:00 -0600
+date:   2020-12-27 11:25:00 -0600
 categories: Cardboard
 color: citron
 ---
