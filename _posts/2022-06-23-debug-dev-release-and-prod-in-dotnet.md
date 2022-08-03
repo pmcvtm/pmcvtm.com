@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Debug, Development, Release, and Production in .NET
-date: 2022-02-23 13:26:00 -0600
+date: 2022-06-23 13:26:00 -0600
 categories: Development
 color: vermilion
 tags: .net compilation environment debugging
