@@ -10,7 +10,7 @@ pagination:
   categories:
    values:
      - Thru-Hike
-     - Xmas Mix
+     - xmas-mix
    matching: any
 ---
 
