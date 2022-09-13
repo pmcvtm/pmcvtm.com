@@ -16,21 +16,26 @@
   color: orange
   show: true
 
+- text: Follow on Twitch
+  url: https://twitch.tv/loudandabrasive
+  icon: 'fab fa-twitch'
+  color: citron
+  show: true
+
 - text: Collab on Polywork
   url: https://polywork.com/pmcvtm
   icon: 'fas fa-hand-sparkles'
-  color: citron
+  color: teal
   show: true
 
 - text: Connect on LinkedIn
   url: https://linkedin.com/in/pmcvtm
   icon: 'fab fa-linkedin-in'
-  color: teal
+  color: charcoal
   show: true
 
 - text: Star me on Github
   url: https://github.com/pmcvtm
   icon: 'fab fa-github'
-  color: charcoal
+  color: brown
   show: true
-
