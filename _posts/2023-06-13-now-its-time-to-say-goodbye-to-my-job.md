@@ -21,7 +21,7 @@ It wasn't perfect, and I know at times I benefited greatly from preference and p
 
 When Headspring was acquired by Accenture it became obvious how special it was to have stumbled into a company whose values were specific, compelling, and fell so neatly into place next to my own. This past year I have felt the friction of those values against the ambiguities and operations which enable corporate hyper-capitalism. It is hard to say goodbye to the people I am leaving, but not to the place.
 
-What's next for me, you ask? A break. A long one. Circumstances have aligned that my partner and I can give in to our wanderlust for a while. But we also need to eat, so I'll be back this winter... probably. Stay tuned here for updates to the ones from my time on the Appalachian Trail.
+What's next for me, you ask? A break. A long one. Circumstances have aligned that my partner and I can give in to our wanderlust for a while. But we also need to eat, so I'll be back this winter... probably. Stay tuned here for updates akin to the ones from my time on the Appalachian Trail.
 
 See you soon,
 <br />
