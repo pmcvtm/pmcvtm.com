@@ -1,19 +1,39 @@
+- text: Add to Contacts
+  url: /assets/Patrick_McVeety-Mill.vcf
+  icon: 'fas fa-address-book'
+  footer: false
+  card: true
+  linkinbio: false
+
 - name: Twitter
-  urlPart: twitter.com
-  icon: fa-twitter
-  show: true
+  url: https://twitter.com/pmcvtm
+  text: Follow on Twitter
+  icon: 'fab fa-twitter'
+  footer: true
+  card: true
+  linkinbio: true
 
 - name: LinkedIn
-  urlPart: linkedin.com
-  icon: fa-linkedin-in
-  show: true
+  url: https://linkedin.com/in/pmcvtm
+  text: Connect on LinkedIn
+  icon: 'fab fa-linkedin-in'
+  footer: true
+  card: true
+  linkinbio: true
 
 - name: Github
-  urlPart: github.com
-  icon: fa-github
-  show: true
+  text: Star me on Github
+  url: https://github.com/pmcvtm
+  icon: 'fab fa-github'
+  footer: true
+  card: true
+  linkinbio: true
 
-- name: Instagram
-  urlPart: instagram.com
-  icon: fa-instagram
-  show: true
+- name: Blog
+  text: Read my Blog
+  url: https://blog.pmcvtm.com
+  icon: 'fas fa-blog'
+  footer: false
+  card: true
+  linkinbio: true
+

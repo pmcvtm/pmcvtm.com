@@ -32,21 +32,22 @@
 }
 
 .business-card-links {
+
     ul {
         list-style: none;
         padding: 0;
-    }
 
-    li {
-        line-height: 2em;
-        width: 100%;
-        cursor: pointer;
-    }
-}
+        li {
+            font-size: 1.5rem;
 
-@mixin business-card-link($color) {
-    font-size: 1.5rem;
-    background-color: $color;
+            &:nth-child(1n+1) { background-color: $brown; }
+            &:nth-child(2n+2) { background-color: $vermilion; }
+            &:nth-child(3n+3) { background-color: $orange; }
+            &:nth-child(4n+4) { background-color: $citron; }
+            &:nth-child(5n+5) { background-color: $teal; }
+            &:nth-child(6n+6) { background-color: $charcoal; }
+        }
+    }
 
     a {
         color: $white;
@@ -64,14 +65,8 @@
         }
 
         span, i { line-height: 2em; padding: 0 0.5em; }
-    }
-    a:hover { color: $white; }
-    &:hover { filter: brightness(120%) saturate(75%); }
-}
 
-.business-card-link-brown { @include business-card-link($brown) }
-.business-card-link-vermilion { @include business-card-link($vermilion) }
-.business-card-link-orange { @include business-card-link($orange) }
-.business-card-link-citron { @include business-card-link($citron) }
-.business-card-link-teal { @include business-card-link($teal) }
-.business-card-link-charcoal { @include business-card-link($charcoal) }
+        &:hover { color: $white; }
+        &:hover { filter: brightness(120%) saturate(75%); }
+    }
+}
