@@ -20,6 +20,7 @@
         line-height: 1em;
         color: $brown;
         margin: 0;
+        padding-bottom: 0.5rem;
 
         @media (min-width: $veryTinyMax) { font-size: 3em; }
     }

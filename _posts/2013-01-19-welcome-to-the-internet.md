@@ -17,7 +17,7 @@ A while back I prefered the CMS style, so I gave [the Ghost](https://ghost.org/)
 
 **Update Feb. 2017: I'm back to Github pages.**
 
-By tuning in to Loud &amp; Abrasive, you can expect some very cool stuff: 
+By tuning in to PMCVTM, you can expect some very cool stuff:
 
 * Technical blog posts of all shapes and sizes
 * ~~Weird art I make~~ find art at [loudandabrasive.com](https://loudandabrasive.com)
@@ -25,7 +25,7 @@ By tuning in to Loud &amp; Abrasive, you can expect some very cool stuff:
 * A link to [homestarrunner.com](http://www.homestarrunner.com)
 
 
-Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@duck.com>, tweeting at me [@loudandabrasive](http://twitter.com/loudandabrasive), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
+Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@duck.com>, tweeting at me [@pmcvtm](http://twitter.com/pmcvtm), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
 
 ![Sleezy Guy Giving Thumbs Up](https://png.pngtree.com/png-vector/20230910/ourmid/pngtree-sleazy-guy-two-thumbs-up-portrait-png-image_9231596.png)
 <div style="text-align:center;"> *This is not a photo of me </div>
