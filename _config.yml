@@ -34,7 +34,6 @@ pagination:
 header_pages:
   - tech.md
   - life.md
-  - arts.md
   - about.md
 
 defaults:

@@ -20,14 +20,14 @@ A while back I prefered the CMS style, so I gave [the Ghost](https://ghost.org/)
 By tuning in to Loud &amp; Abrasive, you can expect some very cool stuff: 
 
 * Technical blog posts of all shapes and sizes
-* Weird art I make
+* ~~Weird art I make~~ find art at [loudandabrasive.com](https://loudandabrasive.com)
 * Updates and retrospectives of personal projects
 * A link to [homestarrunner.com](http://www.homestarrunner.com)
 
 
-Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@hey.com>, tweeting at me [@loudandabrasive](http://twitter.com/loudandabrasive), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
+Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@duck.com>, tweeting at me [@loudandabrasive](http://twitter.com/loudandabrasive), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
 
-![Sleezy Guy Giving Thumbs Up](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsleazy-guy-two-thumbs-up-picture-id105816019%3Fs%3D170667a&f=1&nofb=1)
+![Sleezy Guy Giving Thumbs Up](https://png.pngtree.com/png-vector/20230910/ourmid/pngtree-sleazy-guy-two-thumbs-up-portrait-png-image_9231596.png)
 <div style="text-align:center;"> *This is not a photo of me </div>
 
 See you soon,
