@@ -42,7 +42,15 @@ footer {
     }
 
     list-style: none;
-    a { color: $brown; }
+
+    li {
+        a { color: $brown; }
+        &:nth-child(1n+1) { a:hover { color: $vermilion; } }
+        &:nth-child(2n+2) { a:hover { color: $orange; } }
+        &:nth-child(3n+3) { a:hover { color: $citron; } }
+        &:nth-child(4n+4) { a:hover { color: $teal; } }
+        &:nth-child(5n+5) { a:hover { color: $charcoal; } }
+    }
 }
 
 .footer-stripes {
