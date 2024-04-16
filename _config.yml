@@ -52,16 +52,12 @@ author:
 social:
   name: Patrick McVeety-Mill
   links:
-    - https://twitter.com/loudandabrasive
     - https://linkedin.com/in/pmcvtm
     - https://github.com/pmcvtm
-    - https://bandcamp.com/loudandabrasive
-    - https://letterboxd.com/loudandabrasive/
-    - https://untappd.com/user/loudandabrasive
-    - https://goodreads.com/loudandabrasive/
-    - https://instagram.com/loudandabrasive
+    - https://twitter.com/pmcvtm
+    - https://instagram.com/pmcvtm
 twitter:
-  username: loudandabrasive
+  username: pmcvtm
 
 sitemap:
   filename: "/sitemap.xml"

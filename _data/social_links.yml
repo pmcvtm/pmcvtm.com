@@ -13,26 +13,6 @@
   icon: fa-github
   show: true
 
-- name: Bandcamp
-  urlPart: bandcamp.com
-  icon: fa-bandcamp
-  show: true
-
-- name: Letterboxd
-  urlPart: letterboxd.com
-  icon: fa-pied-piper
-  show: true
-
-- name: Untappd
-  urlPart: untappd.com
-  icon: fa-untappd
-  show: true
-
-- name: Goodreads
-  urlPart: goodreads.com
-  icon: fa-goodreads-g
-  show: true
-
 - name: Instagram
   urlPart: instagram.com
   icon: fa-instagram
