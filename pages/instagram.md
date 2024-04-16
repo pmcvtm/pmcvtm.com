@@ -1,5 +1,5 @@
 ---
-layout: card
+layout: long-links
 title: Patrick McVeety-Mill's Links
 permalink: /linkinbio/
 description: Patrick McVeety-Mill's social links.

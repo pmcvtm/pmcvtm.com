@@ -8,9 +8,4 @@
 @import "header";
 @import "posts";
 @import "site";
-@import "card";
-
-// === Stupid Overrides === === === === ===
-.pure-g [class*=pure-u] {
-    font-family: $regularFont;
-}
+@import "long-links";
