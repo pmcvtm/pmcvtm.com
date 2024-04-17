@@ -45,7 +45,7 @@ defaults:
       image: /assets/default-card-image.jpg
 
 #seo
-logo: /assets/loudandalogo.png
+logo: /assets/pmcvtm-logo.png
 author:
   name: Patrick McVeety-Mill
   twitter: pmcvtm
