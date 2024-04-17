@@ -33,7 +33,7 @@ pagination:
 #nav
 header_pages:
   - tech.md
-  - life.md
+  - travel.md
   - about.md
 
 defaults:

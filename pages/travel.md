@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Life
-permalink: /life/
+title: Travel
+permalink: /travel/
 color: "orange"
 icon: fa-hiking
-description: Musings, essays, updates, and trail logs.
+description: Adventures, tips, and trail logs
 pagination:
   enabled: true
   categories:
    values:
      - Thru-Hike
-     - Life
    matching: any
 ---
 
