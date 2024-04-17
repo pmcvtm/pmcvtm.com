@@ -4,7 +4,7 @@ title: Tech
 permalink: /tech/
 color: "vermilion"
 icon: fa-code-branch
-description: Posts on development, software, and technology including tips, troubleshooting, and "nobody-asked-you" commentary.
+description: Thoughts, tutorials, and findings
 pagination:
   enabled: true
   categories:
