@@ -29,6 +29,8 @@ header {
             text-decoration: none;
         }
 
+        img { height: 1em; }
+
         @media (min-width: $veryTinyMax) { font-size: 3em; }
     }
 
