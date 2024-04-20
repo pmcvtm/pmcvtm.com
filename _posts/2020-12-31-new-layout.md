@@ -10,9 +10,11 @@ You may notice the site looks like a little different! It had been a minute sinc
 
 <!--more-->
 
-- posts are now split by category between <a class="vermilion" href="/tech">**tech**</a> and <a class="orange" href="/life">**life**</a>
+_Corrected in April 2024_
+
+- posts are now split by category between <a class="vermilion" href="/tech">**tech**</a> and <span class="orange">~~life~~</span> <a class="orange" href="/travel">**travel**</a>
   - _but still all mashed up in the homepage_
-- <a class="citron" href="/arts">**art pieces**</a> are now posts, also by category
+- <span class="citron">art pieces</span> are now ~~posts, also by category~~ found on [loudandabrasive.com](https://loudandabrasive.com)
   - _and also all mashed into the homepage_
 - the **projects** page is gone
   - _but lives on in the commit history_
@@ -20,4 +22,4 @@ You may notice the site looks like a little different! It had been a minute sinc
 So, all the posts live together in the homepage, or more organized in their respective category pages. In the coming months expect to see the typical technical posts be joined by more art postings, personal essays, and other bullshit. Thanks for reading.
 
 See you soon,
-<br /><span style="font: oblique 1.75em 'Vibur', sans-serif">Patrick</span>
+<br /><span style="font: oblique 1.75em 'Vibur', sans-serif">Patrick / Boogerbear</span>

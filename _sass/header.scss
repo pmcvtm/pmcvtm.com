@@ -22,11 +22,14 @@ header {
         line-height: 1em;
         color: $brown;
         margin: 0;
+        padding-bottom: 0.75rem;
 
         a {
             color: $brown;
             text-decoration: none;
         }
+
+        img { height: 1em; }
 
         @media (min-width: $veryTinyMax) { font-size: 3em; }
     }
@@ -34,6 +37,13 @@ header {
     .subtitle {
         color: $brown;
         font: oblique 1.75em 'Vibur', sans-serif;
+        @media (max-width: $veryTinyMax) { font-size: 1.25em; }
+    }
+
+    .motto {
+        color: $brown;
+        font: oblique 1.5em $headingFont, sans-serif;
+        padding-left: 0.75rem;
         @media (max-width: $veryTinyMax) { font-size: 1.25em; }
     }
 
@@ -96,7 +106,7 @@ header {
                 padding: .5em 0 .5em 0;
             }
 
-            .subtitle { display: none;}
+            .subtitle, .motto { display: none;}
 
             nav {
                 @include flex-grow(0.5);

@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Loud & Abrasive: Patrick McVeety-Mill"
-email: p.mcvtm@protonmail.com
-organization: "Loud & Abrasive & Co."
+title: "BLOG.PMCVTM · Patrick McVeety-Mill"
+email: pmcvtm@duck.com
+organization: "Patrick McVeety-Mill"
 description: > # this means to ignore newlines until "baseurl:"
-  Patrick McVeety-Mill's blog and portfolio: Loud & Abrasive.
-  Featuring guides, art samples, and thoughts and commentaries on development and the world around us.
+  Patrick McVeety-Mill's blog,
+  featuring guides and musings on technology, travel, and the world around us
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://loudandabrasive.com"
+url: "https://blog.pmcvtm.com"
 permalink: ":title"
 excerpt_separator: <!--more-->
 pagination:
@@ -33,8 +33,8 @@ pagination:
 #nav
 header_pages:
   - tech.md
-  - life.md
-  - arts.md
+  - travel.md
+  - musings.md
   - about.md
 
 defaults:
@@ -45,24 +45,19 @@ defaults:
       image: /assets/default-card-image.jpg
 
 #seo
-logo: /assets/loudandalogo.png
+logo: /assets/pmcvtm-logo.png
 author:
   name: Patrick McVeety-Mill
-  twitter: loudandabrasive
+  twitter: pmcvtm
   github: pmcvtm
 social:
   name: Patrick McVeety-Mill
   links:
-    - https://twitter.com/loudandabrasive
     - https://linkedin.com/in/pmcvtm
     - https://github.com/pmcvtm
-    - https://bandcamp.com/loudandabrasive
-    - https://letterboxd.com/loudandabrasive/
-    - https://untappd.com/user/loudandabrasive
-    - https://goodreads.com/loudandabrasive/
-    - https://instagram.com/loudandabrasive
+    - https://twitter.com/pmcvtm
 twitter:
-  username: loudandabrasive
+  username: pmcvtm
 
 sitemap:
   filename: "/sitemap.xml"
