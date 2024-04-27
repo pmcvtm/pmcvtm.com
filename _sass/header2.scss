@@ -74,5 +74,11 @@ header.banner {
                 font: bolder 1.25em $text;
             }
         }
+
+        .nav-toggle {
+            @media (min-width: $desktopMinimum) {
+                display: none !important;
+            }
+        }
     }
 }
