@@ -38,4 +38,41 @@ header.banner {
 
         img { height: 1em; }
     }
+
+    nav {
+        @include flex-grow(0.5);
+
+        @media (max-width: $desktopMinimum) {
+            width: 100%;
+        }
+
+        ul {
+            @include display-flex;
+            @include flex-direction(row);
+            @include flex-justify-content(stretch);
+            @include flex-align-items(center);
+
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            list-style: none;
+
+            @media (max-width: $desktopMinimum)
+            {
+                @include flex-direction(column);
+                @include flex-justify-content(space-around);
+                @include flex-align-items(center);
+            }
+
+            li {
+                @include display-flex;
+                @include flex-direction(column);
+                @include flex-justify-content(center);
+                @include flex-grow(1);
+                height: 100%;
+
+                font: bolder 1.25em $text;
+            }
+        }
+    }
 }
