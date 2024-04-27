@@ -1,0 +1,41 @@
+@import "_variables";
+
+header.banner {
+    background-color: $dope;
+
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    font-size: 1em;
+    line-height: 1em;
+
+    .banner-content {
+        @include flex-align-self(stretch);
+        @include flex-shrink(0);
+
+        @include display-flex;
+        @include flex-direction(row);
+        @include flex-justify-content(end);
+        @include flex-align-items(center);
+
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .title {
+        @include display-flex;
+        @include flex-direction(row);
+        @include flex-justify-content(center);
+
+        margin-right: auto;
+        font-family: 'Bungee Shade', cursive;
+        color: $brown;
+
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1em;
+
+        img { height: 1em; }
+    }
+}
