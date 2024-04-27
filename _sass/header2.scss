@@ -37,13 +37,6 @@ header.banner {
         img { height: 1.5rem; }
     }
 
-    div.stripes {
-        background-image: url("/assets/stripes.png");
-        background-size: 3.5rem;
-        width: 100%;
-        height: 2rem;
-    }
-
     nav {
         @include flex-grow(0.5);
 
