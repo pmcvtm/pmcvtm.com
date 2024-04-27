@@ -7,8 +7,8 @@ header.banner {
     width: 100%;
     text-align: center;
 
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 1rem;
+    line-height: 2rem;
 
     .banner-content {
         @include flex-align-self(stretch);
@@ -19,7 +19,7 @@ header.banner {
         @include flex-justify-content(end);
         @include flex-align-items(center);
 
-        margin: auto;
+        margin: 0.5rem auto;
         max-width: 1200px;
     }
 
@@ -30,11 +30,15 @@ header.banner {
 
         margin-right: auto;
         font-family: 'Bungee Shade', cursive;
+        font-size: 1.5rem;
         color: $brown;
 
         text-decoration: none;
 
-        img { height: 1.5rem; }
+        img {
+            height: 1.75rem;
+            margin-right: .75rem;
+        }
     }
 
     nav {
@@ -69,7 +73,8 @@ header.banner {
                 @include flex-grow(1);
                 height: 100%;
 
-                font: bolder 1.25em $text;
+                font-family: $headingFont;
+                cursor: pointer;
             }
         }
 
