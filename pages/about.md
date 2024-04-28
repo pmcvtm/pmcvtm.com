@@ -2,9 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+
 color: teal
-icon: fa-bullhorn
-description: About me, the author
+icon: "fas fa-bullhorn"
+
+banner-show: true
+banner-order: 4
 ---
 
 <img style="float:right; margin-left: 1rem; height: 10em; border-radius: 10px" src="/assets/author.jpg" alt="our author: a young-ish man in a pink rhinestone suitcoat wearing aviator eyeglasses with sunglass flip-ups donning a jovial smile" />

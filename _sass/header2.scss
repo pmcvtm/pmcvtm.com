@@ -74,7 +74,18 @@ header.banner {
                 height: 100%;
 
                 font-family: $headingFont;
-                cursor: pointer;
+
+                a {
+                    &.vermilion { color: $vermilion; }
+                    &.orange { color: $orange; }
+                    &.citron { color: $citron; }
+                    &.teal { color: $teal; }
+                    &.charchcoal { color: $charcoal; }
+                    &.brown { color: $brown; }
+                }
+
+
+                a { text-decoration: none; }
             }
         }
 
