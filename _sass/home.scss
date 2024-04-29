@@ -1,0 +1,61 @@
+@import "_variables";
+
+
+header.home { .title { display: none; } }
+
+.headline.home {
+  @include display-flex();
+  @include flex-direction(column);
+  @include flex-align-items(center);
+  @include flex-justify-content(center);
+
+  @include desktop() { min-height: 60vh; }
+  @include mobile() { min-height: 40vh; }
+
+  width: 100%;
+
+  background-color: $dope;
+  text-align: center;
+
+  .title {
+    width: 100%;
+    margin: 0 auto;
+
+    background-image: url("/assets/stripes.png");
+    background-size: contain;
+
+    @include desktop() { height: 4rem; }
+    @include mobile() { height: 6rem; }
+
+    h1 {
+        display: inline-block;
+        background-color: $dope;
+        margin: 0;
+        width: 90%;
+        max-width: 1000px;
+
+        font-family: $tileFont;
+        color: $brown;
+        @include desktop() { font-size: 4rem; line-height: 4rem; }
+        @include mobile() { font-size: 2rem; line-height: 2rem; }
+    }
+  }
+
+  img {
+    @include desktop() { height: 6rem; }
+    @include mobile() { height: 2rem; }
+  }
+
+  .content {
+    max-width: 1000px;
+
+    p {
+        max-width: 450px;
+        padding-top: 1rem;
+        line-height: 1.35em;
+
+        @include desktop() { font-size: 1.1em; }
+    }
+  }
+}
+
