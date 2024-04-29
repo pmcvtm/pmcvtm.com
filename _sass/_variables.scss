@@ -23,17 +23,11 @@ $bodyFont: 'Montserrat', sans-serif;
 
 $regularFont: $bodyFont;
 
-.desktop-only {
-    @media (max-width: $desktopMinimum) { 
-        display: none !important;
-    }
-}
+@mixin mobile { @media (max-width: $desktopMinimum) { @content; } }
+@mixin desktop { @media (min-width: $desktopMinimum) { @content; } }
 
-.mobile-only {
-    @media (min-width: $desktopMinimum) { 
-        display: none !important;
-    }
-}
+.desktop-only { @include mobile  { display: none !important; } }
+.mobile-only  { @include desktop { display: none !important; } }
 
 @mixin transition ($transition){
     -webkit-transition: $transition;
