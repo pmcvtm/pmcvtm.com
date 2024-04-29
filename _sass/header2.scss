@@ -18,6 +18,7 @@ header.banner {
         @include flex-direction(row);
         @include flex-justify-content(end);
         @include flex-align-items(center);
+        @include flex-wrap(wrap);
 
         margin: 0.5rem auto;
         max-width: 1000px;
@@ -29,6 +30,10 @@ header.banner {
         @include flex-justify-content(center);
 
         margin-right: auto;
+        @include mobile {
+            padding-left: 1rem;
+        }
+
         font-family: 'Bungee Shade', cursive;
         font-size: 1.5rem;
         color: $brown;
@@ -44,7 +49,8 @@ header.banner {
     nav {
         @include flex-grow(0.5);
 
-        @media (max-width: $desktopMinimum) {
+        @include mobile() {
+            flex-basis: 100%;
             width: 100%;
         }
 
@@ -59,11 +65,13 @@ header.banner {
             height: 100%;
             list-style: none;
 
-            @media (max-width: $desktopMinimum)
+            @include mobile()
             {
                 @include flex-direction(column);
                 @include flex-justify-content(space-around);
                 @include flex-align-items(center);
+
+                width: 100%;
             }
 
             li {
@@ -76,22 +84,62 @@ header.banner {
                 font-family: $headingFont;
 
                 a {
+                    text-decoration: none;
+
                     &.vermilion { color: $vermilion; }
                     &.orange { color: $orange; }
                     &.citron { color: $citron; }
                     &.teal { color: $teal; }
                     &.charchcoal { color: $charcoal; }
                     &.brown { color: $brown; }
+
+                    &:hover { text-decoration: underline; }
                 }
-
-
-                a { text-decoration: none; }
             }
         }
+    }
 
-        .nav-toggle {
-            @media (min-width: $desktopMinimum) {
-                display: none !important;
+    .nav-toggle {
+        @include desktop() {
+            display: none !important;
+        }
+
+        @include mobile() {
+            display: block;
+            padding-right: 1.5rem;
+
+            & + nav {
+                @include transition(all .5s ease);
+                visibility:hidden;
+                opacity:0;
+                max-height: 0;
+                margin: 0;
+            }
+
+            &:has(input:checked) + nav {
+                @include transition(all .5s ease);
+                visibility:visible;
+                opacity:1;
+                max-height: 500px;
+                padding-top: 0.5rem;
+            }
+
+            label {
+                display: block;
+                color: $brown;
+                font-size: 1.5rem;
+                @include transition(transform .5s ease);
+            }
+
+            input {
+                display: none;
+
+                &:checked {
+                    + label i {
+                        transform: rotate(90deg);
+                        @include transition(transform .5s ease);
+                    }
+                }
             }
         }
     }

@@ -3,12 +3,13 @@
         <img src="{{ "assets/glasses.png" | relative_url }}" />
         PMCVTM
     </a>
-    <nav>
-        <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
-        <label for="nav-toggle-check" class="nav-toggle">
+    <div class="nav-toggle">
+        <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" />
+        <label for="nav-toggle-check">
             <i class="fas fa-bars"></i>
         </label>
-
+    </div>
+    <nav>
         <ul class="page-list">
             {% assign pagelinks = site.pages | where: "banner-show","true" | sort:"banner-order" %}
             {% for page in pagelinks %}
@@ -22,7 +23,10 @@
                 <a href="#" class="charcoal">Contact</a>
             </li>
             <li>
-                <a href="#" class="brown"><i class="fas fa-rss"></i></a>
+                <a href="#" class="brown">
+                    <i class="fas fa-rss desktop-only"></i>
+                    <span class="mobile-only">Subscribe</span>
+                </a>
             </li>
         </ul>
     </nav>
