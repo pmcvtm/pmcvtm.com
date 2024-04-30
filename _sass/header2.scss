@@ -11,22 +11,22 @@ header {
     line-height: 2rem;
 
     .content {
-        @include flex-align-self(stretch);
-        @include flex-shrink(0);
+        align-self: stretch;
+        flex-shrink: 0;
 
-        @include display-flex;
-        @include flex-direction(row);
-        @include flex-justify-content(end);
-        @include flex-align-items(center);
-        @include flex-wrap(wrap);
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
 
         margin: 0.5rem auto;
     }
 
     .title {
-        @include display-flex;
-        @include flex-direction(row);
-        @include flex-justify-content(center);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
         margin-right: auto;
         @include mobile {
@@ -46,7 +46,7 @@ header {
     }
 
     nav {
-        @include flex-grow(0.5);
+        flex-grow: 0.5;
 
         @include mobile() {
             flex-basis: 100%;
@@ -54,10 +54,10 @@ header {
         }
 
         ul {
-            @include display-flex;
-            @include flex-direction(row);
-            @include flex-justify-content(stretch);
-            @include flex-align-items(center);
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            align-items: center;
 
             margin: 0;
             padding: 0;
@@ -66,18 +66,18 @@ header {
 
             @include mobile()
             {
-                @include flex-direction(column);
-                @include flex-justify-content(space-around);
-                @include flex-align-items(center);
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
 
                 width: 100%;
             }
 
             li {
-                @include display-flex;
-                @include flex-direction(column);
-                @include flex-justify-content(center);
-                @include flex-grow(1);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex-grow: 1;
                 height: 100%;
 
                 font-family: $headingFont;

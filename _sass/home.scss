@@ -3,14 +3,14 @@
 
 header.home {
   .title { display: none; }
-  .content { @include desktop() { @include flex-justify-content(center); } }
+  .content { @include desktop() { justify-content: center; } }
 }
 
 .headline.home {
-  @include display-flex();
-  @include flex-direction(column);
-  @include flex-align-items(center);
-  @include flex-justify-content(center);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @include desktop() { min-height: 60vh; }
   @include mobile() { min-height: 40vh; }
@@ -59,7 +59,7 @@ header.home {
         @include desktop() { font-size: 1.1em; }
     }
 
-    .social-links { @include flex-justify-content(space-evenly); }
+    .social-links { justify-content: space-evenly; }
   }
 }
 
