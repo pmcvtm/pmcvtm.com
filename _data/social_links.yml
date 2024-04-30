@@ -4,6 +4,7 @@
   footer: false
   card: true
   linkinbio: false
+  home: false
 
 - name: Twitter
   url: https://twitter.com/pmcvtm
@@ -12,6 +13,7 @@
   footer: true
   card: true
   linkinbio: true
+  home: true
 
 - name: LinkedIn
   url: https://linkedin.com/in/pmcvtm
@@ -20,6 +22,7 @@
   footer: true
   card: true
   linkinbio: true
+  home: true
 
 - name: Github
   text: Star me on Github
@@ -28,6 +31,7 @@
   footer: true
   card: true
   linkinbio: true
+  home: true
 
 - name: Blog
   text: Read my Blog
@@ -36,4 +40,14 @@
   footer: false
   card: true
   linkinbio: true
+  home: false
+
+- name: "Loud & Abrasive"
+  text: "See My Art"
+  url: https://loudandabrasive.com
+  icon: 'fas fa-poo'
+  footer: true
+  card: false
+  linkinbio: false
+  home: true
 

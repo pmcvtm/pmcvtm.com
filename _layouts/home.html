@@ -15,6 +15,13 @@ layout: base
       My name is Patrick and I'm a developer, speaker, writer, mentor, and artist.
       Make yourself at home and have a look around.
     </p>
+    <ul class="social-links">
+      {% for link in site.data.social_links %}
+        {% if link.home == true %}
+        <li><a href="{{link.url}}" title="{{link.name}}" target="_blank"><i class="{{link.icon}}"></i></a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </div>
 
