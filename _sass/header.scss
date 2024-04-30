@@ -1,13 +1,13 @@
 @import "_variables";
 
 header {
-    @include flex-align-self(stretch);
-    @include flex-shrink(0);
+    align-self: stretch;
+    flex-shrink: 0;
 
-    @include display-flex;
-    @include flex-direction(column);
-    @include flex-justify-content(space-around);
-    @include flex-align-items(center);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
     text-align: center;
     background-color: $dope;
@@ -59,19 +59,19 @@ header {
             list-style: none;
             padding: 0;
 
-            @include display-flex;
-            @include flex-direction(row);
+            display: flex;
+            flex-direction: row;
 
             @media (max-width: $desktopMinimum)
             {
-                @include flex-direction(column);
-                @include flex-justify-content(space-around);
-                @include flex-align-items(center);
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
             }
         }
 
         li {
-            @include flex-grow(1);
+            flex-grow: 1;
             line-height: 2em;
             cursor: pointer;
             width: 100%;
@@ -95,9 +95,9 @@ header {
             }
 
         &.top {
-            @include flex-direction(row);
-            @include flex-justify-content(space-evenly);
-            @include flex-align-items(center);
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
             border-bottom: 0.2em solid $brown;
 
             .title { font-size: 2em; }
@@ -109,20 +109,20 @@ header {
             .subtitle, .motto { display: none;}
 
             nav {
-                @include flex-grow(0.5);
+                flex-grow: 0.5;
                 padding-top: 0;
 
                 ul {
                     height: 100%;
-                    @include flex-justify-content(stretch);
-                    @include flex-align-items(center);
+                    justify-content: stretch;
+                    align-items: center;
 
                     margin: 0;
 
                     li {
-                        @include display-flex;
-                        @include flex-direction(column);
-                        @include flex-justify-content(center);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
                         height: 100%;
 
                         font: bolder 1.25em $text;

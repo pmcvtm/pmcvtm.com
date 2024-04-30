@@ -19,9 +19,9 @@
 }
 
 .post-meta {
-    @include display-flex;
-    @include flex-direction(row);
-    @include flex-justify-content(space-between);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
 
     .post-tags {
@@ -34,20 +34,20 @@
 .post {
     header {
         background-color: $white;
-        @include flex-direction(column);
+        flex-direction: column;
 
         .post-title {
             font: lighter 2em $headingFont;
             margin-top: 0.5em;
             margin-bottom: 0.2em;
-            @include flex-align-self(flex-start);
+            align-self: flex-start;
             text-align: left;
         }
 
         .post-meta {
-            @include display-flex;
-            @include flex-direction(row);
-            @include flex-justify-content(space-between);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
             time { font-weight: bold; }
         }
     }
@@ -63,7 +63,7 @@
 .page {
     header {
         background-color: $white;
-        @include flex-direction(column);
+        flex-direction: column;
 
         .page-title {
             margin: 0 auto;
@@ -73,9 +73,9 @@
     }
 
     .page-description {
-        @include display-flex;
-        @include flex-direction(row);
-        @include flex-justify-content(center);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         width: 100%;
         margin-bottom: 2em;
 
@@ -122,10 +122,10 @@
 }
 
 .pagination {
-    @include display-flex;
-    @include flex-direction(row);
-    @include flex-justify-content(space-between);
-    @include flex-align-items(center);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     margin: 1rem 0;
 

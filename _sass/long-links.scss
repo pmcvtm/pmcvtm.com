@@ -1,11 +1,11 @@
 @import "_variables";
 
 .long-links {
-    @include flex-align-self(stretch);
-    @include flex-shrink(0);
+    align-self: stretch;
+    flex-shrink: 0;
 
-    @include display-flex;
-    @include flex-direction(column);
+    display: flex;
+    flex-direction: column;
 
     height:100%;
     text-align: center;
@@ -51,8 +51,8 @@
                 width: 100%;
 
                 .link-text {
-                  @include display-flex;
-                  @include flex-justify-content(start);
+                  display: flex;
+                  justify-content: start;
 
                   padding: 0 0.5em;
                   max-width: 15em;

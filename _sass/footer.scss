@@ -1,20 +1,20 @@
 @import "_variables";
 
 footer {
-    @include flex-shrink(0);
+    flex-shrink: 0;
 
-    @include display-flex;
-    @include flex-direction(row);
-    @include flex-justify-content(space-evenly);
-    @include flex-align-items(center);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
     @media (max-width: $desktopMinimum) {
         padding-top: 0.2em;
         min-height: 3em;
 
-        @include flex-direction(column);
-        @include flex-justify-content(start);
-        @include flex-align-items(stretch);
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
         text-align: center;
     }
 
@@ -26,13 +26,13 @@ footer {
 }
 
 .social-links {
-    @include display-flex;
-    @include flex-direction(row);
-    @include flex-justify-content(space-between);
-    @include flex-align-items(center);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
     @media (min-width: $desktopMinimum) {
-        @include flex-basis(25em);
+        flex-basis: 25em;
         padding-left: 0;
     }
 
