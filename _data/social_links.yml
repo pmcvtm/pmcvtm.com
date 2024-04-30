@@ -6,15 +6,6 @@
   linkinbio: false
   home: false
 
-- name: Twitter
-  url: https://twitter.com/pmcvtm
-  text: Follow on Twitter
-  icon: 'fab fa-twitter'
-  footer: true
-  card: true
-  linkinbio: true
-  home: true
-
 - name: LinkedIn
   url: https://linkedin.com/in/pmcvtm
   text: Connect on LinkedIn
@@ -41,6 +32,15 @@
   card: true
   linkinbio: true
   home: false
+
+- name: Twitter
+  url: https://twitter.com/pmcvtm
+  text: Follow on Twitter
+  icon: 'fab fa-twitter'
+  footer: true
+  card: true
+  linkinbio: true
+  home: true
 
 - name: "Loud & Abrasive"
   text: "See My Art"
