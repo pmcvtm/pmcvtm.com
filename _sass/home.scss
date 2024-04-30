@@ -1,7 +1,10 @@
 @import "_variables";
 
 
-header.home { .title { display: none; } }
+header.home {
+  .title { display: none; }
+  .content { @include desktop() { @include flex-justify-content(center); } }
+}
 
 .headline.home {
   @include display-flex();
@@ -47,10 +50,9 @@ header.home { .title { display: none; } }
   }
 
   .content {
-    max-width: 1000px;
-
     p {
         max-width: 450px;
+        margin: auto;
         padding-top: 1rem;
         line-height: 1.35em;
 

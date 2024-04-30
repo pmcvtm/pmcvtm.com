@@ -1,6 +1,6 @@
 @import "_variables";
 
-header.banner {
+header {
     background-color: $dope;
 
     display: block;
@@ -10,7 +10,7 @@ header.banner {
     font-size: 1rem;
     line-height: 2rem;
 
-    .banner-content {
+    .content {
         @include flex-align-self(stretch);
         @include flex-shrink(0);
 
@@ -21,7 +21,6 @@ header.banner {
         @include flex-wrap(wrap);
 
         margin: 0.5rem auto;
-        max-width: 1000px;
     }
 
     .title {
