@@ -1,7 +1,9 @@
 @import "_variables";
 
-html {
+html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,8 +11,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
-    margin: 0;
 
     background: $white;
     color: $text;
