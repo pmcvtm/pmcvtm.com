@@ -51,13 +51,12 @@ header.home {
   }
 
   .content {
+    max-width: clamp(450px, 50vw, 750px);
+
     p {
-        max-width: 450px;
         margin: auto;
         padding-top: 1rem;
         line-height: 1.35em;
-
-        @include desktop() { font-size: 1.1em; }
     }
 
     .social-links {
