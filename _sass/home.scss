@@ -60,7 +60,12 @@ header.home {
         @include desktop() { font-size: 1.1em; }
     }
 
-    .social-links { justify-content: space-evenly; }
+    .social-links {
+      justify-content: space-evenly;
+      margin-top: 2rem;
+
+      font-size: clamp(1em, 2vw, 1.5em);
+    }
   }
 }
 
