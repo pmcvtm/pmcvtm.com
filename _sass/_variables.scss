@@ -23,8 +23,10 @@ $bodyFont: 'Montserrat', sans-serif;
 
 $regularFont: $bodyFont;
 
-@mixin mobile { @media (max-width: $desktopMinimum) { @content; } }
+@mixin mobile { @media (max-width: $veryTinyMax) { @content; } }
+@mixin inbetween { @media (min-width: $veryTinyMax) and (max-width: $desktopMinimum) { @content; } }
 @mixin desktop { @media (min-width: $desktopMinimum) { @content; } }
+@mixin notDesktop { @media (max-width: $desktopMinimum) { @content; } }
 
 .desktop-only { @include mobile  { display: none !important; } }
 .mobile-only  { @include desktop { display: none !important; } }

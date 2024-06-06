@@ -28,6 +28,7 @@ header.home {
     background-size: contain;
 
     @include desktop() { height: 4rem; }
+    @include inbetween() { height: 5rem; }
     @include mobile() { height: 6rem; }
 
     h1 {
@@ -46,6 +47,7 @@ header.home {
 
   img {
     @include desktop() { height: 6rem; }
+    @include inbetween() { height: 4rem; }
     @include mobile() { height: 2rem; }
   }
 
