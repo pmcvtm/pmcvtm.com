@@ -73,7 +73,8 @@ blockquote {
 // === CODE === === === === ===
 
 pre { 
-    padding: 1rem; font-size: smaller;
+    padding: 1rem;
+    font-size: smaller;
 
     &.highlight { 
         background: $lightGray;
