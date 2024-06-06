@@ -13,14 +13,30 @@ body {
     margin: 0;
 
     background: $white;
-    color: $darkGray;
+    color: $text;
     font-family: $regularFont;
-    font-size: 1.2em;
+}
+
+@mixin typo ($minSize, $idealSize, $maxSize, $color) {
+    --min: #{$minSize};
+    --val: #{$idealSize};
+    --max: #{$maxSize};
+    color: $color;
+}
+
+h1 { @include typo(2em,    5vw,   3em,     $vermilion); }
+h2 { @include typo(1.75em, 4vw,   2.75em,  $brown); }
+h3 { @include typo(1.5em,  3.5vw, 2.5em,   $teal); }
+h4 { @include typo(1.25em, 3vw,   2em,     $orange); }
+h5 { @include typo(1em,    3vw,   1.75em,  $charcoal); font-weight: bold; }
+p  { @include typo(1em,    2.5vw, 1.5em,   $text) }
+
+h1,h2,h3,h4,h5, p {
+    font-size: clamp(var(--min), var(--val), var(--max));
 }
 
 h1,h2,h3,h4,h5 {
     font-family: $headingFont;
-    color: $brown;
     font-weight: lighter;
 }
 
