@@ -25,10 +25,10 @@ body {
 }
 
 h1 { @include typo(2em,    5vw,   3em,     $vermilion); }
-h2 { @include typo(1.75em, 4vw,   2.75em,  $brown); }
-h3 { @include typo(1.5em,  3.5vw, 2.5em,   $teal); }
-h4 { @include typo(1.25em, 3vw,   2em,     $orange); }
-h5 { @include typo(1em,    3vw,   1.75em,  $charcoal); font-weight: bold; }
+h2 { @include typo(1.75em, 4vw,   2.75em,  $teal); }
+h3 { @include typo(1.5em,  3.5vw, 2.5em,   $orange); }
+h4 { @include typo(1.25em, 3vw,   2em,     $charcoal); }
+h5 { @include typo(1em,    3vw,   1.75em,  $citron); font-weight: bold; }
 p  { @include typo(1em,    2.5vw, 1.5em,   $text) }
 
 h1,h2,h3,h4,h5, p {

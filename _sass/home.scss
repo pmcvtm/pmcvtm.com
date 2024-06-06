@@ -12,8 +12,9 @@ header.home {
   align-items: center;
   justify-content: center;
 
-  @include desktop() { min-height: 60vh; }
-  @include mobile() { min-height: 40vh; }
+  @include desktop() { min-height: 95vh; }
+  @include inbetween() { min-height: 65vh; }
+  @include mobile() { min-height: 100vh; }
 
   width: 100%;
 
@@ -40,8 +41,11 @@ header.home {
 
         font-family: $tileFont;
         color: $brown;
-        @include desktop() { font-size: 4rem; line-height: 4rem; }
-        @include mobile() { font-size: 2rem; line-height: 2rem; }
+
+        font-size: clamp(2rem, 5vw, 4rem);
+        @include desktop() { line-height: 4rem; }
+        @include inbetween() { line-height: 5rem; }
+        @include mobile() { line-height: 3rem; }
     }
   }
 
