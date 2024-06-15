@@ -82,6 +82,7 @@ header.home {
   background-color: $dope;
 
   #consulting h2 { color: $vermilion; }
+  #mentorship h2 { color: $orange; }
 
   .content {
     background-color: $white;
@@ -111,6 +112,16 @@ header.home {
       border-bottom-left-radius: 1em;
     }
 
+    #mentorship .img-container, #mentorship img {
+      border-top-right-radius: 1em;
+      border-bottom-right-radius: 1em;
+    }
+
+    #mentorship .img-container {
+      flex-shrink: 0;
+      width: 60%;
+    }
+  }
 
   .blurb {
     padding: 1rem;
