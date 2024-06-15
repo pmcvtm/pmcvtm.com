@@ -54,14 +54,13 @@ header.home {
     max-width: clamp(450px, 50vw, 750px);
 
     p {
-        margin: auto;
-        padding-top: 1rem;
+        margin: 1em auto;
         line-height: 1.35em;
     }
 
     .social-links {
       justify-content: space-evenly;
-      margin-top: 2rem;
+      margin-top: 2em;
 
       font-size: clamp(1em, 2vw, 1.5em);
     }
@@ -76,4 +75,55 @@ header.home {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content-container.home {
+  width: 100%;
+  background-color: $dope;
+
+  #consulting h2 { color: $vermilion; }
+
+  .content {
+    background-color: $white;
+    margin: 1rem auto;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .img-container {
+    img {
+       object-fit: cover;
+       object-position: center;
+       width: 100%;
+       height: 100%;
+    }
+  }
+
+  @include desktop() {
+    #consulting .img-container, #consulting img {
+      border-top-left-radius: 1em;
+      border-bottom-left-radius: 1em;
+    }
+
+
+  .blurb {
+    padding: 1rem;
+    height: 90%;
+
+    h2 {
+      font-weight: bold;
+      letter-spacing: 0.3   5rem;
+      padding: 1rem 2rem 0 2rem;
+    }
+
+    p {
+        padding: 0 2rem 1rem 2rem;
+    }
+  }
 }
