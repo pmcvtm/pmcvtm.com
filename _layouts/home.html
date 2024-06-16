@@ -59,6 +59,37 @@ layout: base
         <img src="{{ "/assets/photos/pmcvtm-mentoring.jpg" | relative_url }}" />
       </div>
     </div>
+  <div id="blog" class="full-page">
+    <div class="content">
+      <div class="blurb">
+        <h2>The Latest</h2>
+        <div class="updates">
+          <div class="posts">
+            <h3>On the Blog</h3>
+            <ul>
+              {% assign homeposts = site.posts | sort_by: 'date' %}
+              {% for post in homeposts limit: 5 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="news">
+            <h3>In the World</h3>
+            <ul>
+              {% include whatsnew.html %}
+            </ul>
+          </div>
+        </div>
+        <p style="text-align: center; padding-top: 1em;">
+          <a class="outline-link" href="{{ "/blog" | relative_url }}">
+            Read More
+            <i class="fas fa-chevron-right vermilion"><i class="fas fa-chevron-right orange"></i></i><i class="fas fa-chevron-right citron"></i><i class="fas fa-chevron-right teal"></i>
+          </a>
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
