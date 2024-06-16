@@ -32,10 +32,22 @@ pagination:
 
 #nav
 header_pages:
-  - tech.md
-  - travel.md
-  - musings.md
-  - about.md
+  -
+    title: Consulting
+    color: vermilion
+    url: "/#consulting"
+  -
+    title: Mentorship
+    color: orange
+    url: "/#mentorship"
+  -
+    title: Blog
+    color: citron
+    url: "/blog"
+  -
+    title: About
+    color: teal
+    url: "/about"
 
 defaults:
   -

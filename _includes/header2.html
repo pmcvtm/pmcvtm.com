@@ -11,8 +11,7 @@
     </div>
     <nav>
         <ul class="page-list">
-            {% assign pagelinks = site.pages | where: "banner-show","true" | sort:"banner-order" %}
-            {% for page in pagelinks %}
+            {% for page in site.header_pages %}
             <li>
                 <a href="{{ page.url | relative_url }}" class="{{ page.color | default:'brown' }}">
                     {{ page.title | escape }}
