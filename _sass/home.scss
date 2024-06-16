@@ -65,6 +65,17 @@ header.home {
       font-size: clamp(1em, 2vw, 1.5em);
     }
   }
+
+  .next-link {
+    animation: next-link 1s linear alternate infinite;
+    font-size: larger;
+    padding-top: 3em;
+
+    @keyframes next-link {
+      0% { transform: scale(1) }
+      100% { transform: scale(1.3) }
+    }
+  }
 }
 
 .full-page {
@@ -73,8 +84,27 @@ header.home {
   @include mobile() { min-height: 100vh; }
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.headline.home .next-link, .content-container.home .next-link {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 2em;
+
+  a i {
+    padding: 0.25em;
+    transform: scale(1);
+    transform-origin: top;
+
+    font-size: clamp(1em, 2vw, 1.5em);
+    color: $brown;
+    &:hover { color: $teal; }
+  }
 }
 
 .content-container.home {
