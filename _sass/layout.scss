@@ -18,3 +18,20 @@
     @include mobile() { min-height: 100vh; }
 }
 
+.content {
+    width: 90%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.blurb {
+    margin: 1rem auto;
+    padding: 1rem;
+
+    border-radius: 1em;
+    background-color: $white;
+}
+
+.full-page .blurb {
+    height: 90%;
+}
