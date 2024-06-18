@@ -70,7 +70,7 @@ header.home {
   }
 }
 
-.headline.home .next-link, .content-container.home .next-link {
+.headline.home .next-link, .home-blurbs .next-link {
   text-align: center;
 
   display: flex;
@@ -88,23 +88,31 @@ header.home {
   }
 }
 
-.content-container.home {
+.home-blurbs {
+  display: flex;
+  flex-direction: column;
+
+  h2, h3 {
+    letter-spacing: 0.3 5rem;
+    padding: 1rem 2rem 0 2rem;
+  }
 
   #consulting h2 { color: $vermilion; }
   #mentorship h2 { color: $orange; }
   #blog h2 { color: $citron; }
 
-  .content {
-    background-color: $white;
-    margin: 1rem auto;
+  h2 { font-weight: bold; }
 
+  p { padding: 0 2rem 1rem 2rem; }
+
+  .content {
     display: flex;
     flex-direction: row;
-    border-radius: 1em;
+    @include mobile { flex-direction: column-reverse; }
 
-    @include mobile {
-      flex-direction: column-reverse;
-    }
+    margin: 1rem auto;
+    border-radius: 1em;
+    background-color: $white;
   }
 
   .img-container {
@@ -136,20 +144,8 @@ header.home {
   .blurb {
     padding: 1rem;
     height: 90%;
-
-    h2, h3 {
-      letter-spacing: 0.3 5rem;
-      padding: 1rem 2rem 0 2rem;
-    }
-
-    h2 { font-weight: bold; }
-
-    p {
-        padding: 0 2rem 1rem 2rem;
-    }
   }
 
-  #blog .blurb { min-width: 100%; }
   #blog h2 { margin: 0; }
 
   .updates {
