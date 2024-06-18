@@ -6,7 +6,6 @@ header.home {
 }
 
 .headline.home {
-  flex-direction: column;
   text-align: center;
 
   .title {
@@ -90,9 +89,6 @@ header.home {
 }
 
 .home-blurbs {
-  display: flex;
-  flex-direction: column;
-
   h2, h3 {
     letter-spacing: 0.3 5rem;
     padding: 1rem 2rem 0 2rem;
