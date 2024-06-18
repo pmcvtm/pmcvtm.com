@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5 {
     font-weight: lighter;
 }
 
-a { 
+a {
     color: $teal;
     &:hover {
         color: $charcoal;
@@ -57,11 +57,11 @@ a {
     flex-grow: 1;
 
     img {
-        @media (min-width: $desktopMinimum) { 
+        @media (min-width: $desktopMinimum) {
             max-width: 900px;
         }
 
-        @media (max-width: $desktopMinimum) { 
+        @media (max-width: $desktopMinimum) {
             max-width: 100%;
             width: auto;
             height: auto;
@@ -83,11 +83,11 @@ blockquote {
 
 // === CODE === === === === ===
 
-pre { 
+pre {
     padding: 1rem;
     font-size: smaller;
 
-    &.highlight { 
+    &.highlight {
         background: $lightGray;
         overflow-x: scroll;
     }
@@ -127,7 +127,7 @@ code {
 // === MISC === === === === ===
 
 .archive {
-    a { 
+    a {
         color: $text;
         text-decoration: none;
     }
