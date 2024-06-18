@@ -6,15 +6,7 @@ header.home {
 }
 
 .headline.home {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-
-  background-color: $dope;
-  text-align: center;
 
   .title {
     width: 100%;
@@ -78,17 +70,6 @@ header.home {
   }
 }
 
-.full-page {
-  @include desktop() { min-height: 95vh; }
-  @include inbetween() { min-height: 65vh; }
-  @include mobile() { min-height: 100vh; }
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .headline.home .next-link, .content-container.home .next-link {
   text-align: center;
 
@@ -108,8 +89,6 @@ header.home {
 }
 
 .content-container.home {
-  width: 100%;
-  background-color: $dope;
 
   #consulting h2 { color: $vermilion; }
   #mentorship h2 { color: $orange; }

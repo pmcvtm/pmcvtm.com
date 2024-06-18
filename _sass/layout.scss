@@ -1,0 +1,21 @@
+@import "_variables";
+
+.bg-container, .full-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    background-color: $dope;
+    text-align: center;
+}
+
+.full-page {
+    flex-direction: column;
+
+    @include desktop() { min-height: 95vh; }
+    @include inbetween() { min-height: 65vh; }
+    @include mobile() { min-height: 100vh; }
+}
+
