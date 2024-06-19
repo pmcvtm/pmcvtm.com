@@ -1,34 +1,58 @@
 @import "_variables";
 
 .post-list {
-
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
 
+    @include desktop() { height: 45em; }
+    @include inbetween() { height: 42em; }
+
+    p {
+        margin: 0;
+        padding-top: 0.5rem;
+    }
+
     .post-title {
-        a { color: $brown; text-decoration: none; }
-        margin-top: 0;
-    }
+        margin: 0;
 
-    .post-list-entry {
-        border-bottom: 1px dotted $brown;
-        padding: 1em 0;
+        font-size: clamp(1.25em, 2.75vw, 1.75em);
+        font-family: $bodyFont;
+        font-weight: bold;
 
-        &:last-child {
-            border-bottom: none;
-            padding-bottom: 1em;
-        }
+        a {
+            color: $brown;
+            text-decoration: none;
 
-        img {
-            max-height: 20em;
+            &:hover { text-decoration: underline; }
         }
     }
 
-    .post-excerpt {
-        h2 {
-            font-family: $bodyFont;
-            font-size: 1.2em;
+    .post-meta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .post-category {
+            font-weight: bold;
+        }
+
+        .post-tags {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            color: $charcoal;
+        }
+
+        a {
+          margin-left: auto;
+          margin-right: 1em;
+
+          &:hover { i { color: $brown; } }
         }
     }
 }
@@ -41,6 +65,8 @@
     text-align: center;
     margin: 1rem 0;
 
+    font-size: clamp(1em, 2vw, 1.25em);
+
     .disabled {
         border-radius: 0.6em;
         padding: .1em .5em;
@@ -49,7 +75,11 @@
         cursor: not-allowed;
     }
 
-    .link {
+    .blurb.page-number {
+        padding: 0.25rem 0.5rem;
+    }
+
+    a {
         border: 1px solid $brown;
         border-radius: 0.6em;
         padding: .1em .5em;

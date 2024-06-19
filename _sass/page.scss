@@ -50,7 +50,7 @@
       font-size: clamp(2rem, 5vw, 4rem);
       @include desktop() { line-height: 4rem; }
       @include inbetween() { line-height: 5rem; }
-      @include mobile() { line-height: 3rem; }
+      @include mobile() { line-height: 6rem; }
     }
   }
 }
