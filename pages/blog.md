@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Blog
 permalink: /blog/
+description: "Positive Spirits, Helpful Shouting"
 
 color: citron
 icon: "fas fa-book-open"
