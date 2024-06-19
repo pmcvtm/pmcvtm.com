@@ -98,3 +98,20 @@
         margin-top: 0.4em;
     }
 }
+
+.archive {
+    a {
+        color: $text;
+        text-decoration: none;
+    }
+
+    white-space: nowrap;
+    list-style: none;
+
+    @include mobile() {
+        white-space: wrap;
+
+        li { padding-bottom: 1em; }
+    }
+}
+
