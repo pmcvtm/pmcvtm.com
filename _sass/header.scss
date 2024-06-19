@@ -28,7 +28,7 @@ header {
         flex-direction: row;
         justify-content: center;
 
-        margin-right: auto;
+        margin: auto;
         @include mobile {
             padding-left: 1rem;
         }
