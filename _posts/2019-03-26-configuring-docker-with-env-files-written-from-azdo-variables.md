@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configuring Docker with Env Files Written from Azure DevOps Variables"
+title:  "Configuring Docker with Azure DevOps Variables"
 date:   2019-03-26 13:53:00 -0600
 categories: DevOps
 color: vermilion

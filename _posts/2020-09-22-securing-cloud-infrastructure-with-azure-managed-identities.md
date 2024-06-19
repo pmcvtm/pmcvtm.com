@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Securing Cloud Infrastructure with Azure Managed Identities
+title:  Securing Azure with Managed Identities
 date:   2020-09-22 09:48:00 -0600
 categories: Cloud
 color: vermilion
