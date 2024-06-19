@@ -170,27 +170,6 @@ header.home {
           &:nth-child(5n+5) { a:hover { color: $charcoal; } }
         }
       }
-
-      .news {
-        li {
-
-          .highlight {
-            background-color: $white;
-            font-weight: bolder;
-          }
-
-          a {
-            color: $charcoal;
-            &:hover { color: $teal; }
-          }
-
-          &:nth-child(1n+1) { .highlight { color: $vermilion; } }
-          &:nth-child(2n+2) { .highlight { color: $orange; } }
-          &:nth-child(3n+3) { .highlight { color: $citron; } }
-          &:nth-child(4n+4) { .highlight { color: $teal; } }
-          &:nth-child(5n+5) { .highlight { color: $charcoal; } }
-        }
-      }
     }
   }
 }
