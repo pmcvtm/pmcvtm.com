@@ -9,4 +9,9 @@ icon: "fas fa-book-open"
 
 banner-show: true
 banner-order: 3
+
+pagination:
+  enabled: true
 ---
+
+{% include pagination.html %}
