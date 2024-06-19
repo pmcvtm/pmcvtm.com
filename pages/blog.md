@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: page-wheadline
 title: Blog
+headline: Blog
 permalink: /blog/
 description: "Positive Spirits, Helpful Shouting"
 
