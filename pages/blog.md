@@ -5,6 +5,7 @@ headline: Blog
 headline-link: /blog/
 permalink: /blog/
 subtitle: "Positive Spirits, Helpful Shouting"
+description: Blog posts regarding technology, travel, and more, including tutorials, references, guides, and essays, all by Patrick McVeety-Mill.
 
 color: citron
 icon: "fas fa-book-open"

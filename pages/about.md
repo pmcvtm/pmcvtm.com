@@ -4,6 +4,7 @@ layout: page-wheadline
 title: About
 subtitle: About me, the author
 permalink: /about/
+description: Patrick is a professional software consultant and amateur many other things from and in Austin, Texas.
 
 blurb: true
 
