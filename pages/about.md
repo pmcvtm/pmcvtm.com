@@ -16,7 +16,7 @@ banner-order: 4
 
 <img style="float:right; margin-left: 1rem; height: 10em; border-radius: 10px" src="/assets/author.jpg" alt="our author: a young-ish man in a pink rhinestone suitcoat wearing aviator eyeglasses with sunglass flip-ups donning a jovial smile" />
 
-I am professional software consultant and amateur many other things from and in Austin, Texas. I use he/him pronouns and people call me "Patrick," "Loud Patrick," or by my trail name "Boogerbear."
+I am a professional software consultant and amateur many other things from and in Austin, Texas. I use he/him pronouns and people call me "Patrick," "Loud Patrick," or by my trail name "Boogerbear."
 
 For many years I worked for Headspring, now part of Accenture, as a tech lead, architect, and engineering manager. I now work as an independent consultant and career mentor
 
