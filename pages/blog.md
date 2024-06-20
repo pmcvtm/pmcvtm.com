@@ -2,6 +2,7 @@
 layout: page-wheadline
 title: Blog
 headline: Blog
+headline-link: /blog/
 permalink: /blog/
 description: "Positive Spirits, Helpful Shouting"
 
