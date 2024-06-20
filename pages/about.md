@@ -2,6 +2,7 @@
 layout: page-wheadline
 
 title: About
+subtitle: About me, the author
 permalink: /about/
 
 blurb: true

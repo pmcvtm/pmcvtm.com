@@ -4,7 +4,7 @@ title: Blog
 headline: Blog
 headline-link: /blog/
 permalink: /blog/
-description: "Positive Spirits, Helpful Shouting"
+subtitle: "Positive Spirits, Helpful Shouting"
 
 color: citron
 icon: "fas fa-book-open"
