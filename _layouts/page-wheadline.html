@@ -6,7 +6,19 @@ layout: default
 
   <div class="headline page bg-container">
     <div class="title">
-      <h1><a href="{{ page.headline-link | relative_url }}">{{page.headline}}</a></h1>
+      <h1>
+        {% if page.headline-link %}
+        <a href="{{ page.headline-link | relative_url }}">
+      {% else %}
+        <a href="{{ page.permalink | relative_url }}">
+      {% endif %}
+          {% if page.headline %}
+            {{page.headline}}
+          {% else %}
+            {{page.title}}
+          {% endif %}
+        </a>
+      </h1>
     </div>
     {% if page.description %}
     <div class="content page-description">
