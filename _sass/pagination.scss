@@ -5,8 +5,8 @@
     padding-left: 0;
     margin-bottom: 0;
 
-    @include desktop() { height: 45em; }
-    @include inbetween() { height: 42em; }
+    @include desktop() { min-height: 45em; }
+    @include inbetween() { min-height: 42em; }
 
     p {
         margin: 0;

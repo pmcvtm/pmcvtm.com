@@ -87,6 +87,7 @@ header {
                 height: 100%;
 
                 font-family: $headingFont;
+                font-size: clamp(1.25rem, 1vw, 2rem);
 
                 a {
                     text-decoration: none;
