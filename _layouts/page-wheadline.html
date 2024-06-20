@@ -27,7 +27,11 @@ layout: default
     {%endif%}
   </div>
 
+  {% if page.blurb %}
+  <div class="content blurb">
+  {% else %}
   <div class="content">
+  {% endif %}
     {{ content }}
   </div>
 

@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: page-wheadline
+
 title: About
 permalink: /about/
+
+blurb: true
 
 color: teal
 icon: "fas fa-bullhorn"
