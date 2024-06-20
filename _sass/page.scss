@@ -45,7 +45,11 @@
       margin: 0;
 
       font-family: $tileFont;
-      color: $brown;
+
+      a {
+        color: $brown;
+        text-decoration: none;
+      }
 
       font-size: clamp(2rem, 5vw, 4rem);
       @include desktop() { line-height: 4rem; }
