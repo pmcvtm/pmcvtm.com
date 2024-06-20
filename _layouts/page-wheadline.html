@@ -9,9 +9,9 @@ layout: default
       <h1>
         {% if page.headline-link %}
         <a href="{{ page.headline-link | relative_url }}">
-      {% else %}
+        {% else %}
         <a href="{{ page.permalink | relative_url }}">
-      {% endif %}
+        {% endif %}
           {% if page.headline %}
             {{page.headline}}
           {% else %}
