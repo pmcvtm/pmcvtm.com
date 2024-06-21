@@ -13,21 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "BLOG · Patrick McVeety-Mill · PMCVTM"
+title: "Patrick McVeety-Mill · PMCVTM"
 email: pmcvtm@duck.com
 organization: "Patrick McVeety-Mill"
 description: > # this means to ignore newlines until "baseurl:"
-  Patrick McVeety-Mill's blog,
-  featuring guides and musings on technology, travel, and the world around us
+  Patrick McVeety-Mill is a custom software consultant, career coach, and artist.
+  His site features guides and musings on technology, travel, and the world around us.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.pmcvtm.com"
+url: "https://pmcvtm.com"
 permalink: ":title"
 excerpt_separator: <!--more-->
 pagination:
   per_page: 4
   enabled: true
   sort_reverse: true
-  permalink: '/page/:num/'
+  permalink: '/:num/'
   title: ':title - page :num'
 
 #nav
