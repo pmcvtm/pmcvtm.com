@@ -1,158 +1,35 @@
 @import "_variables";
 
-.outline-link {
-    border: 1px solid $brown;
-    border-radius: 0.6em;
-    padding: .1em .5em;
-
-    color: $text;
-    text-decoration: none;
-
-    &:hover {
-        color: $white;
-        background-color: $brown;
-    }
-}
-
-.post-category {
-    font-size: 1.1em;
-}
-
-.post-meta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-
-    .post-tags {
-        font-size: 0.9em;
-    }
-}
-
 // === POST CONTENT === === === === ===
 
 .post {
     header {
         background-color: $white;
-        flex-direction: column;
+        margin: auto;
+        @include desktop () { width: 80%; }
 
         .post-title {
-            font: lighter 2em $headingFont;
-            margin-top: 0.5em;
-            margin-bottom: 0.2em;
-            align-self: flex-start;
-            text-align: left;
+            font-family: $headingFont;
+            font-weight: lighter;
+            margin: 0.5em auto 0.2em auto;
+            text-align: center;
         }
 
         .post-meta {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            time { font-weight: bold; }
+            justify-content: center;
+            gap: 2em;
+            time, .post-category { font-weight: bold; }
         }
+    }
+
+    .the-rest {
+        padding: 0 1em;
     }
 
     figure.highlight { margin: 0; }
     .highlight {
         border-radius: 1em;
-    }
-}
-
-// === PAGE CONTENT === === === === ===
-
-.page {
-    header {
-        background-color: $white;
-        flex-direction: column;
-
-        .page-title {
-            margin: 0 auto;
-            padding: 0.25em 1em;
-            font: lighter 2.5em $headingFont;
-        }
-    }
-
-    .page-description {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 2em;
-
-        p {
-            font-style: oblique;
-            max-width: 30em;
-        }
-    }
-}
-
-// === POST LIST === === === === ===
-
-.post-list {
-
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
-
-    .post-title {
-        a { color: $brown; text-decoration: none; }
-        margin-top: 0;
-    }
-
-    .post-list-entry {
-        border-bottom: 1px dotted $brown;
-        padding: 1em 0;
-
-        &:last-child {
-            border-bottom: none;
-            padding-bottom: 1em;
-        }
-
-        img {
-            max-height: 20em;
-        }
-    }
-
-    .post-excerpt {
-        h2 {
-            font-family: $bodyFont;
-            font-size: 1.2em;
-        }
-    }
-}
-
-.pagination {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 1rem 0;
-
-    .disabled {
-        border-radius: 0.6em;
-        padding: .1em .5em;
-        color: $white;
-        background-color: $lightGray;
-        cursor: not-allowed;
-    }
-
-    .link {
-        border: 1px solid $brown;
-        border-radius: 0.6em;
-        padding: .1em .5em;
-
-        color: $brown;
-        text-decoration: none;
-        background-color: $white;
-
-        &:hover {
-            color: $white;
-            background-color: $brown;
-        }
-    }
-
-    .archive {
-        margin-top: 0.4em;
     }
 }

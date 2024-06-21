@@ -1,0 +1,125 @@
+@import "_variables";
+
+.post-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    @include desktop() { min-height: 45em; }
+    @include inbetween() { min-height: 42em; }
+
+    p {
+        margin: 0;
+        padding-top: 0.5rem;
+    }
+
+    .post-title {
+        margin: 0;
+
+        font-family: $bodyFont;
+        font-size: clamp(1.75rem, 3vw, 2rem);
+
+        a {
+            color: $brown;
+            text-decoration: none;
+
+            &:hover { text-decoration: underline; }
+        }
+    }
+
+    .post-meta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .post-category {
+            font-weight: bold;
+        }
+
+        .post-tags {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            color: $charcoal;
+        }
+
+        a {
+          margin-left: auto;
+          margin-right: 1em;
+
+          &:hover { i { color: $brown; } }
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+
+    font-size: clamp(1em, 2vw, 1.25em);
+
+    .disabled {
+        border-radius: 0.6em;
+        padding: .1em .5em;
+        color: $white;
+        background-color: $lightGray;
+        cursor: not-allowed;
+    }
+
+    .blurb.page-number {
+        padding: 0.25rem 0.5rem;
+    }
+
+    a {
+        border: 1px solid $brown;
+        border-radius: 0.6em;
+        padding: .1em .5em;
+
+        color: $brown;
+        text-decoration: none;
+        background-color: $white;
+
+        &:hover {
+            color: $white;
+            background-color: $brown;
+        }
+    }
+
+    .archive {
+        margin-top: 0.4em;
+    }
+}
+
+.archive {
+    a {
+        color: $text;
+        text-decoration: none;
+    }
+
+    white-space: nowrap;
+    list-style: none;
+    line-height: clamp(1.25em, 2.5vw, 1.5em);
+
+    @include desktop() {
+        .post-date {
+            display: inline-block;
+            width: 5.5em;
+        }
+    }
+
+    li { padding-bottom: 0.25em; }
+
+    @include mobile() {
+        white-space: wrap;
+        li { padding-bottom: 1em; }
+    }
+}
+

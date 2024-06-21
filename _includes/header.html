@@ -1,33 +1,32 @@
-<div class="title-container">
-  <h1 class="title">
-    <img src="{{ "assets/glasses.png" | relative_url }}" />
-    <a href="{{ "/" | relative_url }}">PMCVTM</a>
-  </h1>
-  <span class="subtitle">Patrick McVeety-Mill:</span>
-  <span class="motto">Positive Spirits &amp; Helpful Shouting</span>
+<div class="content">
+    <a class="title" href="{{ "/" | relative_url }}">
+        <img src="{{ "assets/glasses.png" | relative_url }}" />
+        PMCVTM
+    </a>
+    <div class="nav-toggle">
+        <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" />
+        <label for="nav-toggle-check">
+            <i class="fas fa-bars"></i>
+        </label>
+    </div>
+    <nav>
+        <ul class="page-list">
+            {% for page in site.header_pages %}
+            <li>
+                <a href="{{ page.url | relative_url }}" class="{{ page.color | default:'brown' }}">
+                    {{ page.title | escape }}
+                </a>
+            </li>
+            {% endfor %}
+            <li>
+                <a href="mailto:pmcvtm@duck.com" class="charcoal">Contact</a>
+            </li>
+            <li>
+                <a href="{{ "/feed.xml" | relative_url }}" class="brown">
+                    <i class="fas fa-rss desktop-only"></i>
+                    <span class="mobile-only">Subscribe</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>
-
-<nav>
-  <input id="nav-toggle-check" name="nav-toggle-check" type="checkbox" class="nav-toggle" />
-  <label for="nav-toggle-check" class="nav-toggle">
-    <i class="fas fa-bars"></i>
-  </label>
-
-  <ul class="page-list">
-    {% for page_name in site.header_pages %}
-      {% assign page = site.pages | where: "name", page_name | first %}
-      {% if page.title %}
-        <li class="nav-link-{{ page.color | default:'brown' }}">
-          <a href="{{ page.url | relative_url }}">
-            {{ page.title | escape }} <i class="fas {{page.icon}}"></i>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    <li class="nav-link-charcoal">
-      <a href="{{ "/feed.xml" | relative_url }}" target="_blank" class="hover-charcoal">Subscribe <i class="fas fa-rss"></i></a>
-    </li>
-  </ul>
-
-  <hr class="stripes mobile-stripes" />
-</nav>

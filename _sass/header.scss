@@ -1,216 +1,154 @@
 @import "_variables";
 
-header {
-    align-self: stretch;
-    flex-shrink: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-    text-align: center;
+header.banner {
     background-color: $dope;
 
-    @media (max-width: $veryTinyMax) { 
-        padding-top: 1em;
-        min-height: 12em;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    line-height: 2rem;
+
+    .content {
+        align-self: stretch;
+        flex-shrink: 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin: 0.5rem auto;
     }
 
     .title {
-        font: normal 2em 'Bungee Shade', cursive;
-        line-height: 1em;
-        color: $brown;
-        margin: 0;
-        padding-bottom: 0.75rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
-        a {
-            color: $brown;
-            text-decoration: none;
+        margin: auto;
+        @include mobile {
+            padding-left: 1rem;
         }
 
-        img { height: 1em; }
-
-        @media (min-width: $veryTinyMax) { font-size: 3em; }
-    }
-
-    .subtitle {
+        font-family: 'Bungee Shade', cursive;
+        font-size: clamp(1.5rem, 1.5vw, 2.5rem);
         color: $brown;
-        font: oblique 1.75em 'Vibur', sans-serif;
-        @media (max-width: $veryTinyMax) { font-size: 1.25em; }
-    }
 
-    .motto {
-        color: $brown;
-        font: oblique 1.5em $headingFont, sans-serif;
-        padding-left: 0.75rem;
-        @media (max-width: $veryTinyMax) { font-size: 1.25em; }
+        text-decoration: none;
+
+        img {
+            height: 1.75rem;
+            margin-right: .75rem;
+        }
     }
 
     nav {
-        padding-top: 2em;
+        flex-grow: 0.5;
 
-        @media (max-width: $desktopMinimum) {
+        @include mobile() {
+            flex-basis: 100%;
             width: 100%;
         }
 
+        @include inbetween() {
+            flex-basis: 100%;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
 
         ul {
-            list-style: none;
-            padding: 0;
-
             display: flex;
             flex-direction: row;
+            justify-content: stretch;
+            align-items: center;
 
-            @media (max-width: $desktopMinimum)
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            list-style: none;
+
+            @include mobile()
             {
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-            }
-        }
 
-        li {
-            flex-grow: 1;
-            line-height: 2em;
-            cursor: pointer;
-            width: 100%;
-            white-space: nowrap;
-
-            a {
-                display: inline-block;
                 width: 100%;
-                text-decoration: none;
-                i { font-size: 1rem; padding-left: .25rem; }
+            }
+
+            li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex-grow: 1;
+                height: 100%;
+
+                font-family: $headingFont;
+
+                a {
+                    text-decoration: none;
+
+                    &.vermilion { color: $vermilion; }
+                    &.orange { color: $orange; }
+                    &.citron { color: $citron; }
+                    &.teal { color: $teal; }
+                    &.charchcoal { color: $charcoal; }
+                    &.brown { color: $brown; }
+
+                    &:hover { text-decoration: underline; }
+                }
             }
         }
     }
 
-    @media (min-width: $desktopMinimum) {
-        &.home {
-                padding-top: 2em;
-                .title { font-size: 4em; }
-                nav { width: 80em; }
-                border-bottom: 1em solid $brown;
+    .nav-toggle {
+        @include desktop() {
+            display: none !important;
+        }
+
+        @include inbetween() {
+            display: none !important;
+        }
+
+        @include mobile() {
+            display: block;
+            padding-right: 1.5rem;
+
+            & + nav {
+                @include transition(all .5s ease);
+                visibility:hidden;
+                opacity:0;
+                max-height: 0;
+                margin: 0;
             }
 
-        &.top {
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            border-bottom: 0.2em solid $brown;
-
-            .title { font-size: 2em; }
-            .title-container {
-                margin-left: 3em;
-                padding: .5em 0 .5em 0;
+            &:has(input:checked) + nav {
+                @include transition(all .5s ease);
+                visibility:visible;
+                opacity:1;
+                max-height: 500px;
+                padding-top: 0.5rem;
             }
 
-            .subtitle, .motto { display: none;}
+            label {
+                display: block;
+                color: $brown;
+                font-size: 1.5rem;
+                @include transition(transform .5s ease);
+            }
 
-            nav {
-                flex-grow: 0.5;
-                padding-top: 0;
+            input {
+                display: none;
 
-                ul {
-                    height: 100%;
-                    justify-content: stretch;
-                    align-items: center;
-
-                    margin: 0;
-
-                    li {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        height: 100%;
-
-                        font: bolder 1.25em $text;
+                &:checked {
+                    + label i {
+                        transform: rotate(90deg);
+                        @include transition(transform .5s ease);
                     }
                 }
             }
         }
     }
-}
-
-@mixin nav-button($color) {
-    background: $color;
-    font-size: 1.25rem;
-
-    a { color: $white; }
-    a:hover { color: $white; }
-    &:hover { filter: brightness(120%) saturate(75%); }
-}
-
-.nav-link-brown { @include nav-button($brown) }
-.nav-link-vermilion { @include nav-button($vermilion) }
-.nav-link-orange { @include nav-button($orange) }
-.nav-link-citron { @include nav-button($citron) }
-.nav-link-teal { @include nav-button($teal) }
-.nav-link-charcoal { @include nav-button($charcoal) }
-
-.nav-toggle {
-    @media (min-width: $desktopMinimum) {
-        display: none !important;
-    }
-}
-
-label.nav-toggle {
-    display: block;
-    width: 100%;
-    background-color: $brown;
-    color: $white;
-    font-size: 1.5rem;
-    @include transition(transform .5s ease);
-}
-
-input.nav-toggle {
-    display: none;
-
-    ~ .page-list {
-        @media (max-width: $desktopMinimum) {
-            @include transition(all .5s ease);
-            visibility:hidden;
-            opacity:0;
-            max-height: 0;
-            margin: 0;
-        }
-    }
-
-    &:checked {
-        ~ label i {
-            transform: rotate(90deg);
-            @include transition(transform .5s ease);
-        }
-
-        ~ .page-list {
-            @include transition(all .5s ease);
-            visibility:visible;
-            opacity:1;
-            max-height: 500px;
-        }
-
-        ~ .stripes {
-            visibility:hidden;
-            opacity:0;
-            max-height: 0;
-            min-height: 0;
-            margin: 0;
-        }
-    }
-}
-
-.mobile-stripes {
-    @extend .mobile-only;
-    @include stripes(.8em);
-}
-
-.home-stripes {
-    @extend .desktop-only;
-    @include stripes(.8em);
-}
-
-.top-stripes {
-    @extend .desktop-only;
-    @include stripes(.2em);
 }

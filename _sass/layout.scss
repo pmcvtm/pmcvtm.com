@@ -1,0 +1,40 @@
+@import "_variables";
+
+.bg-container, .full-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+
+    width: 100%;
+
+    background-color: $dope;
+
+    &.rows { flex-direction: row; }
+}
+
+.full-page {
+    flex-direction: column;
+
+    @include desktop() { min-height: 95vh; }
+    @include mobile() { min-height: 100vh; }
+}
+
+.content {
+    width: 90%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.blurb {
+    margin: 1rem auto;
+    padding: 1rem;
+
+    border-radius: 1em;
+    background-color: $white;
+}
+
+.full-page .blurb {
+    height: 90%;
+}

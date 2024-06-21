@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nuget Package Versioning in Azure DevOps with GitVersion"
+title:  "Nuget Versioning in Azure DevOps with GitVersion"
 date:   2019-01-22 16:21:00 -0600
 categories: DevOps
 color: vermilion

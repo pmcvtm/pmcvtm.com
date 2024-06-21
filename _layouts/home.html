@@ -2,11 +2,111 @@
 layout: base
 ---
 
-<header class="home">
+<header id="top" class="home banner">
   {% include header.html %}
 </header>
-<hr class="stripes home-stripes" />
-
-<main class="site-content" aria-label="Content">
-  {{ content }}
-</main>
+<div class="headline home full-page bg-container">
+  <img src="{{ "/assets/glasses.png" | relative_url }}" />
+  <div class="title"><h1>Patrick McVeety-Mill</h1></div>
+  <div class="content">
+    <p>
+      Hi, nice to see you. Thanks for stopping by.
+      My name is Patrick and I'm a developer, speaker, writer, mentor, and artist.
+      Make yourself at home and have a look around.
+    </p>
+    <ul class="social-links">
+      {% for link in site.data.social_links %}
+        {% if link.home == true %}
+        <li><a href="{{link.url}}" title="{{link.name}}" target="_blank"><i class="{{link.icon}}"></i></a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <div class="next-link"><a href="#consulting"><i class="fas fa-hand-point-down"></i></a></div>
+  </div>
+</div>
+<div class="home-blurbs bg-container">
+  <div id="consulting" class="full-page">
+    <div class="content">
+      <div class="img-container">
+        <img src="{{ "/assets/photos/pmcvtm-at-work.jpg" | relative_url }}" />
+      </div>
+      <div class="blurb">
+        <h2>Consulting</h2>
+        <p>
+          I'm a professional software engineer with over a decade of experience consulting for a wide variety of industries including education, energy, manufacturing, government, and many more.
+        </p>
+        <p>
+          I work mostly with .NET cloud applications, systems design and architecture, and DevOps optimization and migration both as a technical lead and as a developer.
+          I currently work independently - hire me to lead your team to better practices, solve a pesky problem, navigate an important change, or simply add a strong, practiced hand in the work you're already doing.
+        </p>
+        <p>
+          I prioritize the needs of you and your team, with extra attention to training, documentation, and understanding, to not leave y'all high or dry when our contract is done.
+        </p>
+        <p>
+          Get in touch <a href="mailto:pmcvtm@duck.com" style="font-weight: bold;">over email</a> and we can work out how to work together.
+        </p>
+      </div>
+    </div>
+    <div class="next-link desktop-only">
+      <a href="#mentorship"><i class="fas fa-hand-point-down"></i></a>
+      <a href="#top"><i class="fas fa-hand-point-up"></i></a>
+    </div>
+  </div>
+  <div id="mentorship" class="full-page">
+    <div class="content">
+      <div class="blurb">
+        <h2>Mentorship</h2>
+        <p>
+          I am a practiced and empathetic mentor, manager, and coach, serving both as a technical team lead and managing direct reports for organizations.
+          I've helped many folks find a path to promotion, work their way through sticky situations, and explore possibilities as they chart a course for their careers.
+        </p>
+        <p>
+          I offer individual technical mentoring, career advising, and coaching for a sliding scale fee based on need, value, and availability.
+        </p>
+        <p>
+          If you're looking for mentoring, shoot me <a href="mailto:pmcvtm@duck.com" style="font-weight: bold;">an email</a> and we can see if we're a fit.
+        </p>
+      </div>
+      <div class="img-container">
+        <img src="{{ "/assets/photos/pmcvtm-mentoring.jpg" | relative_url }}" />
+      </div>
+    </div>
+    <div class="next-link desktop-only">
+      <a href="#blog"><i class="fas fa-hand-point-down"></i></a>
+      <a href="#consulting"><i class="fas fa-hand-point-up"></i></a>
+    </div>
+  </div>
+  <div id="blog" class="full-page">
+    <div class="content">
+      <h2>The Latest</h2>
+      <div class="blurb">
+        <div class="posts">
+          <h3>On the Blog</h3>
+          <ul>
+            {% assign homeposts = site.posts | sort_by: 'date' %}
+            {% for post in homeposts limit: 5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="news">
+          <h3>In the World</h3>
+          <ul>
+            {% include whatsnew.html %}
+          </ul>
+        </div>
+      </div>
+      <p>
+        <a class="outline-link" href="{{ "/blog" | relative_url }}">
+          Read More
+          <i class="fas fa-chevron-right vermilion"><i class="fas fa-chevron-right orange"></i></i><i class="fas fa-chevron-right citron"></i><i class="fas fa-chevron-right teal"></i>
+        </a>
+      </p>
+    </div>
+    <div class="next-link desktop-only">
+      <a href="#mentorship"><i class="fas fa-hand-point-up"></i></a>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debug, Development, Release, and Production in .NET
+title: Debug, Dev, Release, and Prod in .NET
 date: 2022-06-23 13:26:00 -0600
 categories: Development
 color: vermilion
