@@ -16,9 +16,8 @@
     .post-title {
         margin: 0;
 
-        font-size: clamp(1.25em, 2.75vw, 1.75em);
         font-family: $bodyFont;
-        font-weight: bold;
+        font-size: clamp(1.75rem, 3vw, 2rem);
 
         a {
             color: $brown;

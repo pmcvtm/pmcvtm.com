@@ -26,14 +26,15 @@ body {
     color: $color;
 }
 
-h1 { @include typo(2em,    5vw,   3em,     $vermilion); }
-h2 { @include typo(1.75em, 4vw,   2.75em,  $teal); }
-h3 { @include typo(1.5em,  3.5vw, 2.5em,   $orange); }
-h4 { @include typo(1.25em, 3vw,   2em,     $charcoal); }
-h5 { @include typo(1em,    3vw,   1.75em,  $citron); font-weight: bold; }
-p,li { @include typo(1em,    2vw,   1.25em,   $text) }
+h1 { @include typo(2rem,    5vw,      4rem,     $vermilion); }
+h2 { @include typo(1.75rem, 3vw,      3rem,  $teal); }
+h3 { @include typo(1.5rem,  3.25vw,   2.75rem,   $orange); }
+h4 { @include typo(1.25rem, 2.75vw,   1.75rem,     $charcoal); }
+h5 { @include typo(1rem,    3vw,      1.5rem,  $citron); font-weight: bold; }
+p,li,code { @include typo(1rem, 2vw,  1.25rem,   $text); }
+pre, pre code { font-size: clamp(0.75rem, 1.5vw, 1rem); }
 
-h1,h2,h3,h4,h5, p, li {
+h1,h2,h3,h4,h5,p,li,code {
     font-size: clamp(var(--min), var(--val), var(--max));
 }
 
@@ -49,12 +50,8 @@ a {
     }
 }
 
-.site-content {
-    width: 90%;
-    max-width: 1000px;
+.content {
     @include mobile { padding: 0 1rem 1rem 1rem; }
-
-    flex-grow: 1;
 
     img {
         @media (min-width: $desktopMinimum) {
@@ -85,7 +82,6 @@ blockquote {
 
 pre {
     padding: 1rem;
-    font-size: smaller;
 
     &.highlight {
         background: $lightGray;
@@ -99,12 +95,28 @@ pre {
 }
 
 code {
-    background: $dope;
-    color: $brown;
+    background: $darkGray;
+    color: #e5c07b;
     border-radius: 0.2em;
     padding: 0 3px;
-    font-weight: bold;
 }
+
+// === CROSS-SITE COMPONENTS === === === === ===
+
+.outline-link {
+    border: 1px solid $brown;
+    border-radius: 0.6em;
+    padding: .1em .5em;
+
+    color: $text;
+    text-decoration: none;
+
+    &:hover {
+        color: $white;
+        background-color: $brown;
+    }
+}
+
 
 // === HELPERS === === === === ===
 

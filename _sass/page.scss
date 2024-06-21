@@ -3,12 +3,6 @@
 .page {
   width: 100%;
 
-  .headline {
-    padding: 1em 0;
-
-    .title h1 { padding: 0 1em; }
-  }
-
   .page-description {
     display: flex;
     flex-direction: row;
@@ -25,6 +19,12 @@
 
 .headline {
   text-align: center;
+
+  &.page {
+    padding: 1em 0;
+
+    .title h1 { padding: 0 1em; }
+  }
 
   .title {
     width: 100%;
@@ -51,7 +51,7 @@
         text-decoration: none;
       }
 
-      font-size: clamp(2rem, 5vw, 4rem);
+      font-size: clamp(3rem, 5vw, 4rem);
       @include desktop() { line-height: 4rem; }
       @include inbetween() { line-height: 5rem; }
       @include mobile() { line-height: 6rem; }
