@@ -78,6 +78,10 @@ blockquote {
     padding-left: 0;
 }
 
+.blurb p {
+    line-height: clamp(1.5rem, 2.5vw, 1.75rem);
+}
+
 // === CODE === === === === ===
 
 pre {
