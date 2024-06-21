@@ -1,5 +1,5 @@
 ---
-layout: page-wheadline
+layout: page
 title: Blog
 headline: Blog
 headline-link: /blog/

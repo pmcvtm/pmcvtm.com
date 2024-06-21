@@ -1,5 +1,5 @@
 ---
-layout: page-wheadline
+layout: page
 
 title: About
 subtitle: About me, the author
