@@ -55,7 +55,11 @@ header.banner {
         @include inbetween() {
             flex-basis: 100%;
             width: 100%;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        @include desktop() {
+            margin-bottom: 1rem;
         }
 
         ul {
