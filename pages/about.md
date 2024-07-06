@@ -25,4 +25,4 @@ Besides developing software and architecting systems, I make crafts from reclaim
 
 Away from the desk, I'm often outdoors swimming, gardening, or backpacking short and long distances — I thru-hiked the Appalachian Trail in 2018 and Camino de Santiago del Norte in 2023. Inside you will find me cooking in the kitchen, at a live music show, or bowling.
 
-Don't be a stranger, reach out on social medias or <a href="mailto:pmcvtm@duck.com">directly by email.</a>
+Don't be a stranger, reach out on social medias or <a href="mailto:patrick@pmcvtm.com">directly by email.</a>

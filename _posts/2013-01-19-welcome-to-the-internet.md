@@ -25,7 +25,7 @@ By tuning in to PMCVTM, you can expect some very cool stuff:
 * A link to [homestarrunner.com](http://www.homestarrunner.com)
 
 
-Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <pmcvtm@duck.com>, tweeting at me [@pmcvtm](http://twitter.com/pmcvtm), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
+Take a click around, if you find something broken, missing, or otherwise improvable please let me know by emailing me at <patrick@pmcvtm.com>, tweeting at me [@pmcvtm](http://twitter.com/pmcvtm), or by leaving a comment below. I'm particularly curious how it ends up looking on the mobiles.
 
 ![Sleezy Guy Giving Thumbs Up](https://png.pngtree.com/png-vector/20230910/ourmid/pngtree-sleazy-guy-two-thumbs-up-portrait-png-image_9231596.png)
 <div style="text-align:center;"> *This is not a photo of me </div>
