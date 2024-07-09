@@ -35,11 +35,11 @@ header_pages:
   -
     title: Consulting
     color: vermilion
-    url: "/#consulting"
+    url: "/consulting"
   -
     title: Mentorship
     color: orange
-    url: "/#mentorship"
+    url: "/mentorship"
   -
     title: Blog
     color: citron
