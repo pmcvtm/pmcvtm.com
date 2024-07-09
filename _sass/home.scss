@@ -12,6 +12,8 @@ header.home {
     @include inbetween() { height: 5rem; }
     @include mobile() { height: 6rem; }
 
+    margin-bottom: 2rem;
+
     h1 {
       width: 90%;
       color: $brown;
@@ -21,9 +23,10 @@ header.home {
   }
 
   img {
-    @include desktop() { height: 6rem; }
+    @include desktop() { height: 8rem; }
     @include inbetween() { height: 4rem; }
-    @include mobile() { height: 2rem; }
+    @include mobile() { height: 4rem; }
+    margin-bottom: 2em;
   }
 
   .content {
