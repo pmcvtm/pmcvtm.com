@@ -3,8 +3,8 @@ layout: post
 title: Isolated Dev Environments with Toolbx
 date:  2024-04-16 15:02:00 -0600
 categories: Tech
-color: vermillion
-tags: development linux
+color: vermilion
+tags: development linux dev-experience
 ---
 
 I recently got a laptop for doing work on the go. I went with a [Framework](https://frame.work/) model, and decided to go for using Linux, because I'm frugal, and Windows seems to be getting worse. In picking out a distro I am trying out [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/), an _atomic_ desktop environment. All updates and non-containerized installations are saved in a git-like history, so when there are issues you can "roll back" to the previous state of the operating system. This is a welcome guardrail as someone who's bungled a Linux desktop setup or two trying to sort out drivers and customizations. When getting set up to develop however, it can be a bit of a pain.

@@ -3,8 +3,8 @@ layout: post
 title: Isolated Dev Environments with Dev Containers
 date:  2024-05-10 11:29:00 -0500
 categories: Tech
-color: vermillion
-tags: development docker vscode
+color: vermilion
+tags: development docker vscode dev-experience
 ---
 
 About a month ago, I wrote about [using Toolbx]({% post_url 2024-04-16-isolating-dev-environments-with-toolbox %}) to keep dependencies separated between different dev environments, on Fedora Silverblue. Well I eventually ran into enough friction to be frustrating, and decided my atomic desktop experiment was over. But I couldn't let go of how nice it was to avoid cluttering my host machine whenever I needed to install dependencies for a given project.
