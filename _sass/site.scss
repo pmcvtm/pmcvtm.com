@@ -26,9 +26,9 @@ body {
     color: $color;
 }
 
-h1 { @include typo(2rem,    5vw,      4rem,     $vermilion); }
-h2 { @include typo(1.75rem, 3vw,      3rem,  $teal); }
-h3 { @include typo(1.5rem,  3.25vw,   2.75rem,   $orange); }
+h1 { @include typo(2rem,    5vw,      3.25rem,     $vermilion); }
+h2 { @include typo(1.75rem, 4vw,      2.75rem,  $teal); }
+h3 { @include typo(1.5rem,  3.5vw,   2.25rem,   $orange); }
 h4 { @include typo(1.25rem, 2.75vw,   1.75rem,     $charcoal); }
 h5 { @include typo(1rem,    3vw,      1.5rem,  $citron); font-weight: bold; }
 p,li,code { @include typo(1rem, 2vw,  1.25rem,   $text); }
