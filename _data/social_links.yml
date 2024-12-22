@@ -1,3 +1,11 @@
+- text: XMAS MIX 2024
+  url: https://www.mixcloud.com/loudandabrasive/patricks-pretty-ok-xmas-mix-2024-reupload/
+  icon: 'fas fa-candy-cane'
+  footer: false
+  card: false
+  linkinbio: true
+  home: false
+
 - text: Add to Contacts
   url: /assets/Patrick_McVeety-Mill.vcf
   icon: 'fas fa-address-book'
